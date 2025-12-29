@@ -1,0 +1,110 @@
+---
+repo: Eskimon/draw-on-stream-telestrator
+url: 'https://github.com/Eskimon/draw-on-stream-telestrator'
+homepage: null
+starredAt: '2022-11-16T22:50:44Z'
+createdAt: '2019-09-17T16:19:21Z'
+updatedAt: '2025-12-04T09:30:47Z'
+language: Python
+license: GPL-3.0
+branch: master
+stars: 54
+isPublic: true
+isTemplate: false
+isArchived: false
+isFork: false
+hasReadMe: true
+refreshedAt: '2025-12-29T17:35:11.394Z'
+description: >-
+  Telestrator tool to easy draw on your stream without having to capture your
+  full screen
+tags:
+  - drawing
+  - python
+  - streaming
+  - telestrator
+  - tkinter
+  - tool
+  - whiteboard
+---
+
+# TL;DR
+
+Download the `painter.exe` (or `painter` for Linux user) file from [the release page](https://github.com/Eskimon/draw-on-stream-telestrator/releases), run it and BOOM! you are done.
+
+*If Windows is showing you a warning screen, you can either trust me and go through, or dowload the `painter.py` file and execute it yourself (but don't forget to install Python then).*
+
+# Draw on stream
+
+This software is designed to help you to easy draw on your stream with tools like OBS Studio or StreamLabs. It is also known as a *telestrator* tool.
+
+When I started streaming some pedagogical content, I couldn't find any tool to draw on top of my screen.
+My requirements were the following:
+
+- The tool should provide an **independant window to capture** (I don't want to capture the full screen and show the world my messy desktop)
+- Should be **lightweight**
+- Should have plenty of shortcut and **basic drawing tools**
+- Must **replace itself** to the same position after each usage
+- Should be **free** or cheap
+
+I couldn't find the perfect tool. So I did what every sane person would do: I wrote my own!
+
+So please welcome: ***Draw On Stream*** (or obviously: `DOS`).
+
+## Features
+
+- Hand writing
+- Straight line drawing
+- Color picker
+- Text writing
+- Basic shapes (rectangles / circles) filled or not
+- Semi-transparent painting scene to see the underlying window
+
+# Usage
+
+## Draw on Stream
+
+You need to have [python installed](https://www.python.org/) on your computer (I might generate a classic .exe some days to simplify windows user's life).
+
+Then, simply start the `painter.py` script. A new window shall appears and you are good to go.
+
+## Adding it OBS
+
+To use Draw on Stream in OBS, add a new "Window Capture" in OBS and select the painter app.
+Then, add a filter "Color key" (simpler than "Chroma Key") and set it to your painter background (white is the default).
+BOOM, done. You can draw on the painter and it should appear nicely on your stream.
+
+## Shortcut
+
+- `+`: Increment the tool stroke size
+- `-`: Decrement the tool stroke size
+- `Ctrl +`: Increment the painter window opacity
+- `Ctrl -`: Decrement the painter window opacity
+- `Ctrl w`: Wipe the current drawing
+- `Ctrl z`: Cancel shapes
+- `Ctrl r`: reset transparency
+- `p`: Switch to "pen" mode
+- `r`: Switch to "rectangle" mode
+- `e`: Switch to "ellipse/circle" mode
+- `f`: Toggle the "fill shape" option
+- `a`: Draw an arrow
+- `right-click` to draw straight line
+
+# Extra Notes
+
+The "eraser" does only paint with the foreground color but doesn't really erase the underlying shape.
+
+Also, the source code might look convoluted. Obvisously it's because I change my mind on how to do things in the course of the devlopment. So basically:
+
+- Please note that I wrote this code in a small timespan to solve a problem I had at a particular moment. Sorry for the lack of clean code XD.
+- The `painter.py` script can be standalone
+- If you want a very transparent painter canvas, it might be difficult to see the buttons. Therefore, you can start the `commander.py` tool. It will send the commands to the `painter` through a socket. Altough I don't really maintain that anymore (as no one uses it really) so bug will occures...
+- Any PR is welcomed.
+
+# Wanna thank me?
+
+This tool saved your stream? You wanna thank me? Buy me a beer or some coffee!
+If you can and want to help, you can sponsor me [on Tipeeee](https://tipeee.com/eskimon) or on Paypal
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&item_name=Donation+for+Draw+On+Stream+telestrator&business=WTF33XNRB3XTL&currency_code=EUR&source=url)
+
+Also, you can find me on [Twitter](https://twitter.com/Eskimon_fr), [Twitch](https://twitch.tv/eskimon), or [my blog](https://eskimon.fr)!

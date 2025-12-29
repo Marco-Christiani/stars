@@ -1,0 +1,83 @@
+---
+repo: phildenhoff/logseq-raindrop
+url: 'https://github.com/phildenhoff/logseq-raindrop'
+homepage: ''
+starredAt: '2022-11-26T22:17:00Z'
+createdAt: '2022-05-07T10:19:47Z'
+updatedAt: '2025-10-06T09:38:53Z'
+language: TypeScript
+license: MIT
+branch: main
+stars: 67
+isPublic: true
+isTemplate: false
+isArchived: true
+isFork: false
+hasReadMe: true
+refreshedAt: '2025-12-29T17:35:08.163Z'
+description: A Raindrop plugin for Logseq
+tags:
+  - logseq-plugin
+  - svelte
+---
+
+# Raindrop plugin for Logseq
+
+> ## Not actively developed
+> 
+> _Jun 24, 2024_. I'm (@phildenhoff) no longer working on logseq-raindrop.
+> I no longer use the plugin regularly and instead keep my notes & Raindrop separate.
+>
+> If you would like to continue development, please fork the repo!
+> I will support devs who wish to upstream their work, to share with other users using the plugin via the marketplace.
+
+A plugin for [Logseq](https://github.com/logseq/logseq) that allows you to import annotations & bookmarks from [Raindrop](https://raindrop.io/), and save URLs back to Raindrop.
+
+> **Note**
+> New! You can now import all your bookmarks to one page using [single-page imports](https://github.com/phildenhoff/logseq-raindrop/wiki/Single-Page-Imports)!
+
+https://user-images.githubusercontent.com/17505728/181995626-3574af69-e43f-4a4e-b9f8-e5e29ce468ec.mp4
+
+## Features
+
+- Search for Raindrops
+- Import annotations
+- Import Highlights as quotes
+- Import Raindrop tags
+- Re-import a page at any time to update tags, annotations, or highlights
+
+You can rename any page and still refresh that page's imported content at any time.
+
+⚠️ Don't remove any `raindrop-id` or `annotation-id` properties: these fields are required for the plugin to work normally.
+
+## Setting up your plugin
+
+To get set up, generate a Raindrop API access token from the [Settings >
+Integrations](https://app.raindrop.io/settings/integrations) page. Use the Test
+Token as your API access token -- or walk through the entire OAuth flow, if
+that's your preference.
+
+https://user-images.githubusercontent.com/17505728/169188456-f346ed11-dbc3-45b2-8bac-336d7151a79a.mp4
+
+Don't try to use the tokens in the video. They've already been expired and the app deleted.
+
+## Demos
+
+### Saving URLs to Raindrop
+
+https://user-images.githubusercontent.com/17505728/168242341-3cad1a5f-bff9-4019-ac5f-b48a322c901a.mov
+
+## Planned work
+
+- See the [open Issues](https://github.com/phildenhoff/logseq-raindrop/issues)
+
+## Building your own Logseq plugin
+
+I ran into some issues getting this plugin set up from scratch. Here's some
+advive if you want to write your own Logseq plugin.
+
+- You need to have a `main` field in your package.json. I don't know if it
+  needs to be on the `Logseq` field or not, but it should be there.
+- Your plugin name cannot have slashes.
+- When you build your app, make sure the base path is './' so that your
+  index.html is referencing local files (vs. files at the root of your OS)

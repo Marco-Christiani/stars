@@ -1,0 +1,93 @@
+---
+repo: llcc/org-logseq
+url: 'https://github.com/llcc/org-logseq'
+homepage: ''
+starredAt: '2022-07-21T18:27:57Z'
+createdAt: '2021-03-27T11:47:20Z'
+updatedAt: '2025-08-04T17:05:45Z'
+language: Emacs Lisp
+license: NA
+branch: main
+stars: 107
+isPublic: true
+isTemplate: false
+isArchived: false
+isFork: false
+hasReadMe: true
+refreshedAt: '2025-12-29T17:35:20.113Z'
+description: >-
+  Org-logseq allows you to open logseq-style page and block link along with Org
+  Mode.
+tags: []
+---
+
+#+TITLE:Org-logseq
+
+Org-logseq supports to open [[https://github.com/logseq/logseq][logseq]]-style link (page or block reference), transclusion of referred and embedded blocks using overlays, along with Org-Mode.
+
+* Features
+
++ Open logseq-style links by native Org-Mode binding (=C-c C-o=, =Enter=, etc). Org-logseq supports:
+  - Page link: =[[a logseq page]]=
+  - Block reference: =((6064f6c6-440a-46ca-b8df-59131adab5a1))=
+  - Block Embed and Reference overlays.
++ Create a blank excalidraw file if necessary, while inserting it at point.
++ Display logseq block references in buffer as overlays:
+  - =((6064f6c6-440a-46ca-b8df-59131adab5a1))= to =[[id:6064f6c6-440a-46ca-b8df-59131adab5a1][Block heading]]=
+  - ={{embed  ((6064f6c6-440a-46ca-b8df-59131adab5a1))}}= to the content of the referred block.
++ Download images stored in the logseq server to local.
+  =curl= needs to be installed first.
++ Toggle =contents.org= as a sidebar.
+
+* Installation
+
+Org-logseq requires =grep=. Install it using your system tool at first. 
+
+Org-logseq package is not on MELPA yet. Currently, the easiest way to install org-logseq is through [[https://github.com/quelpa/quelpa][quelpa]] or [[https://github.com/raxod502/straight.el][straight]] system, or use the =:quelpa= or =:straight= keyword by using [[https://github.com/jwiegley/use-package][use-package]]. In order to make =:quelpa= work well with =use-package=, you need to install [[https://github.com/quelpa/quelpa-use-package][quelpa-use-package]]. 
+
+- quelpa
+  #+begin_src emacs-lisp
+  (use-package org-logseq
+    :quelpa (org-logseq :fetcher github :repo "llcc/org-logseq" :files ("*"))
+    :custom (org-logseq-dir "~/logseq"))
+  #+end_src
+
+- straight
+  #+begin_src emacs-lisp :tangle yes
+  (use-package org-logseq
+      :straight (org-logseq :fetcher github :repo "llcc/org-logseq" :files ("*"))
+      :custom (org-logseq-dir "~/logseq"))
+  #+end_src  
+  
+* Getting started
+
+1. Set the variable =org-logseq-dir= to your logseq path.
+2. =M-x org-logseq-mode= in your current buffer.
+   Creating a directory-local varible in your logseq directory could be the best way to get it worked in all org files.
+   
+   #+begin_src emacs-lisp
+   ((org-mode . ((eval org-logseq-mode 1))))
+   #+end_src
+   
+3. Use your native Org-mode bindings to open pages or block references.
+   
+* Customization
+
+- =org-logseq-create-page-p= ::
+  A boolean value indicating whether or not org-logseq should try to new a page file at point if it does not exist. The varible defaults to =nil=.
+- *org-logseq-block-ref-overlay-p* ::
+  A boolean value indicating whether or not to display the overlays of =block references= when initializing the Org-Mode buffer. 
+- *org-logseq-block-embed-overlay-p* ::
+  A boolean value indicating whether or not to display the overlays of =block embed= when initializing the Org-Mode buffer. 
+
+  
+* Changelog
+
+** <2021-04-08 Thu>
+- Add a =org-logseq-toggle-contents-sidebar= command, to toggle your =contents.org= as a sidebar.
+- Fix path quote bug in macOS, [[https://github.com/llcc/org-logseq/issues/1][#issue1]]
+   
+* Thanks
+
+All to [[https://github.com/logseq/logseq][logseq]]. 
+

@@ -1,0 +1,589 @@
+---
+repo: yejianfengblue/dactyl-generator-demo
+url: 'https://github.com/yejianfengblue/dactyl-generator-demo'
+homepage: ''
+starredAt: '2023-02-18T23:38:59Z'
+createdAt: '2021-07-12T07:34:59Z'
+updatedAt: '2025-11-26T02:59:32Z'
+language: OpenSCAD
+license: MIT
+branch: main
+stars: 128
+isPublic: true
+isTemplate: false
+isArchived: false
+isFork: false
+hasReadMe: true
+refreshedAt: '2025-12-29T17:35:00.799Z'
+description: 'This shows how dactyl generator (https://dactyl.mbugert.de/) parameters work'
+tags: []
+---
+
+#+title: Dactyl Generator Demo
+
+[[file:README.zh.org][中文版]]
+
+[[https://dactyl.mbugert.de/][Dactyl Generator]] is a website to generate 3D model in form of scad file for
+dactyl keyboard case. This project dactyl-generator-demo is a Java program which shows how the
+parameters work by generating models and preview images using [[https://dactyl.mbugert.de/api][Dactyl Generator API]].
+It helps you adjust the parameters.
+Currently only dactyl manuform is demonstrated.
+
+The curvature and tenting are measured in radian. PI radian is equal to 180 degree. PI/180 is equal to 1 degree.
+
+The original [[https://dactyl.siskam.link][Dactyl Generator]] website was [[https://github.com/ibnuda/dactyl-keyboard/issues/116][reported]] to be down on 2022-06-23.
+Thanks for [[https://github.com/mbugert][Michael Bugert]] hosting [[https://dactyl.mbugert.de][an alternative website]] using the [[https://github.com/ibnuda/dactyl-keyboard/][open source project]].
+If something bad happens in the future, check in the [[https://github.com/ibnuda/dactyl-keyboard/issues][issues]] whether someone generous hosts an alternative website,
+or follow the [[https://github.com/ibnuda/dactyl-keyboard#development][steps]] to run the website on your own computer.
+
+* Table of Contents  :TOC:
+- [[#base][Base]]
+  - [[#keys][Keys]]
+  - [[#curvature--tenting][Curvature & Tenting]]
+  - [[#connectors][Connectors]]
+  - [[#form-of-the-case][Form of the Case]]
+  - [[#misc][Misc]]
+- [[#keys-1][Keys]]
+  - [[#thumb-key-count][Thumb key count]]
+  - [[#last-row-key-counts][Last row key counts]]
+  - [[#key-hole][Key hole]]
+  - [[#inner-index-fingers-column][Inner index finger's column]]
+  - [[#hide-bottom-pinky][Hide bottom pinky]]
+- [[#curvature--tenting-1][Curvature & Tenting]]
+  - [[#columns-curvature][Column's curvature]]
+  - [[#pinkys-column-curvature][Pinky's column curvature]]
+  - [[#rows-curvature][Row's curvature]]
+  - [[#center-of-the-curvature-for-the-column][Center of the curvature for the column]]
+  - [[#tenting-angle][Tenting Angle]]
+  - [[#rotation-around-row-axis][Rotation around row axis]]
+- [[#connectors-1][Connectors]]
+  - [[#internal-connector-rj9-mini-usb][Internal connector RJ9 Mini USB]]
+  - [[#internal-connector-trrs-micro-usb][Internal connector TRRS Micro USB]]
+  - [[#internal-connector-none][Internal connector none]]
+  - [[#external-holder][External Holder]]
+- [[#form-of-the-case-1][Form of the Case]]
+  - [[#hotswap-socket][Hotswap socket]]
+  - [[#thumb-cluster-offsets-center-x-toward-the-pinky][Thumb cluster offsets center x (toward the pinky)]]
+  - [[#thumb-cluster-offsets-center-y-toward-the-index][Thumb cluster offsets center y (toward the index)]]
+  - [[#thumb-cluster-offsets-center-z-altitude][Thumb cluster offsets center z (altitude)]]
+  - [[#stagger][Stagger]]
+  - [[#index-finger-measurement-y][Index finger measurement y]]
+  - [[#index-finger-measurement-z][Index finger measurement z]]
+  - [[#middle-finger-measurement-y][Middle finger measurement y]]
+  - [[#middle-finger-measurement-z][Middle finger measurement z]]
+  - [[#ring-finger-measurement-y][Ring finger measurement y]]
+  - [[#ring-finger-measurement-z][Ring finger measurement z]]
+  - [[#pinky-finger-measurement-y][Pinky finger measurement y]]
+  - [[#pinky-finger-measurement-z][Pinky finger measurement z]]
+  - [[#wide-pinky][Wide pinky]]
+  - [[#height-offset][Height offset]]
+  - [[#web-thickness][Web thickness]]
+  - [[#wall-thickness][Wall thickness]]
+  - [[#wire-posts][Wire posts]]
+  - [[#screw-inserts][Screw inserts]]
+- [[#misc-1][Misc]]
+  - [[#show-keycaps][Show Keycaps]]
+  - [[#right-side-or-left-side][Right side or left side]]
+- [[#known-issues][Known Issues]]
+- [[#credit][Credit]]
+- [[#external-links][External Links]]
+  - [[#my-tutorials-in-chinese-speaking][My Tutorials in Chinese Speaking]]
+- [[#sponsor][Sponsor]]
+
+* Base
+  This is a base model for comparison. Most of parameters use the default value.
+  Those non-default values are specified in form of (+default value+ used value).
+  The combination of (number of columns: 6, last row key counts: use all keys)
+  helps demo the effect of param ~hide bottom pinky~.
+  If param ~height offset~ is set to default value 4mm, the demo model of some
+  parameters is broken, so it's set to 10mm.
+
+** Keys
+   - number of columns: +5+ 6
+   - number of rows: 4
+   - thumb key count: 6
+   - last row key counts: +two+ use all keys
+   - key hole: Box and MX
+   - inner index finger's column: normal
+   - hide bottom pinky: no
+
+** Curvature & Tenting
+   - column's curvature: pi/12 (15°)
+   - pinky's column's curvature: pi/12 (15°)
+   - row's curvature: pi/36 (5°)
+   - center of the curvature for the column: pinky finger's column
+   - tenting angle: pi/15 (12°)
+   - rotation around row axis: pi/180 (1°)
+
+** Connectors
+   - use loligagger's external holder: no
+   - connector: RJ9
+   - USB hole: Mini
+
+** Form of the Case
+   - hotswap socket: no
+   - thumb cluster offsets center x (toward the pinky): 6mm
+   - thumb cluster offsets center y (toward the index): -3mm
+   - thumb cluster offsets center z (altitude): 7mm
+   - custom thumb cluster (Experimental): no
+   - custom thumb cluster top right, top left, middle left are skipped. See [[#known-issues][known issue]] #1
+   - stagger: yes
+   - index finger measurement y: 0
+   - index finger measurement z: 0
+   - middle finger measurement y: 2.8mm
+   - middle finger measurement z: -6.5mm
+   - ring finger measurement y: 0mm
+   - ring finger measurement z: 0mm
+   - pinky finger measurement y: -13mm
+   - pinky finger measurement z: 6mm
+   - wide pinky: no
+   - height offset: +4mm+ 10mm
+   - web thickness: 7mm
+   - wall thickness: 3mm
+   - wire posts: no
+   - screw inserts: no
+
+** Misc
+   - show keycaps: no
+   - right side or left side: right
+
+[[file:manuform/manuform-4x6+6-DIAGONAL.png]]
+[[file:manuform/manuform-4x6+6-TOP.png]]
+[[file:manuform/manuform-4x6+6-BACK_TOP.png]]
+[[file:manuform/manuform-4x6+6-RIGHT.png]] 
+[[file:manuform/manuform-4x6+6-BOTTOM.png]]
+[[file:manuform/manuform-4x6+6-BOTTOM_DIST_200.png]]
+
+* Keys
+
+** Thumb key count
+   2, 3, 3-mini, 4, 5, 6 in order
+
+   [[file:manuform/manuform-4x6+x-DIAGONAL-cmp.png]]
+
+** Last row key counts
+   "no last row" vs "use all keys"
+
+   column 3 to 6 have 3 rows
+
+   [[file:manuform/manuform-4x6+6-(keys.last-row=0)-TOP-cmp.png]]
+
+   two vs "use all keys"
+
+   column 5 and 6 have 3 rows
+
+   [[file:manuform/manuform-4x6+6-(keys.last-row=2)-TOP-cmp.png]]
+
+** Key hole
+
+   [[file:images/mx-vs-box.png]]
+
+   Cherry switch and Gateron switch are MX switch, which have a notch.
+   Outemu switch is similar to Kailh Box switch.
+   TTC switch is MX switch.
+
+   MX vs "Box and MX"
+
+   Additional nub which is stuck in the MX switch notch. Without the nub, hot glue is required.
+
+   [[file:manuform/manuform-4x6+6-(keys.switch-type=mx)-BOTTOM_DIST_200-cmp.png]]
+
+   "MX snap-in" vs MX
+
+   Notice the space under the nub, which helps nub firmly snap in the switch notch.
+   I personally prefer MX snap in to MX when I use Gateron switch.
+
+   [[file:manuform/manuform-4x6+6-(keys.switch-type=mx-snap-in)-BOTTOM_DIST_200-cmp.png]]
+   [[file:images/mx-snap-in_vs_mx.png]]
+
+   Alps vs "Box and MX"
+
+   Key hole size is different
+
+   [[file:manuform/manuform-4x6+6-(keys.switch-type=alps)-BOTTOM_DIST_200-cmp.png]]
+
+   Choc vs "Box and MX"
+
+   The switch hole wall is thinner.
+   Added in Sep 2020 https://github.com/ibnuda/dactyl-keyboard/issues/50 and some fixes later
+
+   [[file:manuform/manuform-4x6+6-(keys.switch-type=choc)-BOTTOM_DIST_200-cmp.png]]
+
+   Kailh vs "Box and MX"
+
+   [[file:manuform/manuform-4x6+6-(keys.switch-type=kailh)-BOTTOM_DIST_200-cmp.png]]
+
+   The two teeth of switch shell can be stuck in the notch.
+
+   I only have one Kailh box white switch. This switch can be stuck neither very badly nor very well. Hot glue is unnecessary.
+   Because the size of switch and 3D printed keyhole have allowance or tolerance, your case may be different from my test result.
+
+   [[file:images/kailh-keyhole.jpg]]
+
+   Cherry and Gateron MX switches can be plugged into Kailh key hole, but are much less firmly stuck than MX snap in.
+   In my test to Gateron switches, there is a chance when I pull out the keycap, the switch is also pulled out, which breaks the soldering.
+   Not a problem in the case of [[#hotswap-socket][hotswap]].
+
+** Inner index finger's column
+   "Use inner column (like ergodox)" vs Normal
+
+   Two more keys on the left
+
+   [[file:manuform/manuform-4x6+6-(keys.inner-column=ergodox)-TOP-cmp.png]]
+
+   Without vs Normal
+
+   The left most column is gone
+
+   [[file:manuform/manuform-4x6+6-(keys.inner-column=without)-TOP-cmp.png]]
+
+** Hide bottom pinky
+   Yes vs No
+
+   The bottom right key is disabled
+
+   [[file:manuform/manuform-4x6+6-(keys.hide-last-pinky=yes)-TOP-cmp.png]]
+
+* Curvature & Tenting
+
+  PI radian is equal to 180 degree. PI/180 radian is equal to 1 degree.
+
+** Column's curvature
+   pi/6 (30°) vs pi/12 (15°)
+
+   The curvature pi/6 of (index, middle, ring) finger's column, that is, column 1, 2, 3 and 4 is steeper
+
+   [[file:manuform/manuform-4x6+6-(curve.column-curvature=pi_6)-DIAGONAL-cmp.png]]
+   [[file:manuform/manuform-4x6+6-(curve.column-curvature=pi_6)-RIGHT-cmp.png]] 
+
+** Pinky's column curvature
+   pi/6 (30°) vs pi/12 (15°)
+
+   The curvature of pinky finger column, that is, column 5 and 6 is steeper
+
+   [[file:manuform/manuform-4x6+6-(curve.pinky-column-curvature=pi_6)-DIAGONAL-cmp.png]]
+   [[file:manuform/manuform-4x6+6-(curve.pinky-column-curvature=pi_6)-RIGHT-cmp.png]] 
+
+** Row's curvature
+   pi/18 (10°) vs pi/36 (5°)
+
+   [[file:manuform/manuform-4x6+6-(curve.row-curvature=pi_18)-DIAGONAL-cmp.png]]
+
+** Center of the curvature for the column
+   Index, middle, ring, pinky in order
+
+   [[file:manuform/manuform-4x6+6-(curve.centercol)-DIAGONAL-cmp.png]]
+
+** Tenting Angle
+   pi/6 (30°) vs pi/15 (12°)
+
+   Row tilt is larger
+
+   [[file:manuform/manuform-4x6+6-(curve.tenting=6)-DIAGONAL-cmp.png]]
+
+** Rotation around row axis
+   pi/10 (18°) vs pi/180 (1°)
+
+   [[file:manuform/manuform-4x6+6-(curve.rotate-x=pi_10)-DIAGONAL-cmp.png]]
+
+   -pi/10 (-18°) vs pi/180 (1°)
+
+   [[file:manuform/manuform-4x6+6-(curve.rotate-x=-pi_10)-DIAGONAL-cmp.png]]
+
+   -pi/36 (-5°) vs pi/180 (1°)
+
+   [[file:manuform/manuform-4x6+6-(curve.rotate-x=-pi_36)-DIAGONAL-cmp.png]]
+
+* Connectors
+** Internal connector RJ9 Mini USB
+   [[https://youtu.be/Oloh3Yabu6I?t=240][4:00]] to 25:00 of Kevin Eckert's build log is a good reference.
+
+   I don't try this and I am not sure the connector size is the same.
+   TRRS Micro USB option is more recommended than this if you want internal connector.
+   
+   [[file:manuform/manuform-4x6+6-BACK_TOP.png]] 
+   
+   [[file:images/internal-connector-rj9.png]] 
+   
+** Internal connector TRRS Micro USB
+   "internal connector TRRS Micro USB" vs "internal connector RJ9 Mini USB"
+
+   [[file:manuform/manuform-4x6+6-(connector.type=trrs)-BACK_TOP-cmp.png]] 
+
+   - A 3.5mm audio jack connector PJ-320B can be used in the TRRS hole of case
+   - A micro USB breakout board can be used in the USB rectangle hole of case
+   - The pro micro board can be hung on the L hook (also called pro micro holder)
+   - The pro micro board is connected to the USB breakout board with a cable
+     
+   This looks more complicated than external holder,
+   but it's fine to use internal holder in the secondary part (typically the right part),
+   because the secondary part is connected to the master part with an audio cable and no USB is required.
+   
+   [[file:images/internal-connector-trrs.png]] 
+
+   micro USB breakout board
+   
+   [[file:images/microusb-breakout-board.png]]
+
+   [[file:images/microusb-breakout-board-cable.png]]
+
+   [[file:images/microusb-breakout-board-cable-case.jpg]]
+
+   [[file:images/microusb-breakout-board-cable-case-glue.jpg]]
+
+   Below image comes from [[https://www.beekeeb.com/dactyl-manuform-mini-mechanical-keyboard-build-log/][Leo's build log]].
+
+   [[file:images/leo-dactyl-manuform-bottom.png]] 
+
+   The position of the L hook (also called pro micro holder) is not calculated correctly in some case. Check it carefully.
+   For example with the default dactyl manuform parameters, the L hook is separated from keyboard case.
+
+   [[file:images/separated-promicro-holder.png]]
+
+   Either consider [[#external-holder][external holder]] or follow below steps to change the position.
+   1. click openscad menu ~window~ -> ~editor~ to open code editor
+   2. right click the L hook (pro micro holder), click the ~cube~ to jump to the code
+      [[file:images/pro-micro-holder-code-location.png]]
+   3. the L hook is a [[https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/CSG_Modelling#difference][difference]] of a big cube and a small cube
+      #+begin_src
+      difference () {
+        translate ([-94.9015632882982, 24.40298907331629, 16.208123960789713]) {
+          cube ([6, 12, 12], center=true);
+        }
+        translate ([-95.9015632882982, 23.40298907331629, 16.208123960789713]) {
+          cube ([4, 10, 12], center=true);
+        }
+      }
+      #+end_src
+
+      #+ATTR_HTML: :width 100
+      [[file:images/pro-micro-holder-difference.png]]
+
+   4. wrap the ~difference()~ statement with a ~translate([x, y, z])~ statement, for example
+      #+begin_src
+      translate([-1, -2, 3]){
+        difference () {
+          translate ([-94.9015632882982, 24.40298907331629, 16.208123960789713]) {
+            cube ([6, 12, 12], center=true);
+          }
+          translate ([-95.9015632882982, 23.40298907331629, 16.208123960789713]) {
+            cube ([4, 10, 12], center=true);
+          }
+        }
+      }
+      #+end_src
+      moves the L hook (pro micro holder) 1mm to the left, 2mm back, 3mm up
+
+** Internal connector none
+   "internal none" vs "internal RJ9 Mini USB"
+
+   This is used for wireless keyboard using non-chargeable batteries or wireless charging.
+   If use wired chargeable batteries, no hole to plug the USB cable for charging.
+
+   [[file:manuform/manuform-4x6+6-(connector.type=none)-BACK_TOP-cmp.png]] 
+
+** External Holder
+
+   Yes vs "internal RJ9 Mini USB"
+
+   [[file:manuform/manuform-4x6+6-(connector.external=yes)-BACK_TOP-cmp.png]]
+
+   [[file:images/external-holder-top.jpg]]
+   [[file:images/external-holder-back.jpg]]
+   [[file:images/external-holder-left.jpg]]
+
+   The case back wall thickness is about 5mm, if [[#wall-thickness][wall thickness]] is 3mm by default, which is too thick for promicro v1 and v2 holder.
+   The promicro v3 holder fits the case even though not 100% well-fitting.
+   There is a [[https://github.com/ibnuda/dactyl-keyboard/issues/85][separated part]] in v3 holder model.
+   [[file:stl/][Here]] is the fixed version for right case and a mirror version for left case.
+   The 3.5mm audio jack connector PJ-320B and pro micro board fit the holder.
+
+   It is highly recommended to set connector to ~none~,
+   otherwise the hole may not be cut correctly and prevent the external holder from plugging.
+   A [[https://github.com/ibnuda/dactyl-keyboard/pull/99][pull request]] is created but no response from author.
+
+   [[file:images/remove-internal-holder-from-external-holder.png]]
+
+   There is pro micro type-c version which is 2mm longer than micro USB version.
+
+   [[file:images/pro-micro-size-comparison.jpg]]
+
+   I made a type-c compatible holder by lengthening 2mm and enlarging the USB hole.
+   Notice that it is untested. [[file:stl/promicro-holder-typec-untested-left.stl][left model]] and [[file:stl/promicro-holder-typec-untested-right.stl][right]].
+
+   [[file:images/promicro-holder-typec-left-cmp-2mm-longer.png]]
+   [[file:images/promicro-holder-typec-left-cmp-usb-larger.png]]
+
+* Form of the Case
+
+** Hotswap socket
+   Yes vs No
+
+   Glue the hotswap socket
+
+   [[file:manuform/manuform-4x6+6-(form.hotswap=yes)-BOTTOM_DIST_200-cmp.png]]
+
+** Thumb cluster offsets center x (toward the pinky)
+   The greater the value, thumb cluster is closer to right, toward pinky finger, toward x positive direction
+
+   -10mm vs 6mm
+
+   [[file:manuform/manuform-4x6+6-(form.thumb-cluster-offset-x=-10)-TOP-cmp.png]]
+
+** Thumb cluster offsets center y (toward the index)
+   The greater the value, thumb cluster is more toward to index finger, toward y positive direction
+
+   -23mm vs -3mm
+
+   [[file:manuform/manuform-4x6+6-(form.thumb-cluster-offset-y=-23)-TOP-cmp.png]]
+
+** Thumb cluster offsets center z (altitude)
+   The greater the value, thumb cluster is higher
+
+   27mm vs 7mm
+
+   [[file:manuform/manuform-4x6+6-(form.thumb-cluster-offset-z=27)-DIAGONAL-cmp.png]]
+
+** Stagger
+   No vs Yes
+
+   [[file:manuform/manuform-4x6+6-(form.stagger=no)-TOP-cmp.png]]
+   [[file:manuform/manuform-4x6+6-(form.stagger=no)-DIAGONAL-cmp.png]]
+
+** Index finger measurement y
+   The greater the value, index finger's column (column 1 and 2) and thumb cluster are more far away from hand, toward y positive direction
+
+   10mm vs 0mm
+
+   [[file:manuform/manuform-4x6+6-(form.stagger-index-y=10)-TOP-cmp.png]]
+
+** Index finger measurement z
+   The greater the value, index finger's column (column 1 and 2) and thumb cluster are higher
+
+   15mm vs 0mm
+
+   [[file:manuform/manuform-4x6+6-(form.stagger-index-z=15)-DIAGONAL-cmp.png]]
+
+** Middle finger measurement y
+   The greater the value, the middle finger's column (column 3) is more far away from hand, toward y positive direction
+
+   10mm vs 2.8mm
+
+   [[file:manuform/manuform-4x6+6-(form.stagger-middle-y=10)-TOP-cmp.png]]
+
+** Middle finger measurement z
+   The greater the value, the middle finger's column (column 3) is higher
+
+   10mm vs -6.5mm
+
+   [[file:manuform/manuform-4x6+6-(form.stagger-middle-z=10)-BACK_TOP-cmp.png]]
+
+** Ring finger measurement y
+   The greater the value, the ring finger's column (column 4) is more far away from hand, toward y positive direction
+
+   10mm vs 0mm
+
+   [[file:manuform/manuform-4x6+6-(form.stagger-ring-y=10)-TOP-cmp.png]]
+
+** Ring finger measurement z
+   The greater the value, the ring finger's column (column 4) is higher
+
+   15mm vs 0mm
+
+   [[file:manuform/manuform-4x6+6-(form.stagger-ring-z=15)-BACK_TOP-cmp.png]]
+
+** Pinky finger measurement y
+   The greater the value, the pinky finger's column (column 5 and 6) is more far away from hand, toward y positive direction
+
+   0mm vs -13mm
+
+   [[file:manuform/manuform-4x6+6-(form.stagger-pinky-y=0)-TOP-cmp.png]]
+
+** Pinky finger measurement z
+   The greater the value, the pinky finger's column (column 5 and 6) is higher
+
+   26mm vs 6mm
+
+   [[file:manuform/manuform-4x6+6-(form.stagger-pinky-z=26)-BACK_TOP-cmp.png]]
+
+** Wide pinky
+   Whether the right most column uses 1.5u keycap
+
+   Yes vs No
+
+   [[file:manuform/manuform-4x6+6-(form.wide-pinky=yes)-DIAGONAL-cmp.png]]
+
+** Height offset
+   The overall height of the keyboard case
+
+   4mm vs 10mm
+
+   [[file:manuform/manuform-4x6+6-(form.height-offset=4)-DIAGONAL-cmp.png]]
+
+** Web thickness
+   Top part of the keyboard around the keyholes
+
+   20mm vs 7mm
+
+   [[file:manuform/manuform-4x6+6-(form.web-thickness=20)-BOTTOM_DIST_200-cmp.png]] 
+
+** Wall thickness
+   Wall around the keyboard
+
+   1mm vs 3mm
+
+   [[file:manuform/manuform-4x6+6-(form.wall-thickness=1)-BOTTOM-cmp.png]] 
+
+** Wire posts
+   Sorry I haven't tried it. Enable it if you think it helps wiring.
+
+   [[file:manuform/manuform-4x6+6-(form.wire-post=yes)-BOTTOM-cmp.png]]
+
+** Screw inserts
+   5 screw hole. They are hollow even though they looks solid in the rendered preview image,
+   because OpenSCAD full geometry render is time-consuming.
+
+   Yes vs No
+
+   [[file:manuform/manuform-4x6+6-(form.screw-inserts=yes)-BOTTOM-cmp.png]]
+
+* Misc
+
+** Show Keycaps
+   Just for display
+
+   Yes vs No
+
+   [[file:manuform/manuform-4x6+6-(misc.keycaps=yes)-DIAGONAL-cmp.png]]
+
+** Right side or left side
+   Left vs Right
+
+   [[file:manuform/manuform-4x6+6-(misc.left-side)-DIAGONAL-cmp.png]]
+
+* Known Issues
+  1. Custom thumb cluster
+
+     This function is experimental and only top 3 thumb keys (take right thumb
+     cluster for example, top right, top left, middle left) are customizable. See
+     this [[https://github.com/ibnuda/dactyl-keyboard/issues/28][dactyl generator issue]] for an example.
+     The demo to these parameters is skipped.
+
+* Credit
+  - Original [[https://dactyl.siskam.link][Dactyl Generator]] goes to [[https://github.com/ibnuda/dactyl-keyboard][ibnuda]]
+  - [[https://dactyl.mbugert.de][Hosting the alternative Dactyl Generator website]] goes to [[https://github.com/mbugert][Michael Bugert]]
+  - Original dactyl keyboard design goes to [[https://github.com/adereth/dactyl-keyboard][adereth]]
+  - Dactyl manuform fork goes to [[https://github.com/tshort/dactyl-keyboard][tshort]]
+  - I just use [[https://dactyl.siskam.link/api][dactyl generator API]] to generate the images.
+
+* External Links
+** My Tutorials in Chinese Speaking
+   Though I speak Chinese in the videos, the videos are still helpful. You can find more build tutorials in Youtube.
+   1. [[https://www.bilibili.com/video/BV1fQ4y1C7mi][Keyboard case modeling]]
+   2. [[https://www.bilibili.com/video/BV17f4y1P7nS][Keyboard build]]
+   3. [[https://www.bilibili.com/video/BV1rf4y1J7jn][Keyboard build detail about diodes]]
+   4. [[https://www.bilibili.com/video/BV1NP4y177ey][Flash QMK firmware with QMK Toolbox]]
+   5. [[https://www.bilibili.com/video/BV1gL4y1g7yC][Right side doesn't input anything because some pro micro clone lacks vbus]]
+
+* Sponsor
+  [[https://www.paypal.com/paypalme/yejianfengblue][Paypal me]] or buy me a [[https://ko-fi.com/yejianfengblue][coffee]].

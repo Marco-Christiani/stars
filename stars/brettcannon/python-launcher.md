@@ -1,0 +1,52 @@
+---
+repo: brettcannon/python-launcher
+url: 'https://github.com/brettcannon/python-launcher'
+homepage: 'https://pythoncode.run'
+starredAt: '2024-05-19T20:31:40Z'
+createdAt: '2018-05-21T18:21:11Z'
+updatedAt: '2025-12-17T23:43:41Z'
+language: Rust
+license: MIT
+branch: main
+stars: 625
+isPublic: true
+isTemplate: false
+isArchived: false
+isFork: false
+hasReadMe: true
+refreshedAt: '2025-12-29T17:34:46.204Z'
+description: Python launcher for Unix
+tags:
+  - cli
+  - developer-tools
+  - python
+  - rust
+  - utilities
+---
+
+# The Python Launcher for Unix
+
+- [Documentation](https://python-launcher.app)
+- [Rust crate](https://crates.io/crates/python-launcher)
+
+## Motivation
+
+Launch your Python interpreter the lazy/smart way!
+
+This project is an implementation of the `py` command for Unix-based platforms
+(with some potential experimentation for good measure 😉).
+
+## Example
+
+Typical usage would be:
+
+```
+py -m venv .venv
+py ...  # Normal `python` usage.
+```
+
+This creates a virtual environment in a `.venv` directory using the latest
+version of Python installed. Subsequent uses of `py` will then use that virtual
+environment as long as it is in the current (or higher) directory; no
+environment activation required (although the Python Launcher supports activated
+environments as well)!

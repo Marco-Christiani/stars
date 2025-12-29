@@ -1,0 +1,107 @@
+---
+repo: nickjiang2378/vlm-hallucinations
+url: 'https://github.com/nickjiang2378/vlm-hallucinations'
+homepage: ''
+starredAt: '2025-02-05T20:31:56Z'
+createdAt: '2024-09-26T22:37:30Z'
+updatedAt: '2025-12-05T11:55:17Z'
+language: Python
+license: CC0-1.0
+branch: main
+stars: 96
+isPublic: true
+isTemplate: false
+isArchived: false
+isFork: false
+hasReadMe: true
+refreshedAt: '2025-12-29T17:34:36.235Z'
+description: >-
+  [ICLR '25] Official Pytorch implementation of "Interpreting and Editing
+  Vision-Language Representations to Mitigate Hallucinations"
+tags: []
+---
+
+# Interpreting and Editing Vision-Language Representations to Mitigate Hallucinations
+Official PyTorch Implementation
+
+[Nick Jiang](https://nickjiang.me)\*, [Anish Kachinthaya](https://anishk.me)\*, [Suzanne Petryk](https://suziepetryk.com/), [Yossi Gandelsman](https://yossigandelsman.github.io/)
+### [Paper](https://arxiv.org/abs/2410.02762) | [Project Page](https://anishk23733.github.io/vl-interp/)
+
+![Teaser](images/teaser.png)
+
+## Setup
+
+### Files
+```
+git clone git@github.com:nickjiang2378/vl-interp.git
+cd vl-interp
+```
+
+### Environment
+
+```
+# Create a new conda environment
+conda create -n vl python=3.9
+conda activate vl
+
+# Set up LLaVA repo
+mkdir src/caption/llava
+cd src/caption/llava
+git clone https://github.com/haotian-liu/LLaVA.git
+cd LLaVA
+pip3 install -e .
+
+# cd back into repo root
+cd ../../../../
+pip3 install -e .
+
+# Install some remaining packages
+pip3 install lightning openai-clip transformers==4.37.2 omegaconf python-dotenv
+```
+
+### Model Weights
+
+The model weights for LlaVA and LLaVA NeXT are automatically downloaded from hugging face.
+
+The configs for InstructBLIP models are under `src/caption/lavis/configs/`. In order to get InstructBLIP (7B) working, you should download the [pretrained model weights](https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/InstructBLIP/instruct_blip_vicuna7b_trimmed.pth) and [vicuna7b weights](https://huggingface.co/lmsys/vicuna-7b-v1.1). In `src/caption/lavis/configs/blip2_instruct_vicuna7b.yaml`, set the `pretrained` location to the pretrained weight path and `llm_model` to the vicuna7b weight path.
+
+To add Cambrian, clone the [Cambrian repo](https://github.com/cambrian-mllm/cambrian) into the project folder and 
+follow instructions to set up within the project environment. Then, at the top of the file `methods/cambrian_utils.py`, update line 4 to add the path to the Cambrian repository within the project.
+
+## Demos
+
+Our paper presents two primary methods to interpret and edit VL representations. The first method creates a model confidence score for model-generated objects by projecting image representations to the language vocabulary and taking a max softmax score of the output probabilities. Our second method targets and removes objects from image captions by subtracting the text embeddings of targeted objects from these image representations.
+
+To explore internal model confidences and their applications for hallucination detection and zero-shot segmentation, check out `demos/internal_confidence.ipynb`.
+
+To erase objects by editing internal representations, run `demos/object_erasure.ipynb`.
+
+## Evals
+
+Generated captions for the hallucination reduction task (Section 5.2) are in `log_results/`. To evaluate CHAIR scores, run
+```
+python3 metric/chair.py --cap_file <log_file> --cache metric/chair.pkl
+```
+
+You may need to run the following in your conda environment before CHAIR works:
+```
+>>> import nltk
+>>> nltk.download('punkt_tab')
+```
+
+## BibTeX
+```
+@inproceedings{
+      jiang2025interpreting,
+      title={Interpreting and Editing Vision-Language Representations to Mitigate Hallucinations},
+      author={Nicholas Jiang and Anish Kachinthaya and Suzanne Petryk and Yossi Gandelsman},
+      booktitle={The Thirteenth International Conference on Learning Representations},
+      year={2025},
+      url={https://openreview.net/forum?id=94kQgWXojH}
+}
+```
+
+## Acknowledgments
+We thank Kayo Yin for her comments and feedback on our paper. YG is supported by the Google
+Fellowship. As part of their affiliation with UC Berkeley, authors were supported in part by the the
+Berkeley Artificial Intelligence Research (BAIR) commons program.

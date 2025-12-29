@@ -1,0 +1,340 @@
+---
+repo: SimulaVR/Simula
+url: 'https://github.com/SimulaVR/Simula'
+homepage: ''
+starredAt: '2024-12-21T18:57:20Z'
+createdAt: '2017-04-13T11:35:42Z'
+updatedAt: '2025-12-28T17:13:09Z'
+language: Haskell
+license: MIT
+branch: master
+stars: 3152
+isPublic: true
+isTemplate: false
+isArchived: false
+isFork: false
+hasReadMe: true
+refreshedAt: '2025-12-29T17:34:37.890Z'
+description: Linux VR Desktop
+tags: []
+---
+
+[[file:./doc/SimulaLogoHorizontal.png]]
+
+[[https://simulavr.com][Simula]] is a VR window manager for Linux that runs on top of [[https://godotengine.org/][Godot]]. It takes less than 1 minute to install.
+
+For the past few years we've been focused primarily on our custom VR computer hardware. Please check our [[https://simulavr.com][website]] for details.
+
+# [[https://d.tube/#!/v/sudoreboot/t026ny0m][file:./doc/SimulaDesktop.png]]
+# [[https://i.imgur.com/zNTYTiG.png]]
+
+[[http://www.youtube.com/watch?v=FWLuwG91HnI][http://img.youtube.com/vi/FWLuwG91HnI/0.jpg]]
+
+*Video:* [[http://www.youtube.com/watch?v=FWLuwG91HnI][Demonstration.]]
+
+*Compatibility:* Simula is only compatible with headsets equipped with monado-compatible drivers (e.g. HTC Vive, HTC Vive Pro, Valve Index, & Rokid Max). We're working on the [[https://simulavr.com][Simula One]] headset to to add to this list.
+
+*Simula One Headset:* We're developing a portable VR headset which will come with this compositor pre-installed.  If you're interested, [[https://simulavr.com][check out our website]] to preorder or receive periodic updates on its development.
+
+*Our Mission:* Allow you to work productively in AR/VR.
+
+*Origins:* Simula is a reimplementation fork of [[https://github.com/evil0sheep/motorcar][motorcar]]. To read about motorcar, see /[[https://github.com/evil0sheep/MastersThesis/blob/master/thesis.pdf?raw=true][Toward General Purpose 3D User Interfaces: Extending Windowing Systems to Three Dimensions]]/
+
+* Text Quality
+
+A common objection to the viability of VR Desktop is that it exhibits poor text quality; however, with our low pass filter, Simula has taken special care to make text quality as clear as possible:
+
+[[./doc/TextQuality2.gif]]
+
+The left image is a VR terminal /without/ our filter applied; the right is the same image /with/ our filter applied. Compared to other VR Desktops, Simula allows for longer sessions without uncomfortable eye strain.
+
+* Installation & Launching
+
+To install Simula on all Linux distros, run:
+
+#+BEGIN_SRC shell
+nix profile install github:SimulaVR/Simula # install
+
+# NOTE: When installing for the first time, you'll be prompted:
+#
+# > "do you want to allow configuration setting 'extra-substituters'
+# > to be set to 'https://simula.cachix.org' (y/N)?"
+#
+# Answering "y" to this (and the other messages) will allow nix to just
+# download the Simula binaries onto your machine, saving you the time of
+# compiling everything locally (which can take awhile)
+#+END_SRC
+
+and then launch it via
+
+#+BEGIN_SRC shell :results code :async
+simula-monado-service & # Launch Simula's monado backend first, which runs in the background to detect Linux-compatible headsets and sync them up with Simula
+simula # Launch Simula
+
+# Be careful when launching Simula though(!), as it will grab your mouse & keyboard from your host window manager
+# You can press `Super + z` to escape Simula after launching
+#+END_SRC
+
+** If you don't have nix
+
+Installing Simula requires the nix package manager. If you don't have it, you can install it via
+
+#+BEGIN_SRC sh
+curl -L https://nixos.org/nix/install | sh
+. $HOME/.nix-profile/etc/profile.d/nix.sh
+#+END_SRC
+
+** If you want to build Simula locally
+
+#+BEGIN_SRC sh
+git clone --recursive https://github.com/SimulaVR/Simula # You need --recursive to get all of our git submodules
+nix develop # Enter a nix shell with all of our dependencies in place
+just build  # Compiles everything locally
+#+END_SRC
+
+# This speeds up installation by instructing nix to download binaries rather than compiling them locally
+# cachix use simula
+
+# *Installing Simula should take less than 1 minute:* this script doesn't actually compile anything on your system, but instead downloads the appropriate binaries from our cache in a way that is system and driver agnostic. Under the hood, we (i) check whether you have ~nix~ and ~cachix~ installed (and, if not, install them); (ii) check which graphics drivers you have and (iii) download Simula via ~cachix~ with the appropriate driver flags, falling back to a ~nix~ build if downloading fails.
+
+# On NixOS systems, you must ensure
+
+#+BEGIN_COMMENT
+nix.settings.trusted-users = [ "root" "<your_user_name>"];
+#+END_COMMENT
+
+# is added to your ~configuration.nix~, or the install command above will be unable to download Simula from our cache, instead falling back to a manual build (which takes 1hr+).
+
+# Simula is untested on machines with AMD drivers, though AMD cards running mesa drivers should be supported.
+
+** COMMENT OpenXR Backend (Optional)
+
+If you want to avoid using SteamVR, Simula supports an optional OpenXR backend (e.g. [[https://gitlab.freedesktop.org/monado/monado][monado]]).  To use, adjust ~_backend~ from ~OpenVR~ to ~OpenXR~ in ~./config.dhall~.  You will then be required to ensure that an OpenXR runtime (e.g. ~monado-service~) is running on your system before launching Simula.  In addition, you must tell Simula where your ~libopenxr_monado.so~ is located:
+
+#+BEGIN_SRC
+monado-service &
+XR_RUNTIME_JSON=/path/to/your/openxr_monado-dev.json ./result/bin/simula
+#+END_SRC
+
+with ~openxr-dev.json~ encoding the location of your ~libopenxr_monado.so~:
+
+#+BEGIN_SRC json
+{
+    "file_format_version": "1.0.0",
+    "runtime": {
+        "library_path": "/path/to/your/openxr/build/src/xrt/targets/openxr/libopenxr_monado.so"
+    }
+}
+#+END_SRC
+
+** COMMENT Updating
+
+To update Simula to the current ~master~ (without losing your configuration adjustments), simply run
+
+#+BEGIN_SRC
+./source/Helpers.sh && updateSimula
+#+END_SRC
+
+** COMMENT AppImage
+
+Simula requires ~xpra~, ~xrdb~, ~wmctrl~, and ~terminator~. We keep a bleeding edge ~AppImage~ of Simula synced to a tarball, which can be used as follows:
+
+#+BEGIN_SRC
+wget -c https://www.wolframcloud.com/obj/george.w.singer/SimulaAppImage.tar.gz -O - | tar -xz
+cd ./Simula
+chmod +x ./bin/godot.AppImage
+./bin/godot.AppImage --path $PWD # launches Simula (requires SteamVR to be running)
+#+END_SRC
+
+** COMMENT Bleeding Edge Binary
+
+ We keep a bleeding edge version of Simula synced to the following tarball:
+
+ #+BEGIN_SRC shell
+ wget -c https://www.wolframcloud.com/obj/george.w.singer/SimulaBleedingEdge.tar.gz -O - | tar -xz
+ cd ./Simula
+ ./bin/godot # launches Simula (requires SteamVR to be running)
+ #+END_SRC
+
+ For installtion troubleshooting, [[https://gitter.im/SimulaVR/Simula][just ask us directly]].
+
+* Usage
+** Simula Mouse & Keyboard Controls
+
+In Simula, VR Windows become "active" once you look at them. Active windows receive (i) typing events from the keyboard and (ii) cursor events from any mouse movement.  In addition, the following window-manipulation shortcuts are provided by default into Simula (these can be adjusted by changing ~/.config/Simula/config.dhall~):
+
+| *Key binding.*                             | *Action*                                                                                                                        |
+|--------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------|
+| ~Super + Shift + Escape~                   | Terminate Simula                                                                                                                |
+| ~Super + z~                                | Toggle Simula's mouse & keyboard grab from your host OS (see below)                                                             |
+| ~Super + /~                                | Quick launch terminal                                                                                                           |
+| ~Super + Apostrophe~                       | Send window cursor to gaze point (hold down to make cursor follow gaze)                                                         |
+| ~Super + Enter~                            | Left click surface cursor at gaze point                                                                                         |
+| ~Super + Shift + Enter~                    | Right click surface cursor at gaze point                                                                                   |
+| ~Super + Alt~                              | Grab surface for movement (release to let go)                                                                                   |
+| ~Super + m~                                | Grab all surfaces for movement (release to let go)                                                                              |
+| ~Super + Shift + m~                        | Grab all surfaces /in all workspaces at once/ for movement (release to let go)                                                  |
+| ~Super + a~                                | Launch Simula's app launcher ([[https://launchpad.net/synapse-project][synapse]])                                               |
+| ~Super + e~                                | Cycle Simula's background environment                                                                                           |
+| ~Super + f~                                | Orient window towards user gaze                                                                                                 |
+| ~Super + 9~                                | Scale window to smaller size                                                                                                    |
+| ~Super + 0~                                | Scale window to larger size                                                                                                     |
+| ~Super + <number between 1 and 8>~         | Switch to workspace <num>                                                                                                       |
+| ~Super + Shift + <number between 1 and 8>~ | Move window to workspace <num>                                                                                                  |
+| ~Super + Shift + 0~                        | Pin window to all workspaces                                                                                                    |
+| ~Super + -~                                | Increase window resolution ("zoom out")                                                                                         |
+| ~Super + =~                                | Increase window resolution ("zoom in")                                                                                          |
+| ~Super + <right>~                          | Extend window horizontally                                                                                                      |
+| ~Super + <left>~                           | Contract window horizontally                                                                                                    |
+| ~Super + <down>~                           | Extend window vertically                                                                                                        |
+| ~Super + <up>~                             | Contract window vertically                                                                                                      |
+| ~Super + Alt + <down>~                     | Decrease window transparency                                                                                                    |
+| ~Super + Alt + <up>~                       | Increase window transparency                                                                                                    |
+| ~Super + s~                                | Resize window to take its default (typically square) dimensions                                                                 |
+| ~Super + Comma~                            | Move window towards you                                                                                                         |
+| ~Super + Period~                           | Move window away from you                                                                                                       |
+| ~Super + Backspace~                        | Kill surface being looked at                                                                                                    |
+| ~Super + k~                                | Quick launch firefox (requires firefox to not already be launched on host)                                                      |
+| ~Super + g~                                | Quick launch google-chrome (requires chrome to not already be launched on host)                                                 |
+| ~Super + w~                                | Launch headset webcam view                                                                                                      |
+| ~PrtSc~                                    | Toggle "screenshot" mode (drag a selection on the current window to generate a ~./media/*.png~ and copy it to the X clipboard). |
+| ~Shift + PrtSc~                            | Take global screenshot (saved to ~./media/*.png~)                                                                               |
+| ~Super + Shift + PrtSc~                    | Toggle video recording (saved to ~./media/*.mkv~); useful for sending bug reports.                                              |
+| ~Super + r~                                | Reload Simula's configuration (~./config.dhall~)                                                                                |
+
+*NOTE:* In order to prevent Simula's keyboard shortcuts from conflicting with your existing window manager's shortcuts, Simula "grabs" the system keyboard and cursor from your host OS to prevent input events from propagating past Simula. This has a side effect: it's impossible for you to escape Simula once you launch it! In order to get around this, press ~Super + z~ to "ungrab" Simula which will restore mouse & keyboard control to your normal window manager.
+
+** COMMENT VR Controllers
+
+ [[https://www.evetech.co.za/repository/ProductImages/htc-vive-controller-730px-v1.jpg]]
+
+ - *Left-clicking.* Use (7) gently (you don't have to go all the way down to click).
+
+ - *Right-clicking.* Use (1).
+
+ - *Scrolling.* Scroll up and down via (2).
+
+ - *Text dragging.* Hold (7) down and drag.
+
+ - *Window manipulation.* Point at a window and, while holding (8), move your controller around. The windows should "levitate" in the direction of your movement.
+
+ - *Window rescaling.* Point at a window, hold (8) down, and then scroll up and down on (2).
+
+** Mouse & Keyboard View
+
+[[https://www.youtube.com/watch?v=D5c3Hfp8Hcw][https://www.wolframcloud.com/obj/george.w.singer/1063512563850488463045946458923996976334308262441.png]]
+
+Simula has a headset [[https://www.youtube.com/watch?v=D5c3Hfp8Hcw][webcam view]] (binded presently to ~Super + w~) that allows you to see your mouse and keyboard from VR. This will be deprecated once the [[https://simulavr.com][Simula One]] releases (since it'll have full-blown "AR Mode").
+
+** Configuration
+
+- Many things are configurable in Simula. See ~/.config/Simula/config.dhall~ for a self-documenting list of things to adjust.
+# - Simula also uses ~i3status~ to display system information in its HUD.  The default configuration can be found in ~.config/Simula/HUD.config~, and can be adjusted [[https://i3wm.org/docs/i3status.html][per these instructions]].
+
+** COMMENT Recovering Simula Apps
+
+Apps launched in Simula persist across sessions via an [[https://xpra.org/][xpra]] server running on ~DISPLAY=:13~. This means that if Simula exits (perhaps by a sudden crash), all you need to do to recover your apps is to relaunch Simula.
+
+If instead you'd like to access your apps from outside Simula, run
+
+#+BEGIN_SRC shell
+xpra attach :13
+#+END_SRC
+
+and they will appear on your current ~DISPLAY~. Running ~xpra stop~ (or just ~pkill xpra~) is a quick way to kill all apps associated with your Simula session(s).
+
+* Simula One Headset
+
+We're developing portable VR headsets which will come with this compositor pre-installed.  If you're interested, [[https://simulavr.com][check out our website]] to preorder or receive periodic updates on its development.
+
+* Community
+
+For troubleshooting and discussion, join our community at https://discordapp.com/invite/a4PnP7n.
+
+* COMMENT Installation
+
+[[https://gitter.im/SimulaVR/Simula][file:./doc/GitterBadge.png]]
+
+Simula is in alpha phase, and can be difficult to get working on many setups. For help with installation, please visit our [[https://gitter.im/SimulaVR/Simula][chat room]]. Note that Simula has only been tested on Ubuntu 19.04 (Disco Dingo), but the instructions below should in principle work on (i) older versions of Ubuntu and/or other distros that use ~apt~ (i.e., Debian) or (ii) Arch Linux (or distros that use ~pacman~).
+
+1. *Clone Simula and install its dependencies.* Depending upon your distro, you'll need to run some combination of ~make ubuntu~, ~make arch~, ~make nvidia~ and ~make amd~.
+
+  #+BEGIN_SRC shell
+  git clone --recursive https://github.com/SimulaVR/Simula
+  cd Simula
+
+  make ubuntu    # Installs needed packages via apt-get
+  # make arch    # Installs needed packages via pacman
+  #+END_SRC
+
+2. *Compile Simula.* Warning: this can take a while.
+
+  #+BEGIN_SRC  shell
+  make all
+  #+END_SRC
+
+3. *Launch Simula.* You must first launch SteamVR before you can run Simula.
+
+  #+begin_src shell
+  steam &        # First launch SteamVR from steam
+  make run       # ..then launch Simula
+  #+end_src
+
+4. *Launch some apps.* Once Simula starts, launch some Wayland apps to interact with (at this point Simula only supports Wayland apps).  Apps must be launched with ~WAYLAND_DISPLAY~ set to ~simula-0~.
+
+  #+begin_src shell
+  WAYLAND_DISPLAY=simula-0 sakura   # Wayland-based terminal
+  WAYLAND_DISPLAY=simula-0 epiphany # Wayland-based web browser
+  #+end_src
+
+* COMMENT Troubleshooting
+
+Any errors can be immediately helped with in [[https://gitter.im/SimulaVR/Simula][Simula's chatroom]]. Here are some helpers though:
+
+1. *Driver errors.* If you get driver related errors, try running ~make nvidia~ or ~make amd~ to try to upgrade to the latest drivers for your respective video card. These helpers only work on Ubuntu/Arch:
+
+  #+begin_src shell
+  make nvidia # If needed: installs nvidia-driver-418 (via apt-get)
+  make amd    # If needed: installs mesa-vulkan-drivers and other packages for SteamVR on AMD (via apt-get)
+  #+end_src
+
+2. *Godot errors.* If you get godot related errors, trying rebuilding ~godot~ from scratch:
+
+  #+begin_src shell
+  make godot
+  #+end_src
+
+3. *Wlroots errors.* If you get wrloots related errors (i.e., any error that complains about missing ~wlr_*~ references), try rebuilding wlroots from scratch:
+
+  #+begin_src
+  make wlroots   # If you have trouble launching Simula, try recompiling Godot via this command.
+  #+end_src
+
+4. *Unable to launch a particular app.* Many Linux apps don't work right now in Simula (technically: any app that doesn't implement the XDG Wayland protocol). We're working on fixing this ASAP so that all Linux apps are compatible with Simula. This should be done by end of month (June 2019).
+
+* COMMENT Contributing
+
+We're looking for open-source contributors. If you're interested in using Haskell to bring VR and Linux together, drop by our [[https://gitter.im/SimulaVR/Simula][chat room]], or email georgewsinger@gmail.com.
+
+* COMMENT Donations
+
+If you're interested in a future where Linux and VR co-exist, you can donate to the following addresses:
+
+#+BEGIN_QUOTE
+*Bitcoin.* 17YLp6kJswxa8gGKwXqLrNtnM9Fgye6dfQ
+
+*Ethereum.* 0x373227b43Fe1eFe8da9d30ED1Ee45E7488F6cab3
+
+*PayPal.* george.w.singer@gmail.com
+#+END_QUOTE
+
+** COMMENT Project Expenses
+
+*Project Expenses.* Donations to the project pay for the following expenses:
+  - Part-time developers (x 1)
+  - Vive donations to contributors (x 3)
+  -
+
+* COMMENT Plans & Monthly Updates
+
+See Simula's [[https://github.com/SimulaVR/Simula/wiki][Wiki]] for our Master Plan and list of Monthly Updates.

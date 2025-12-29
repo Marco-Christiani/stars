@@ -1,0 +1,90 @@
+---
+repo: Toni-SM/skrl
+url: 'https://github.com/Toni-SM/skrl'
+homepage: 'https://skrl.readthedocs.io/'
+starredAt: '2024-12-19T17:40:03Z'
+createdAt: '2021-10-18T07:53:11Z'
+updatedAt: '2025-12-29T10:58:36Z'
+language: Python
+license: MIT
+branch: develop
+stars: 950
+isPublic: true
+isTemplate: false
+isArchived: false
+isFork: false
+hasReadMe: true
+refreshedAt: '2025-12-29T17:34:38.020Z'
+description: >-
+  Modular Reinforcement Learning (RL) library (implemented in PyTorch, JAX, and
+  NVIDIA Warp) with support for Gymnasium/Gym, NVIDIA Isaac Lab, Brax and other
+  environments
+tags:
+  - brax
+  - deep-learning
+  - flax
+  - gym
+  - gymnasium
+  - isaaclab
+  - isaacsim
+  - jax
+  - machine-learning
+  - multi-agent
+  - python
+  - reinforcement-learning
+  - robotics
+  - torch
+  - warp
+---
+
+[![pypi](https://img.shields.io/pypi/v/skrl)](https://pypi.org/project/skrl)
+[<img src="https://img.shields.io/badge/%F0%9F%A4%97%20models-hugging%20face-F8D521">](https://huggingface.co/skrl)
+![discussions](https://img.shields.io/github/discussions/Toni-SM/skrl)
+<br>
+[![license](https://img.shields.io/github/license/Toni-SM/skrl)](https://github.com/Toni-SM/skrl)
+<span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+[![docs](https://readthedocs.org/projects/skrl/badge/?version=latest)](https://skrl.readthedocs.io/en/latest/?badge=latest)
+[![pre-commit](https://github.com/Toni-SM/skrl/actions/workflows/pre-commit.yml/badge.svg)](https://github.com/Toni-SM/skrl/actions/workflows/pre-commit.yml)
+[![pytest-torch](https://github.com/Toni-SM/skrl/actions/workflows/tests-torch.yml/badge.svg)](https://github.com/Toni-SM/skrl/actions/workflows/tests-torch.yml)
+[![pytest-jax](https://github.com/Toni-SM/skrl/actions/workflows/tests-jax.yml/badge.svg)](https://github.com/Toni-SM/skrl/actions/workflows/tests-jax.yml)
+[![pytest-warp](https://github.com/Toni-SM/skrl/actions/workflows/tests-warp.yml/badge.svg)](https://github.com/Toni-SM/skrl/actions/workflows/tests-warp.yml)
+
+<br>
+<p align="center">
+  <a href="https://skrl.readthedocs.io">
+  <img width="300rem" src="https://raw.githubusercontent.com/Toni-SM/skrl/main/docs/source/_static/data/logo-light-mode.png">
+  </a>
+</p>
+<h2 align="center" style="border-bottom: 0 !important;">SKRL - Reinforcement Learning library</h2>
+<br>
+
+**skrl** is an open-source modular library for Reinforcement Learning written in Python (implemented in [PyTorch](https://pytorch.org/), [JAX](https://jax.readthedocs.io) and [NVIDIA Warp](https://nvidia.github.io/warp/)) and designed with a focus on modularity, readability, simplicity, and transparency of algorithm implementation. In addition to supporting the OpenAI [Gym](https://www.gymlibrary.dev), Farama [Gymnasium](https://gymnasium.farama.org) and [PettingZoo](https://pettingzoo.farama.org), Google [DeepMind](https://github.com/deepmind/dm_env) and [Brax](https://github.com/google/brax), [ManiSkill](https://maniskill.readthedocs.io/en/latest/index.html), among other environment interfaces, it allows loading and configuring NVIDIA [Isaac Lab](https://isaac-sim.github.io/IsaacLab/index.html) environments, enabling agents' simultaneous training by scopes (subsets of environments among all available environments), which may or may not share resources, in the same run.
+
+<br>
+
+### Please, visit the documentation for usage details and examples
+
+<strong>https://skrl.readthedocs.io</strong>
+
+<br>
+
+> **Note:** This project is under **active continuous development**. Please make sure you always have the latest version. Visit the [develop](https://github.com/Toni-SM/skrl/tree/develop) branch or its [documentation](https://skrl.readthedocs.io/en/develop) to access the latest updates to be released.
+
+<br>
+
+### Citing this library
+
+To cite this library in publications, please use the following reference:
+
+```bibtex
+@article{serrano2023skrl,
+  author  = {Antonio Serrano-Muñoz and Dimitrios Chrysostomou and Simon Bøgh and Nestor Arana-Arexolaleiba},
+  title   = {skrl: Modular and Flexible Library for Reinforcement Learning},
+  journal = {Journal of Machine Learning Research},
+  year    = {2023},
+  volume  = {24},
+  number  = {254},
+  pages   = {1--9},
+  url     = {http://jmlr.org/papers/v24/23-0112.html}
+}
+```

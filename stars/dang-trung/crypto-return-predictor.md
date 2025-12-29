@@ -1,0 +1,181 @@
+---
+repo: dang-trung/crypto-return-predictor
+url: 'https://github.com/dang-trung/crypto-return-predictor'
+homepage: ''
+starredAt: '2022-05-15T22:25:35Z'
+createdAt: '2020-11-17T00:42:36Z'
+updatedAt: '2024-06-03T13:11:51Z'
+language: Python
+license: MIT
+branch: master
+stars: 9
+isPublic: true
+isTemplate: false
+isArchived: false
+isFork: false
+hasReadMe: true
+refreshedAt: '2025-12-29T17:35:30.108Z'
+description: >-
+  Utilized sentiment-based features to predict cryptocurrency returns, models
+  used: Random Forest Classifier, Random Forest Regressor, and VAR time-series
+  model
+tags:
+  - cryptocurrency
+  - random-forest
+  - return-prediction
+  - vector-autoregression
+---
+
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/dang-trung/crypto-return-predictor">
+    <img src="https://raw.githubusercontent.com/othneildrew/Best-README-Template/master/images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">Cryptocurrency Returns Predictor</h3>
+</p>
+  <p align="center">
+    An Application of Random Forest!
+  </p>
+  
+[![MIT License][license-shield]][license-url]
+[![GitHub][github-shield]][github-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+  
+# Project Description
+## Introduction
+
+* **Objective**: Project for my intern at
+[Research Center VERA](https://www.unive.it/pag/35190/), Ca' Foscari University of Venice.   
+
+* **Abstract**: Use sentiment-based features to predict cryptocurrency returns.
+Models used: Random Forest Classifier, Random Forest Regressor, and VAR time-series model.
+Analysis timeframe: 28/11/2014 - 25/07/2020.
+
+* **Status**: Completed.
+
+## Methods Used
+* Random Forests (Regressor & Classifier)
+* Principal Component Analysis
+* Vector Autoregression (VAR) model
+* Sentiment Indicators (retrieved from my graduation thesis)
+
+## Dependencies
+* Python 3
+* numpy==1.18.5
+* pandas==1.0.5
+* scikit-learn==0.23.2
+* statsmodels==0.12.0
+* plotly==4.9.0
+
+## Interesting Results to Keep You Reading
+Backtesting strategies based on 3 models:   
+* Generate trading signals: Long as predicted return > 0, short as predicted return < 0, wait otherwise.
+* Test period (25% of the dataset): 05/03/2019 - 25/07/2020
+* RF Classifier outperforms significantly both strategies and also the simple buy-and-hold strategy.
+![alt text](https://github.com/dang-trung/crypto-return-predictor/blob/master/figures/strats.png)
+* Download the [interactive version](https://github.com/dang-trung/crypto-return-predictor/blob/master/figures/strats.html).
+
+# Table of Contents
+
+- [Project Description](#project-description)
+  - [Introduction](#introduction)
+  - [Methods Used](#methods-used)
+  - [Dependencies](#dependencies)
+  - [Interesting Results to Keep You Reading](#interesting-results-to-keep-you-reading)
+- [Table of Contents](#table-of-contents)
+- [Getting Started](#getting-started)
+  - [How to Run](#how-to-run)
+  - [Dependent Variable/Target](#dependent-variabletarget)
+  - [Sentiment Measures](#sentiment-measures)
+  - [Features Selection](#features-selection)
+- [Results (Test Period)](#results-test-period)
+- [Read More](#read-more)
+
+# Getting Started
+
+## How to Run
+1. Clone this repo:  
+`git clone https://github.com/dang-trung/crypto-return-predictor`
+2. Create your environment (virtualenv):  
+`virtualenv -p python3 venv`  
+`source venv/bin/activate` (bash) or `venv\Scripts\activate` (windows)   
+`(venv) cd crypto-return-predictor`  
+`(venv) pip install -e`  
+
+    Or (conda):  
+`conda env create -f environment.yml`  
+`conda activate crypto-return-predictor`  
+3. Run in terminal:  
+`python -m crypto_return_predictor`  
+
+## Dependent Variable/Target
+Cryptocurrency market returns (computed using the market index CRIX,
+retrieved [here](http://data.thecrix.de/data/crix.json),
+see more on how the index is created at [Trimborn & Härdle (2018)](https://doi.org/10.1016/j.jempfin.2018.08.004)
+or [those authors' website](https://thecrix.de/).)
+
+## Sentiment Measures
+* Sentiment score of Messages on StockTwits, Reddit Submissions, Reddit Comments
+  * Computed using dictionary-based sentiment analysis, lexicon used: crypto-specific lexicon by [Chen et al (2019)](http://dx.doi.org/10.2139/ssrn.3398423),
+  retrieved at the main author's [personal page](https://sites.google.com/site/professorcathychen/resume).
+  * StockTwits messages are retrieved through [StockTwits Public API](https://api.stocktwits.com/developers),
+    Reddit data are retrieved using [PushShift.io Reddit API](https://github.com/pushshift/api).
+* Messages volume on StockTwits, Reddit Submissions, Reddit Comments.
+* Market volatility index VCRIX (see how the index is created: [Kolesnikova (2018)](https://edoc.hu-berlin.de/bitstream/handle/18452/20056/master_kolesnikova_alisa.pdf?sequence=3&isAllowed=y), retrieved [here](http://data.thecrix.de/data/crix11.json).)
+* Market trading volume (retrieved using [Nomics Public API](https://docs.nomics.com/))
+
+_Read more on how I retrieve these sentiment measures in my [graduation thesis](https://github.com/dang-trung/) or its Github [repo](https://github.com/dang-trung/)._
+
+## Features Selection
+* For VAR model: Lagged values of the first principal component of all 9 sentiment measures (up to 5 lags).
+* For Random Forests: Sentiment measures' lagged Values (up to 5 lags).
+
+# Results (Test Period)
+Order by performance (from high to low):
+1. Random Forest Classifier:
+* Accuracy: 61.86%
+* Confusion matrix:
+
+|           |           | Actual   |           |          |
+|-----------|-----------|----------|-----------|----------|
+|           |           | Negative | Unchanged | Positive |
+| Predicted | Negative  | 145      | 0         | 97       |
+|           | Unchanged | 1        | 0         | 0        |
+|           | Positive  | 96       | 0         | 170      |
+
+* Backtesting daily returns: **~91bps**
+2. VAR(5):
+* Accuracy: 54.62%
+* Confusion matrix:
+
+|           |           | Actual   |           |          |
+|-----------|-----------|----------|-----------|----------|
+|           |           | Negative | Unchanged | Positive |
+| Predicted | Negative  | 57       | 0         | 185      |
+|           | Unchanged | 0        | 0         | 1        |
+|           | Positive  | 45       | 0         | 221      |
+
+* Backtesting daily returns: ~48bps
+3. Random Forest Regressor:
+* Accuracy: 56.19%
+* Confusion matrix:
+
+|           |           | Actual   |           |          |
+|-----------|-----------|----------|-----------|----------|
+|           |           | Negative | Unchanged | Positive |
+| Predicted | Negative  | 222      | 0         | 20       |
+|           | Unchanged | 1        | 0         | 0        |
+|           | Positive  | 202      | 0         | 64       |
+
+* Backtesting daily returns: ~19bps (just slightly better than holding the CRIX index)
+# Read More
+For better understanding of the project, kindly read the [report](https://github.com/dang-trung/crypto-return-predictor/blob/master/reports/final_report.pdf).
+
+[github-shield]: https://img.shields.io/badge/-GitHub-black.svg?style=social&logo=github&colorB=555
+[github-url]: https://github.com/dang-trung/
+[license-shield]: https://img.shields.io/github/license/dang-trung/crypto-return-predictor.svg?style=social
+[license-url]: https://github.com/dang-trung/crypto-return-predictor/blob/master/LICENSE.md
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=social&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/dang-trung

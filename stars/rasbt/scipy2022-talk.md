@@ -1,0 +1,97 @@
+---
+repo: rasbt/scipy2022-talk
+url: 'https://github.com/rasbt/scipy2022-talk'
+homepage: null
+starredAt: '2022-08-30T04:19:15Z'
+createdAt: '2022-07-10T15:26:43Z'
+updatedAt: '2025-05-25T12:03:34Z'
+language: Python
+license: BSD-3-Clause
+branch: main
+stars: 26
+isPublic: true
+isTemplate: false
+isArchived: false
+isFork: false
+hasReadMe: true
+refreshedAt: '2025-12-29T17:35:17.640Z'
+description: null
+tags: []
+---
+
+# scipy2022-talk
+
+
+
+**Slides: [https://sebastianraschka.com/pdf/slides/2022-07-scipy-corn.pdf](https://sebastianraschka.com/pdf/slides/2022-07-scipy-corn.pdf)**
+
+
+
+# Using the Code
+
+
+
+### Step 1: Install the requirements
+
+```bash
+git clone https://github.com/rasbt/scipy2022-talk.git
+cd scipy2022-talk
+conda create -n coral-pytorch python=3.8
+conda activate coral-pytorch
+pip install -r requirements.txt
+python -m spacy download en_core_web_sm
+```
+
+### Step 2: Run the code
+
+MLP with CORN loss
+
+```bash
+cd src
+```
+
+```bash
+python main_mlp.py \
+--batch_size 16 \
+--data_path ../datasets/ \
+--learning_rate 0.01 \
+--mixed_precision true \
+--num_epochs 40 \
+--num_workers 3 \
+--output_path ./cement_strength \
+--loss_mode corn
+````
+
+MLP with cross entropy loss
+
+```bash
+python main_mlp.py \
+...
+--loss_mode crossentropy
+```
+
+
+
+## More examples
+
+- PyTorch Hub for loading pre-trained models: [https://github.com/rasbt/ord-torchhub](https://github.com/rasbt/ord-torchhub)
+- Tutorials for using the various ordinal regression models with CNNs, RNNs, and MLPs: [https://github.com/Raschka-research-group/coral-pytorch](https://github.com/Raschka-research-group/coral-pytorch)
+- The CORN paper repository with detailed experiment logs: [https://github.com/Raschka-research-group/corn-ordinal-neuralnet](https://github.com/Raschka-research-group/corn-ordinal-neuralnet)
+
+
+
+## Interactive Demo
+
+[![](images/app-screenshot.png)](https://bit.ly/3aCgSeG)
+
+You can try an interactive version at [https://bit.ly/3aCgSeG](https://bit.ly/3aCgSeG).
+
+(The source code for this interactive demo is available at [https://github.com/rasbt/ord-torchhub/tree/main/app](https://github.com/rasbt/ord-torchhub/tree/main/app).)
+
+
+
+## References
+
+- Xintong Shi, Wenzhi Cao, and Sebastian Raschka 
+*Deep Neural Networks for Rank-Consistent Ordinal Regression Based On Conditional Probabilities.*
+https://arxiv.org/abs/2111.08851

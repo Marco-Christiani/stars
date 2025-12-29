@@ -1,0 +1,56 @@
+---
+repo: pyinvoke/invoke
+url: 'https://github.com/pyinvoke/invoke'
+homepage: 'http://pyinvoke.org'
+starredAt: '2022-12-18T13:34:26Z'
+createdAt: '2012-02-29T23:59:23Z'
+updatedAt: '2025-12-29T05:31:32Z'
+language: Python
+license: BSD-2-Clause
+branch: main
+stars: 4683
+isPublic: true
+isTemplate: false
+isArchived: false
+isFork: false
+hasReadMe: true
+refreshedAt: '2025-12-29T17:35:06.041Z'
+description: Pythonic task management & command execution.
+tags: []
+---
+
+|version| |python| |license| |ci| |coverage|
+
+.. |version| image:: https://img.shields.io/pypi/v/invoke
+    :target: https://pypi.org/project/invoke/
+    :alt: PyPI - Package Version
+.. |python| image:: https://img.shields.io/pypi/pyversions/invoke
+    :target: https://pypi.org/project/invoke/
+    :alt: PyPI - Python Version
+.. |license| image:: https://img.shields.io/pypi/l/invoke
+    :target: https://github.com/pyinvoke/invoke/blob/main/LICENSE
+    :alt: PyPI - License
+.. |ci| image:: https://img.shields.io/circleci/build/github/pyinvoke/invoke/main
+    :target: https://app.circleci.com/pipelines/github/pyinvoke/invoke
+    :alt: CircleCI
+.. |coverage| image:: https://img.shields.io/codecov/c/gh/pyinvoke/invoke
+    :target: https://app.codecov.io/gh/pyinvoke/invoke
+    :alt: Codecov
+
+Welcome to Invoke!
+==================
+
+Invoke is a Python library for managing shell-oriented subprocesses and
+organizing executable Python code into CLI-invokable tasks. It draws
+inspiration from various sources (``make``/``rake``, Fabric 1.x, etc) to arrive
+at a powerful & clean feature set.
+
+To find out what's new in this version of Invoke, please see `the changelog
+<https://pyinvoke.org/changelog.html#{}>`_.
+
+For a high level introduction, including example code, please see `our main
+project website <https://pyinvoke.org>`_; or for detailed API docs, see `the
+versioned API website <https://docs.pyinvoke.org>`_.
+
+The project maintainer keeps a `roadmap
+<https://bitprophet.org/projects#roadmap>`_ on his website.

@@ -1,0 +1,126 @@
+---
+repo: voidquark/grafana-dashboards
+url: 'https://github.com/voidquark/grafana-dashboards'
+homepage: 'https://grafana.com/orgs/voidquark'
+starredAt: '2024-01-11T03:31:19Z'
+createdAt: '2022-11-30T10:07:25Z'
+updatedAt: '2025-12-09T20:36:43Z'
+language: null
+license: MIT
+branch: main
+stars: 85
+isPublic: true
+isTemplate: false
+isArchived: false
+isFork: false
+hasReadMe: true
+refreshedAt: '2025-12-29T17:34:50.340Z'
+description: Grafana Dashboards Collection
+tags:
+  - grafana
+  - grafana-dashboard
+  - grafana-dashboards
+  - grafana-loki
+  - logs
+  - logs-analysis
+  - loki
+  - monitoring
+  - nextcloud
+  - nextcloud-logs
+  - promtail
+  - ssh
+  - ssh-logs
+  - sudo
+---
+
+# Grafana Dashboards Collection
+
+Grafana Dashboards Collection.
+
+## Table of Content
+
+- [Nextcloud Logs](#nextcloud-logs)
+- [PrivateBin Access Logs](#privatebin-access-logs)
+- [Promtail Metrics and Logs](#promtail-metrics-and-logs)
+- [SSH Logs](#ssh-logs)
+- [Global SSH Logs View](#global-ssh-logs-view)
+- [SUDO Logs](#sudo-logs)
+- [Author Information](#author-information)
+
+## Nextcloud Logs
+
+Nextcloud Application and Audit Logs dashboard.
+
+Log shipper: `promtail`
+
+Log aggregator: `loki`
+
+Grafana dashboard URL: [Dashboard ID 17821](https://grafana.com/grafana/dashboards/17821-nextcloud-log/)
+
+How to use this dashboard is described in blog: [Parsing Nextcloud Audit Logs with Grafana Loki](https://voidquark.com/blog/parsing-nextcloud-audit-logs-with-grafana-loki/).
+
+## PrivateBin Access Logs
+
+Monitoring PrivateBin Application NGINX Access Logs for paste statistics.
+
+Log shipper: `promtail`
+
+Log aggregator: `loki`
+
+Grafana dashboard URL: [Dashboard ID 19507](https://grafana.com/grafana/dashboards/19507-privatebin-access-log/)
+
+How to use this dashboard is described in blog: [PrivateBin NGINX Access Log](https://voidquark.com/blog/privatebin-nginx-access-log-dashboard/).
+
+## Promtail Metrics and Logs
+
+Promtail Metrics and Logs dashboard.
+
+Log shipper: `promtail`
+
+Log aggregator: `loki`
+
+Datasources: `prometheus, loki` (mixed)
+
+Grafana dashboard URL: [Dashboard ID 20881](https://grafana.com/grafana/dashboards/20881-promtail-monitoring-metrics-and-logs/)
+
+How to use this dashboard is described in blog: [Grafana Dashboard for Promtail Metrics and Logs](https://voidquark.com/blog/promtail-grafana-dashboard/).
+
+## SSH Logs
+
+Linux SSH Logs dashboard.
+
+Log shipper: `promtail`
+
+Log aggregator: `loki`
+
+Grafana dashboard URL: [Dashboard ID 17514](https://grafana.com/grafana/dashboards/17514-ssh-logs/)
+
+How to use this dashboard is described in blog: [Parsing SSH Logs with Grafana Loki](https://voidquark.com/blog/parsing-ssh-logs-with-grafana-loki/).
+
+## Global SSH Logs View
+
+Linux Global SSH Logs View dashboard.
+
+Log shipper: `promtail`
+
+Log aggregator: `loki`
+
+Grafana dashboard URL: [Dashboard ID 21750](https://grafana.com/grafana/dashboards/21750-global-ssh-logs-view/)
+
+How to use this dashboard is described in blog: [Global SSH Logs View with Loki](https://voidquark.com/blog/global-ssh-logs-view-with-loki).
+
+## SUDO Logs
+
+Linux SUDO Logs dashboard. Track both accepted and rejected SUDO events.
+
+Log shipper: `promtail`
+
+Log aggregator: `loki`
+
+Grafana dashboard URL: [Dashboard ID 19816](https://grafana.com/grafana/dashboards/19816-sudo-logs-json-version/)
+
+How to use this dashboard is described in blog: [Parsing SUDO Logs with Grafana Loki](https://voidquark.com/blog/parsing-sudo-logs-with-grafana-loki).
+
+## Author Information
+
+Created by [VoidQuark](https://voidquark.com)

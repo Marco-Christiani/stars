@@ -13,13 +13,37 @@
 
 ## Stars by date
 
-Total Stars: <!-- doc-gen STAR_COUNT -->1,337<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->1,343<!-- end-doc-gen -->
 
 <!-- doc-gen ALL_STARS_TABLE -->
 <table>
   <tr>
   <th align="left">Repo</th>
   <th align="center">Starred On</th>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/brentyi/tyro">brentyi/tyro</a><sup><sub> - Python - Oct 05, 2021</sub></sup><br/><sup><sub>Tags: #argparse #argument-parsing #dataclasses</sub></sup><br/>CLI interfaces &amp; config objects, from types. </td>
+  <td><a href="./stars/brentyi/tyro.md">Jan 03, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/jmbuhr/otter.nvim">jmbuhr/otter.nvim</a><sup><sub> - Lua - Dec 20, 2022</sub></sup><br/><sup><sub>Tags: #neovim #nvim #nvim-cmp #nvim-plugin</sub></sup><br/>Just ask an otter! 🦦. </td>
+  <td><a href="./stars/jmbuhr/otter.nvim.md">Jan 01, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/containerd/stargz-snapshotter">containerd/stargz-snapshotter</a><sup><sub> - Go - Oct 08, 2019</sub></sup><br/><sup><sub>Tags: #containerd #containers #docker #docker-image #filesystem</sub></sup><br/>Fast container image distribution plugin with lazy pulling. </td>
+  <td><a href="./stars/containerd/stargz-snapshotter.md">Dec 31, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/jetify-com/devbox">jetify-com/devbox</a><sup><sub> - Go - Aug 18, 2022</sub></sup><br/><sup><sub>Tags: #build-system #build-tool #buildpack #containers #dev-environment #devbox #development-environment #nix #venv<br/>#virtual-environment #virtualization</sub></sup><br/>Instant, easy, and predictable development environments. </td>
+  <td><a href="./stars/jetify-com/devbox.md">Dec 30, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/nix-community/lorri">nix-community/lorri</a><sup><sub> - Rust - Jan 24, 2021</sub></sup><br/>Your project’s nix-env [maintainer=@Profpatsch,@nyarly]. </td>
+  <td><a href="./stars/nix-community/lorri.md">Dec 30, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/NVIDIA/cuda-tile">NVIDIA/cuda-tile</a><sup><sub> - MLIR - Nov 05, 2025</sub></sup><br/>CUDA Tile IR is an MLIR-based intermediate representation and compiler<br/>infrastructure for CUDA kernel optimization, focusing on tile-based<br/>computation patterns and optimizations targeting NVIDIA tensor core units. </td>
+  <td><a href="./stars/NVIDIA/cuda-tile.md">Dec 29, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
   <tr>
   <td><a href="https://github.com/nix-community/nix-direnv">nix-community/nix-direnv</a><sup><sub> - Shell - Sep 27, 2019</sub></sup><br/><sup><sub>Tags: #hacktoberfest #managed-by-renovate #nix-community-buildbot</sub></sup><br/>A fast, persistent use_nix/use_flake implementation for direnv<br/>[maintainer=@Mic92 / @bbenne10]. </td>
@@ -3996,30 +4020,6 @@ Total Stars: <!-- doc-gen STAR_COUNT -->1,337<!-- end-doc-gen -->
   <tr>
   <td><a href="https://github.com/liang2kl/mkdocs-blogging-plugin-example">liang2kl/mkdocs-blogging-plugin-example</a><sup><sub> - HTML - Sep 08, 2021</sub></sup><br/>An example of how to provide a customized template for<br/>mkdocs-blogging-plugin. </td>
   <td><a href="./stars/liang2kl/mkdocs-blogging-plugin-example.md">Sep 25, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/liang2kl/mkdocs-blogging-plugin">liang2kl/mkdocs-blogging-plugin</a><sup><sub> - Python - Sep 07, 2021</sub></sup><br/><sup><sub>Tags: #blog #mkdocs #mkdocs-plugin</sub></sup><br/>Add blogging feature to your MkDocs site. </td>
-  <td><a href="./stars/liang2kl/mkdocs-blogging-plugin.md">Sep 25, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/m-demare/attempt.nvim">m-demare/attempt.nvim</a><sup><sub> - Lua - May 05, 2022</sub></sup><br/><sup><sub>Tags: #lua #neovim #neovim-plugin</sub></sup><br/>Manage temporary buffers. </td>
-  <td><a href="./stars/m-demare/attempt.nvim.md">Sep 24, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/AliHabibnia/ECON_5314G_Big_Data_Economics">AliHabibnia/ECON_5314G_Big_Data_Economics</a><sup><sub> - Jupyter Notebook - Aug 22, 2022</sub></sup><br/>This intermediate applied econometrics course covers the theoretical,<br/>computational, and statistical underpinnings of the big data analysis.<br/>(first taught at Virginia Tech in 2018). </td>
-  <td><a href="./stars/AliHabibnia/ECON_5314G_Big_Data_Economics.md">Sep 24, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Gabri/jupyterlab-lightweight-charts-jesse">Gabri/jupyterlab-lightweight-charts-jesse</a><sup><sub> - Jupyter Notebook - Mar 07, 2022</sub></sup><br/>lightweight-charts integration with jupyterlab, using jesse framework to<br/>import candles and and use indicators but you can do it with other<br/>libraries and sources. </td>
-  <td><a href="./stars/Gabri/jupyterlab-lightweight-charts-jesse.md">Sep 24, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/NathanEpstein/Dora">NathanEpstein/Dora</a><sup><sub> - Python - Feb 16, 2016</sub></sup><br/>Tools for exploratory data analysis in Python. </td>
-  <td><a href="./stars/NathanEpstein/Dora.md">Sep 23, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/arviz-devs/arviz">arviz-devs/arviz</a><sup><sub> - Python - Jul 29, 2015</sub></sup><br/><sup><sub>Tags: #bayesian #closember #python</sub></sup><br/>Exploratory analysis of Bayesian models with Python. </td>
-  <td><a href="./stars/arviz-devs/arviz.md">Sep 23, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
 </table><!-- end-doc-gen -->
 

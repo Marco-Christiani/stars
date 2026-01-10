@@ -13,13 +13,53 @@
 
 ## Stars by date
 
-Total Stars: <!-- doc-gen STAR_COUNT -->1,343<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->1,353<!-- end-doc-gen -->
 
 <!-- doc-gen ALL_STARS_TABLE -->
 <table>
   <tr>
   <th align="left">Repo</th>
   <th align="center">Starred On</th>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/schuelermine/xhmm">schuelermine/xhmm</a><sup><sub> - Nix - Dec 07, 2022</sub></sup><br/>Extra home manager modules. </td>
+  <td><a href="./stars/schuelermine/xhmm.md">Jan 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/nix-community/stylix">nix-community/stylix</a><sup><sub> - Nix - Dec 21, 2020</sub></sup><br/><sup><sub>Tags: #home-manager #nix #nix-darwin #nix-on-droid #nixos #ricing</sub></sup><br/>Theming framework for NixOS, Home Manager, nix-darwin, and Nix-on-Droid<br/>[maintainers=@0xda157, @danth, @trueNAHO]. </td>
+  <td><a href="./stars/nix-community/stylix.md">Jan 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/NotAShelf/nvf">NotAShelf/nvf</a><sup><sub> - Nix - Feb 01, 2023</sub></sup><br/><sup><sub>Tags: #home-manager #neovim #neovim-flake #nix #nix-flake #nixos-module #nvim</sub></sup><br/>Modular, extensible and distro-agnostic Neovim configuration framework for<br/>Nix/NixOS. </td>
+  <td><a href="./stars/NotAShelf/nvf.md">Jan 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/pedramamini/Maestro">pedramamini/Maestro</a><sup><sub> - TypeScript - Nov 23, 2025</sub></sup><br/><sup><sub>Tags: #ai-agents #claude-code #codex #generative-ai #opencode</sub></sup><br/>Agent Orchestration Command Center. </td>
+  <td><a href="./stars/pedramamini/Maestro.md">Jan 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/humanlayer/humanlayer">humanlayer/humanlayer</a><sup><sub> - TypeScript - Aug 05, 2024</sub></sup><br/><sup><sub>Tags: #agents #ai #amp #claude-code #codex #human-in-the-loop #humanlayer #llm #llms #opencode</sub></sup><br/>The best way to get AI coding agents to solve hard problems in complex<br/>codebases. </td>
+  <td><a href="./stars/humanlayer/humanlayer.md">Jan 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/beaver-lodge/beaver">beaver-lodge/beaver</a><sup><sub> - Elixir - Apr 20, 2022</sub></sup><br/><sup><sub>Tags: #compiler #elixir #gpu #mlir #zig</sub></sup><br/>MLIR Toolkit in Elixir and Zig. </td>
+  <td><a href="./stars/beaver-lodge/beaver.md">Jan 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/tomnomnom/gron">tomnomnom/gron</a><sup><sub> - Go - Sep 08, 2012</sub></sup><br/><sup><sub>Tags: #cli #json</sub></sup><br/>Make JSON greppable!. </td>
+  <td><a href="./stars/tomnomnom/gron.md">Jan 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/nix-community/awesome-nix">nix-community/awesome-nix</a><sup><sub> - May 15, 2019</sub></sup><br/><sup><sub>Tags: #awesome #awesome-list #lists #nix #nixos</sub></sup><br/>😎 A curated list of the best resources in the Nix community<br/>[maintainer=@cyntheticfox]. </td>
+  <td><a href="./stars/nix-community/awesome-nix.md">Jan 07, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/andmarti1424/sc-im">andmarti1424/sc-im</a><sup><sub> - C - Oct 30, 2014</sub></sup><br/><sup><sub>Tags: #console #console-application #ncurses #spreadsheet #terminal #terminal-app #vim</sub></sup><br/>sc-im - Spreadsheet Calculator Improvised -- An ncurses spreadsheet program<br/>for terminal. </td>
+  <td><a href="./stars/andmarti1424/sc-im.md">Jan 05, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/argdown/argdown">argdown/argdown</a><sup><sub> - JavaScript - Mar 21, 2014</sub></sup><br/><sup><sub>Tags: #argdown #argument-mapping #argument-maps #grammar #javascript #parse</sub></sup><br/>a simple syntax for complex argumentation. </td>
+  <td><a href="./stars/argdown/argdown.md">Jan 04, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
   <tr>
   <td><a href="https://github.com/brentyi/tyro">brentyi/tyro</a><sup><sub> - Python - Oct 05, 2021</sub></sup><br/><sup><sub>Tags: #argparse #argument-parsing #dataclasses</sub></sup><br/>CLI interfaces &amp; config objects, from types. </td>
@@ -3980,46 +4020,6 @@ Total Stars: <!-- doc-gen STAR_COUNT -->1,343<!-- end-doc-gen -->
   <tr>
   <td><a href="https://github.com/catppuccin/cli">catppuccin/cli</a><sup><sub> - Go - Aug 18, 2022</sub></sup><br/><sup><sub>Tags: #catppuccin #cli #golang #hacktoberfest #meta #theme</sub></sup><br/>🪄 Soothing pastel theme manager (WIP). </td>
   <td><a href="./stars/catppuccin/cli.md">Oct 04, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/kazhala/dotbare">kazhala/dotbare</a><sup><sub> - Shell - Apr 06, 2020</sub></sup><br/><sup><sub>Tags: #bash #bash-script #command-line-tool #config #dotfiles #dotfiles-manager #fzf #fzf-scripts #zsh<br/>#zsh-plugin</sub></sup><br/>Manage dotfiles and any git directories interactively with fzf. </td>
-  <td><a href="./stars/kazhala/dotbare.md">Oct 03, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/abstracthat/dactyl-manuform">abstracthat/dactyl-manuform</a><sup><sub> - Clojure - Apr 09, 2018</sub></sup></td>
-  <td><a href="./stars/abstracthat/dactyl-manuform.md">Oct 02, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/maledorak/dmenu-hotkeys">maledorak/dmenu-hotkeys</a><sup><sub> - Python - Mar 08, 2019</sub></sup><br/><sup><sub>Tags: #bspwm #dmenu #hotkeys #i3 #openbox #python #rofi #tiling-window-manager</sub></sup><br/>View for your hotkeys in rofi/dmenu style. </td>
-  <td><a href="./stars/maledorak/dmenu-hotkeys.md">Sep 27, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/beartype/plum">beartype/plum</a><sup><sub> - Python - Nov 10, 2017</sub></sup><br/><sup><sub>Tags: #multiple-dispatch #python</sub></sup><br/>Multiple dispatch in Python. </td>
-  <td><a href="./stars/beartype/plum.md">Sep 27, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/scitedotai/scite-zotero-plugin">scitedotai/scite-zotero-plugin</a><sup><sub> - TypeScript - Nov 05, 2020</sub></sup><br/>scite zotero plugin. </td>
-  <td><a href="./stars/scitedotai/scite-zotero-plugin.md">Sep 26, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/bwiernik/zotero-shortdoi">bwiernik/zotero-shortdoi</a><sup><sub> - JavaScript - Nov 29, 2017</sub></sup><br/>Zotero extension to retrieve and validate DOIs and shortDOIs. </td>
-  <td><a href="./stars/bwiernik/zotero-shortdoi.md">Sep 26, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/eschnett/zotero-citationcounts">eschnett/zotero-citationcounts</a><sup><sub> - JavaScript - Sep 29, 2020</sub></sup><br/><sup><sub>Tags: #citations #plugin #zotero #zotero-plugin</sub></sup><br/>Zotero plugin for auto-fetching citation counts from various sources. </td>
-  <td><a href="./stars/eschnett/zotero-citationcounts.md">Sep 26, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/kevinhwang91/rnvimr">kevinhwang91/rnvimr</a><sup><sub> - Python - Jan 28, 2020</sub></sup><br/><sup><sub>Tags: #neovim #nvim #nvim-plugin #python #ranger #vim</sub></sup><br/>Make Ranger running in a floating window to communicate with Neovim via RPC. </td>
-  <td><a href="./stars/kevinhwang91/rnvimr.md">Sep 25, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/danielfrg/mkdocs-jupyter">danielfrg/mkdocs-jupyter</a><sup><sub> - Jupyter Notebook - Dec 18, 2019</sub></sup><br/><sup><sub>Tags: #blogging #documentation #jupyter #jupyter-notebook #mkdocs</sub></sup><br/>Use Jupyter Notebook in mkdocs. </td>
-  <td><a href="./stars/danielfrg/mkdocs-jupyter.md">Sep 25, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/liang2kl/mkdocs-blogging-plugin-example">liang2kl/mkdocs-blogging-plugin-example</a><sup><sub> - HTML - Sep 08, 2021</sub></sup><br/>An example of how to provide a customized template for<br/>mkdocs-blogging-plugin. </td>
-  <td><a href="./stars/liang2kl/mkdocs-blogging-plugin-example.md">Sep 25, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
 </table><!-- end-doc-gen -->
 

@@ -13,13 +13,81 @@
 
 ## Stars by date
 
-Total Stars: <!-- doc-gen STAR_COUNT -->1,353<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->1,370<!-- end-doc-gen -->
 
 <!-- doc-gen ALL_STARS_TABLE -->
 <table>
   <tr>
   <th align="left">Repo</th>
   <th align="center">Starred On</th>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/tweag/jupyenv">tweag/jupyenv</a><sup><sub> - Nix - Dec 18, 2018</sub></sup><br/><sup><sub>Tags: #jupyter #jupyter-notebooks #jupyterlab #nix #reproducibility</sub></sup><br/>Declarative and reproducible Jupyter environments - powered by Nix. </td>
+  <td><a href="./stars/tweag/jupyenv.md">Jan 17, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/dundee/gdu">dundee/gdu</a><sup><sub> - Go - Feb 24, 2018</sub></sup><br/><sup><sub>Tags: #cli #disk-usage #filesystem #golang #hacktoberfest</sub></sup><br/>Fast disk usage analyzer with console interface written in Go. </td>
+  <td><a href="./stars/dundee/gdu.md">Jan 17, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/viktomas/godu">viktomas/godu</a><sup><sub> - Go - Dec 31, 2016</sub></sup><br/><sup><sub>Tags: #disk-cleaner #disk-space #golang</sub></sup><br/>Simple golang utility helping to discover large files/folders. </td>
+  <td><a href="./stars/viktomas/godu.md">Jan 17, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/Byron/dua-cli">Byron/dua-cli</a><sup><sub> - Rust - May 29, 2019</sub></sup><br/><sup><sub>Tags: #cleaner #disk #efficient #fast #space-use #terminal-based</sub></sup><br/>View disk space usage and delete unwanted data, fast. </td>
+  <td><a href="./stars/Byron/dua-cli.md">Jan 17, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/hpjansson/chafa">hpjansson/chafa</a><sup><sub> - C - Apr 24, 2018</sub></sup><br/><sup><sub>Tags: #ansi #cli #graphics #graphics-library #image-processing #image-viewer #images #iterm2 #kitty #powershell #sixel<br/>#terminal #terminal-based #terminal-graphics</sub></sup><br/>📺🗿 Terminal graphics for the 21st century. </td>
+  <td><a href="./stars/hpjansson/chafa.md">Jan 17, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/BloopAI/vibe-kanban">BloopAI/vibe-kanban</a><sup><sub> - Rust - Jun 14, 2025</sub></sup><br/><sup><sub>Tags: #agent #ai-agents #kanban #management #task-manager</sub></sup><br/>Get 10X more out of Claude Code, Codex or any coding agent. </td>
+  <td><a href="./stars/BloopAI/vibe-kanban.md">Jan 17, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/andir/npins">andir/npins</a><sup><sub> - Rust - Jul 31, 2021</sub></sup><br/>Nix dependency pinning. Very similar to Niv but has a few features that I<br/>personally wanted. </td>
+  <td><a href="./stars/andir/npins.md">Jan 16, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/Jas-SinghFSU/HyprPanel">Jas-SinghFSU/HyprPanel</a><sup><sub> - TypeScript - Jun 09, 2024</sub></sup><br/><sup><sub>Tags: #ags #astal #catppuccin #dracula #everforest #gjs #gruvbox #gtk3 #hyprland #linux #nord #onedark #rose-pine #setup<br/>#shell #tokyonight #unix #unixporn</sub></sup><br/>A Bar/Panel for Hyprland with extensive customizability. </td>
+  <td><a href="./stars/Jas-SinghFSU/HyprPanel.md">Jan 15, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/Misterio77/nix-colors">Misterio77/nix-colors</a><sup><sub> - Nix - Oct 01, 2021</sub></sup><br/><sup><sub>Tags: #base16 #colorschemes #nix</sub></sup><br/>Modules and schemes to make theming with Nix awesome. </td>
+  <td><a href="./stars/Misterio77/nix-colors.md">Jan 15, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/pfassina/lazyvim-nix">pfassina/lazyvim-nix</a><sup><sub> - Nix - Jul 19, 2025</sub></sup><br/>This flake provides a bleeding edge LazyVim  home-manager module, allowing<br/>you to install and configure LazyVim declaratively on NixOS. It tracks<br/>LazyVim releases automatically, and uses the latest plugin versions at the<br/>time of a LazyVim release. </td>
+  <td><a href="./stars/pfassina/lazyvim-nix.md">Jan 15, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/joelreymont/dots">joelreymont/dots</a><sup><sub> - Zig - Dec 24, 2025</sub></sup><br/>Connect the dots - minimal task tracker in Zig. </td>
+  <td><a href="./stars/joelreymont/dots.md">Jan 14, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/joelreymont/banjo">joelreymont/banjo</a><sup><sub> - Zig - Dec 24, 2025</sub></sup><br/>Zig implementation of Claude Code ACP adapter for Zed. </td>
+  <td><a href="./stars/joelreymont/banjo.md">Jan 14, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/apache/tvm-ffi">apache/tvm-ffi</a><sup><sub> - C++ - Sep 13, 2025</sub></sup><br/><sup><sub>Tags: #ffi #gpu #machine-learning</sub></sup><br/>Open ABI and FFI for Machine Learning Systems. </td>
+  <td><a href="./stars/apache/tvm-ffi.md">Jan 13, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/max-sixty/worktrunk">max-sixty/worktrunk</a><sup><sub> - Rust - Oct 17, 2025</sub></sup><br/><sup><sub>Tags: #agents #claude-code #codex #developer-tools #git #worktrees</sub></sup><br/>Worktrunk is a CLI for Git worktree management, designed for parallel AI<br/>agent workflows. </td>
+  <td><a href="./stars/max-sixty/worktrunk.md">Jan 13, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/nix-community/nix-index-database">nix-community/nix-index-database</a><sup><sub> - Nix - Dec 09, 2020</sub></sup><br/>Weekly updated nix-index database [maintainer=@Mic92]. </td>
+  <td><a href="./stars/nix-community/nix-index-database.md">Jan 12, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/nix-community/comma">nix-community/comma</a><sup><sub> - Rust - Apr 28, 2020</sub></sup><br/><sup><sub>Tags: #nix #nixos</sub></sup><br/>Comma runs software without installing it. [maintainers=@Artturin,@burke,<br/>@DavHau]. </td>
+  <td><a href="./stars/nix-community/comma.md">Jan 12, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/nix-community/nix-ld">nix-community/nix-ld</a><sup><sub> - Rust - Nov 15, 2020</sub></sup><br/><sup><sub>Tags: #build-with-buildbot #managed-by-renovate</sub></sup><br/>Run unpatched dynamic binaries on NixOS [maintainer=@Mic92]. </td>
+  <td><a href="./stars/nix-community/nix-ld.md">Jan 11, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
   <tr>
   <td><a href="https://github.com/schuelermine/xhmm">schuelermine/xhmm</a><sup><sub> - Nix - Dec 07, 2022</sub></sup><br/>Extra home manager modules. </td>
@@ -120,6 +188,10 @@ Total Stars: <!-- doc-gen STAR_COUNT -->1,353<!-- end-doc-gen -->
   <tr>
   <td><a href="https://github.com/DeveloperPaul123/modern-cv">DeveloperPaul123/modern-cv</a><sup><sub> - Typst - Mar 22, 2024</sub></sup><br/><sup><sub>Tags: #awesome-cv #clean #cover-letter #cover-letter-template #cover-letter-templates #cv #modern #resume #resume-template<br/>#resume-templates #typst #typst-cv #typst-template</sub></sup><br/>A modern resume template written in Typst, inspired by Awesome-CV. </td>
   <td><a href="./stars/DeveloperPaul123/modern-cv.md">Dec 19, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/ptsouchlos/modern-cv">ptsouchlos/modern-cv</a><sup><sub> - Typst - Mar 22, 2024</sub></sup><br/><sup><sub>Tags: #awesome-cv #clean #cover-letter #cover-letter-template #cover-letter-templates #cv #modern #resume #resume-template<br/>#resume-templates #typst #typst-cv #typst-template</sub></sup><br/>A modern resume template written in Typst, inspired by Awesome-CV. </td>
+  <td><a href="./stars/ptsouchlos/modern-cv.md">Dec 19, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
   <tr>
   <td><a href="https://github.com/Dao-AILab/quack">Dao-AILab/quack</a><sup><sub> - Python - May 20, 2025</sub></sup><br/>A Quirky Assortment of CuTe Kernels. </td>
@@ -3948,78 +4020,6 @@ Total Stars: <!-- doc-gen STAR_COUNT -->1,353<!-- end-doc-gen -->
   <tr>
   <td><a href="https://github.com/OpenSourceAP/CrossSection">OpenSourceAP/CrossSection</a><sup><sub> - Python - May 08, 2020</sub></sup><br/><sup><sub>Tags: #asset-pricing #finance #quantitative-finance #reproducible-research #stocks</sub></sup><br/>Code to accompany our paper Chen and Zimmermann (2020), &quot;Open source<br/>cross-sectional asset pricing&quot;. </td>
   <td><a href="./stars/OpenSourceAP/CrossSection.md">Oct 12, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Heerozh/spectre">Heerozh/spectre</a><sup><sub> - Python - Oct 08, 2019</sub></sup><br/><sup><sub>Tags: #algorithmic-trading #backtester #backtesting #factor-analysis #quantitative-analysis #spectre</sub></sup><br/>GPU-accelerated Factors analysis library and Backtester. </td>
-  <td><a href="./stars/Heerozh/spectre.md">Oct 12, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/muety/wakapi">muety/wakapi</a><sup><sub> - Go - May 21, 2019</sub></sup><br/><sup><sub>Tags: #coding-statistics #developer-tools #productivity #self-hosted #time-tracker #wakatime #wakatime-api</sub></sup><br/>📊 A minimalist, self-hosted WakaTime-compatible backend for coding<br/>statistics. </td>
-  <td><a href="./stars/muety/wakapi.md">Oct 11, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/johannesjo/super-productivity">johannesjo/super-productivity</a><sup><sub> - TypeScript - Jan 06, 2017</sub></sup><br/><sup><sub>Tags: #electron-app #hacktoberfest #hacktoberfest2022 #jira #linux #macos #productivity #task-manager #time-tracker<br/>#timetracking #to-do-list #todo</sub></sup><br/>Super Productivity is an advanced todo list app with integrated Timeboxing<br/>and time tracking capabilities. It also comes with integrations for Jira,<br/>GitLab, GitHub and Open Project. </td>
-  <td><a href="./stars/johannesjo/super-productivity.md">Oct 11, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ActivityWatch/activitywatch">ActivityWatch/activitywatch</a><sup><sub> - Python - Apr 27, 2016</sub></sup><br/><sup><sub>Tags: #activitywatch #afk #analytics #app #cross-platform #dashboard #productivity #quantified-self #time-tracker<br/>#time-tracking #timetracker #timetracking</sub></sup><br/>The best free and open-source automated time tracker. Cross-platform,<br/>extensible, privacy-focused. </td>
-  <td><a href="./stars/ActivityWatch/activitywatch.md">Oct 11, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/AliHabibnia/CMDA_4984_Data_Science_for_Quantitative_Finance">AliHabibnia/CMDA_4984_Data_Science_for_Quantitative_Finance</a><sup><sub> - Jupyter Notebook - Oct 08, 2022</sub></sup><br/>This course in applied data science covers the theoretical foundations of<br/>advanced quantitative approaches in machine learning, econometrics, risk<br/>and portfolio management, algorithmic trading, and financial forecasting.<br/>(first taught at Virginia Tech in 2019). </td>
-  <td><a href="./stars/AliHabibnia/CMDA_4984_Data_Science_for_Quantitative_Finance.md">Oct 09, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/jorgebucaran/fisher">jorgebucaran/fisher</a><sup><sub> - Shell - Sep 24, 2015</sub></sup><br/><sup><sub>Tags: #fish #fish-plugin #plugin-manager</sub></sup><br/>A plugin manager for Fish. </td>
-  <td><a href="./stars/jorgebucaran/fisher.md">Oct 08, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/jorgebucaran/awsm.fish">jorgebucaran/awsm.fish</a><sup><sub> - Oct 13, 2015</sub></sup><br/><sup><sub>Tags: #awesome #fish #fish-plugin</sub></sup><br/>A curation of prompts, plugins &amp; other Fish treasures 🐚💎. </td>
-  <td><a href="./stars/jorgebucaran/awsm.fish.md">Oct 08, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/lucc/khard">lucc/khard</a><sup><sub> - Python - Sep 22, 2014</sub></sup><br/><sup><sub>Tags: #address-book #cli #vcard</sub></sup><br/>Console vcard client. </td>
-  <td><a href="./stars/lucc/khard.md">Oct 07, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/pimutils/vdirsyncer">pimutils/vdirsyncer</a><sup><sub> - Python - Feb 15, 2014</sub></sup><br/><sup><sub>Tags: #caldav #calendar #carddav #cli #contacts #icalendar #pim #python #sync #synchronisation #tasks #todo #vcard #vevent<br/>#vobject #vtodo #webdav</sub></sup><br/>📇 Synchronize calendars and contacts. </td>
-  <td><a href="./stars/pimutils/vdirsyncer.md">Oct 07, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/bclnr/kb-layout-evaluation">bclnr/kb-layout-evaluation</a><sup><sub> - Python - Mar 22, 2020</sub></sup><br/><sup><sub>Tags: #colemak #dvorak #ergo #ergonomic-keyboard #ergonomics #keyboard #keyboard-layout</sub></sup><br/>Evaluate ergonomic keyboard layouts over multiple languages. </td>
-  <td><a href="./stars/bclnr/kb-layout-evaluation.md">Oct 07, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/joshuabragge/keyboard-analysis-tools">joshuabragge/keyboard-analysis-tools</a><sup><sub> - Python - Dec 16, 2018</sub></sup></td>
-  <td><a href="./stars/joshuabragge/keyboard-analysis-tools.md">Oct 07, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/bstiq/dactyl-manuform-mini-keyboard">bstiq/dactyl-manuform-mini-keyboard</a><sup><sub> - Clojure - May 18, 2019</sub></sup><br/>Dactyl manuform mini with USB C and thick top plate. </td>
-  <td><a href="./stars/bstiq/dactyl-manuform-mini-keyboard.md">Oct 06, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/dereknheiley/compactyl">dereknheiley/compactyl</a><sup><sub> - Clojure - Dec 18, 2020</sub></sup></td>
-  <td><a href="./stars/dereknheiley/compactyl.md">Oct 06, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sitiom/nvim-numbertoggle">sitiom/nvim-numbertoggle</a><sup><sub> - Lua - Jul 04, 2022</sub></sup><br/><sup><sub>Tags: #line-numbers #lua #neovim #neovim-plugin #nvim</sub></sup><br/>Neovim plugin to automatically toggle between relative and absolute line<br/>numbers. Written in Lua. </td>
-  <td><a href="./stars/sitiom/nvim-numbertoggle.md">Oct 06, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/nickcoutsos/keymap-editor">nickcoutsos/keymap-editor</a><sup><sub> - JavaScript - May 03, 2021</sub></sup><br/><sup><sub>Tags: #configurator #editor #gui #keymap-editor #zmk</sub></sup><br/>A web based graphical editor of ZMK keymaps. </td>
-  <td><a href="./stars/nickcoutsos/keymap-editor.md">Oct 05, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Aylur/gnome-extensions">Aylur/gnome-extensions</a><sup><sub> - TypeScript - Sep 08, 2022</sub></sup><br/><sup><sub>Tags: #gnome-extension #gnome-shell #gnome-shell-extension</sub></sup><br/>Gnome Extensions. </td>
-  <td><a href="./stars/Aylur/gnome-extensions.md">Oct 05, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Aylur/dotfiles">Aylur/dotfiles</a><sup><sub> - Nix - Jun 12, 2022</sub></sup><br/><sup><sub>Tags: #dotfiles #linux</sub></sup><br/>My personal config files. </td>
-  <td><a href="./stars/Aylur/dotfiles.md">Oct 05, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/catppuccin/cli">catppuccin/cli</a><sup><sub> - Go - Aug 18, 2022</sub></sup><br/><sup><sub>Tags: #catppuccin #cli #golang #hacktoberfest #meta #theme</sub></sup><br/>🪄 Soothing pastel theme manager (WIP). </td>
-  <td><a href="./stars/catppuccin/cli.md">Oct 04, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
 </table><!-- end-doc-gen -->
 

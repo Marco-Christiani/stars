@@ -13,13 +13,41 @@
 
 ## Stars by date
 
-Total Stars: <!-- doc-gen STAR_COUNT -->1,370<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->1,377<!-- end-doc-gen -->
 
 <!-- doc-gen ALL_STARS_TABLE -->
 <table>
   <tr>
   <th align="left">Repo</th>
   <th align="center">Starred On</th>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/microvm-nix/microvm.nix">microvm-nix/microvm.nix</a><sup><sub> - Nix - Jun 24, 2021</sub></sup><br/><sup><sub>Tags: #cloud-hypervisor #crosvm #firecracker #flake #flakes #kvmtool #microvm #microvms #nix #nix-flake #nixos #qemu<br/>#virtualization</sub></sup><br/>NixOS MicroVMs. </td>
+  <td><a href="./stars/microvm-nix/microvm.nix.md">Jan 23, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/chomosuke/typst-preview.nvim">chomosuke/typst-preview.nvim</a><sup><sub> - Lua - Nov 01, 2023</sub></sup><br/><sup><sub>Tags: #lua #neovim #neovim-lua #neovim-plugin #nvim #nvim-lua #nvim-plugin</sub></sup><br/>Low latency typst preview for Neovim. </td>
+  <td><a href="./stars/chomosuke/typst-preview.nvim.md">Jan 21, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/pionxzh/chatgpt-exporter">pionxzh/chatgpt-exporter</a><sup><sub> - TypeScript - Dec 05, 2022</sub></sup><br/><sup><sub>Tags: #ai #chatgpt #exporter #markdown #tampermonkey #userscript</sub></sup><br/>Export and Share your ChatGPT conversation history. </td>
+  <td><a href="./stars/pionxzh/chatgpt-exporter.md">Jan 20, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/Zaloog/kanban-tui">Zaloog/kanban-tui</a><sup><sub> - Python - Aug 20, 2024</sub></sup><br/><sup><sub>Tags: #claude-skills #jira #kanban #python #task-manager #terminal #textual #tui</sub></sup><br/>Task Manager with a TUI written in Python and usable by agents. </td>
+  <td><a href="./stars/Zaloog/kanban-tui.md">Jan 20, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/Syllo/nvtop">Syllo/nvtop</a><sup><sub> - C - Jun 16, 2017</sub></sup><br/><sup><sub>Tags: #adreno #amd #apple #ascend #command-line-tool #gpu #huawei #intel #linux #monitoring #ncurses #nvidia</sub></sup><br/>GPU &amp; Accelerator process monitoring for AMD, Apple, Huawei, Intel,<br/>NVIDIA and Qualcomm. </td>
+  <td><a href="./stars/Syllo/nvtop.md">Jan 20, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/panter-dsd/tatuin">panter-dsd/tatuin</a><sup><sub> - Rust - Apr 12, 2025</sub></sup><br/><sup><sub>Tags: #caldav #caldav-client #github-issues #gitlab-todos #ical #icalendar #obsidian #task-manager #todoist #tui</sub></sup><br/>Tatuin (Task Aggregator TUI for N providers). </td>
+  <td><a href="./stars/panter-dsd/tatuin.md">Jan 20, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/anufrievroman/calcure">anufrievroman/calcure</a><sup><sub> - Python - Nov 29, 2020</sub></sup><br/><sup><sub>Tags: #calendar #python #python3 #task-manager #terminal #todo #tui</sub></sup><br/>Modern TUI calendar and task manager with minimal and customizable UI. </td>
+  <td><a href="./stars/anufrievroman/calcure.md">Jan 20, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
   <tr>
   <td><a href="https://github.com/tweag/jupyenv">tweag/jupyenv</a><sup><sub> - Nix - Dec 18, 2018</sub></sup><br/><sup><sub>Tags: #jupyter #jupyter-notebooks #jupyterlab #nix #reproducibility</sub></sup><br/>Declarative and reproducible Jupyter environments - powered by Nix. </td>
@@ -3992,34 +4020,6 @@ Total Stars: <!-- doc-gen STAR_COUNT -->1,370<!-- end-doc-gen -->
   <tr>
   <td><a href="https://github.com/Instagram/MonkeyType">Instagram/MonkeyType</a><sup><sub> - Python - Jul 11, 2017</sub></sup><br/>A Python library that generates static type annotations by collecting<br/>runtime types. </td>
   <td><a href="./stars/Instagram/MonkeyType.md">Oct 14, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/DopplerHQ/awesome-interview-questions">DopplerHQ/awesome-interview-questions</a><sup><sub> - Nov 28, 2015</sub></sup><br/><sup><sub>Tags: #android-interview-questions #angularjs-interview-questions #awesome #awesome-list #awesomeness #interview-practice<br/>#interview-questions #interviewing #javascript #javascript-interview-questions #list #python-interview-questions #rails-interview<br/>#ruby</sub></sup><br/>:octocat: A curated awesome list of lists of interview questions. Feel free<br/>to contribute! :mortar_board:. </td>
-  <td><a href="./stars/DopplerHQ/awesome-interview-questions.md">Oct 14, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/jaywcjlove/awesome-mac">jaywcjlove/awesome-mac</a><sup><sub> - JavaScript - Jul 17, 2016</sub></sup><br/><sup><sub>Tags: #app #apple #application #apps #awesome #awesome-list #awesome-lists #awesome-mac #desktop-app #desktop-application<br/>#desktop-apps #list #mac #mac-osx #macos #macos-app #macos-apps #macosx #software</sub></sup><br/> Now we have become very big, Different from the original idea. Collect<br/>premium software in various categories. </td>
-  <td><a href="./stars/jaywcjlove/awesome-mac.md">Oct 14, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/vinta/awesome-python">vinta/awesome-python</a><sup><sub> - Python - Jun 27, 2014</sub></sup><br/><sup><sub>Tags: #awesome #collections #python #python-framework #python-library #python-resources</sub></sup><br/>An opinionated list of awesome Python frameworks, libraries, software and<br/>resources. </td>
-  <td><a href="./stars/vinta/awesome-python.md">Oct 14, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ColinKennedy/vim-python-function-expander">ColinKennedy/vim-python-function-expander</a><sup><sub> - Python - Nov 03, 2018</sub></sup><br/>A Vim plugin that writes Python call signatures for you. </td>
-  <td><a href="./stars/ColinKennedy/vim-python-function-expander.md">Oct 12, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/romgrk/todoist.nvim">romgrk/todoist.nvim</a><sup><sub> - JavaScript - May 22, 2020</sub></sup><br/><sup><sub>Tags: #neovim #neovim-plugin #todoist #vim #vim-plugin</sub></sup><br/>A todoist extension for neovim. </td>
-  <td><a href="./stars/romgrk/todoist.nvim.md">Oct 12, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/liuchengxu/vim-clap">liuchengxu/vim-clap</a><sup><sub> - Rust - Sep 28, 2019</sub></sup><br/><sup><sub>Tags: #floating-window #fuzzy-finder #nvim #popup #rust #vim #vim-clap</sub></sup><br/>:clap: Modern performant fuzzy picker, tree-sitter highlighting, and more,<br/>for both Vim and NeoVim. </td>
-  <td><a href="./stars/liuchengxu/vim-clap.md">Oct 12, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/OpenSourceAP/CrossSection">OpenSourceAP/CrossSection</a><sup><sub> - Python - May 08, 2020</sub></sup><br/><sup><sub>Tags: #asset-pricing #finance #quantitative-finance #reproducible-research #stocks</sub></sup><br/>Code to accompany our paper Chen and Zimmermann (2020), &quot;Open source<br/>cross-sectional asset pricing&quot;. </td>
-  <td><a href="./stars/OpenSourceAP/CrossSection.md">Oct 12, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
 </table><!-- end-doc-gen -->
 

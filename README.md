@@ -13,13 +13,29 @@
 
 ## Stars by date
 
-Total Stars: <!-- doc-gen STAR_COUNT -->1,377<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->1,381<!-- end-doc-gen -->
 
 <!-- doc-gen ALL_STARS_TABLE -->
 <table>
   <tr>
   <th align="left">Repo</th>
   <th align="center">Starred On</th>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/tobi/qmd">tobi/qmd</a><sup><sub> - TypeScript - Dec 08, 2025</sub></sup><br/>mini cli search engine for your docs, knowledge bases, meeting notes,<br/>whatever. Tracking current sota approaches while being all local. </td>
+  <td><a href="./stars/tobi/qmd.md">Jan 30, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/martanne/dvtm">martanne/dvtm</a><sup><sub> - C - Nov 15, 2014</sub></sup><br/>dvtm brings the concept of tiling window management, popularized by<br/>X11-window managers like dwm to the console. As a console window manager it<br/>tries to make it easy to work with multiple console based programs. </td>
+  <td><a href="./stars/martanne/dvtm.md">Jan 25, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/neurosnap/zmx">neurosnap/zmx</a><sup><sub> - Zig - Oct 10, 2025</sub></sup><br/><sup><sub>Tags: #ghostty #session-persistence #tmux #zig</sub></sup><br/>Session persistence for terminal processes. </td>
+  <td><a href="./stars/neurosnap/zmx.md">Jan 25, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/Veraticus/nix-config">Veraticus/nix-config</a><sup><sub> - Nix - Apr 28, 2023</sub></sup></td>
+  <td><a href="./stars/Veraticus/nix-config.md">Jan 25, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
   <tr>
   <td><a href="https://github.com/microvm-nix/microvm.nix">microvm-nix/microvm.nix</a><sup><sub> - Nix - Jun 24, 2021</sub></sup><br/><sup><sub>Tags: #cloud-hypervisor #crosvm #firecracker #flake #flakes #kvmtool #microvm #microvms #nix #nix-flake #nixos #qemu<br/>#virtualization</sub></sup><br/>NixOS MicroVMs. </td>
@@ -4004,22 +4020,6 @@ Total Stars: <!-- doc-gen STAR_COUNT -->1,377<!-- end-doc-gen -->
   <tr>
   <td><a href="https://github.com/httpie/cli">httpie/cli</a><sup><sub> - Python - Feb 25, 2012</sub></sup><br/><sup><sub>Tags: #api #api-client #api-testing #cli #client #curl #debugging #developer-tools #development #devops #http #http-client<br/>#httpie #json #python #rest #rest-api #terminal #usability #web</sub></sup><br/>🥧 HTTPie CLI  — modern, user-friendly command-line HTTP client for the API<br/>era. JSON support, colors, sessions, downloads, plugins &amp; more. </td>
   <td><a href="./stars/httpie/cli.md">Oct 15, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mgaitan/pytest-line-profiler">mgaitan/pytest-line-profiler</a><sup><sub> - Python - Apr 22, 2021</sub></sup><br/>Profile code executed by pytest, line by line. </td>
-  <td><a href="./stars/mgaitan/pytest-line-profiler.md">Oct 14, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/carlosperate/awesome-pyproject">carlosperate/awesome-pyproject</a><sup><sub> - Dec 09, 2019</sub></sup><br/><sup><sub>Tags: #awesome #awesome-list #hacktoberfest #pyproject #python</sub></sup><br/>An Awesome List of projects using the pyproject.toml Python configuration<br/>file. </td>
-  <td><a href="./stars/carlosperate/awesome-pyproject.md">Oct 14, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/dropbox/pyannotate">dropbox/pyannotate</a><sup><sub> - Python - Nov 13, 2017</sub></sup><br/>Auto-generate PEP-484 annotations. </td>
-  <td><a href="./stars/dropbox/pyannotate.md">Oct 14, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Instagram/MonkeyType">Instagram/MonkeyType</a><sup><sub> - Python - Jul 11, 2017</sub></sup><br/>A Python library that generates static type annotations by collecting<br/>runtime types. </td>
-  <td><a href="./stars/Instagram/MonkeyType.md">Oct 14, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
 </table><!-- end-doc-gen -->
 

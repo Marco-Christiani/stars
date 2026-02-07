@@ -13,13 +13,29 @@
 
 ## Stars by date
 
-Total Stars: <!-- doc-gen STAR_COUNT -->1,381<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->1,385<!-- end-doc-gen -->
 
 <!-- doc-gen ALL_STARS_TABLE -->
 <table>
   <tr>
   <th align="left">Repo</th>
   <th align="center">Starred On</th>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/uwsampl/SparseTIR">uwsampl/SparseTIR</a><sup><sub> - Python - Mar 10, 2022</sub></sup><br/><sup><sub>Tags: #compiler #sparse #tensor-compiler</sub></sup><br/>SparseTIR: Sparse Tensor Compiler for Deep Learning. </td>
+  <td><a href="./stars/uwsampl/SparseTIR.md">Feb 05, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/suren-atoyan/excalidraw-zig">suren-atoyan/excalidraw-zig</a><sup><sub> - Zig - Jan 28, 2026</sub></sup><br/>Zig experiment - desktop excalidraw built with zig. </td>
+  <td><a href="./stars/suren-atoyan/excalidraw-zig.md">Feb 02, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/poteto/hiring-without-whiteboards">poteto/hiring-without-whiteboards</a><sup><sub> - JavaScript - Mar 15, 2017</sub></sup><br/><sup><sub>Tags: #airtable #hiring #hiring-without-whiteboards #interview #jobs #tech #whiteboard</sub></sup><br/>⭐️  Companies that don&#039;t have a broken hiring process. </td>
+  <td><a href="./stars/poteto/hiring-without-whiteboards.md">Feb 02, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/nix-community/nixos-facter">nix-community/nixos-facter</a><sup><sub> - Go - Jun 12, 2024</sub></sup><br/><sup><sub>Tags: #nix #nix-community-buildbot #nixos</sub></sup><br/>Declarative hardware configuration for NixOS [maintainer=@brianmcgee,<br/>@Mic92]. </td>
+  <td><a href="./stars/nix-community/nixos-facter.md">Feb 01, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
   <tr>
   <td><a href="https://github.com/tobi/qmd">tobi/qmd</a><sup><sub> - TypeScript - Dec 08, 2025</sub></sup><br/>mini cli search engine for your docs, knowledge bases, meeting notes,<br/>whatever. Tracking current sota approaches while being all local. </td>
@@ -4004,22 +4020,6 @@ Total Stars: <!-- doc-gen STAR_COUNT -->1,381<!-- end-doc-gen -->
   <tr>
   <td><a href="https://github.com/declancm/maximize.nvim">declancm/maximize.nvim</a><sup><sub> - Lua - May 04, 2022</sub></sup><br/><sup><sub>Tags: #lua #maximize #neovim #nvim #plugin #vim</sub></sup><br/>Maximize window splits. A Neovim plugin written in Lua!. </td>
   <td><a href="./stars/declancm/maximize.nvim.md">Oct 18, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/declancm/windex.nvim">declancm/windex.nvim</a><sup><sub> - Lua - Mar 23, 2022</sub></sup><br/><sup><sub>Tags: #lua #neovim #nvim #plugin #tmux #vim</sub></sup><br/>🧼 Clean window maximizing, terminal toggling, window/tmux pane movements<br/>and more!. </td>
-  <td><a href="./stars/declancm/windex.nvim.md">Oct 18, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/nvim-pack/nvim-spectre">nvim-pack/nvim-spectre</a><sup><sub> - Lua - Mar 28, 2021</sub></sup><br/>Find the enemy and replace them with dark power. </td>
-  <td><a href="./stars/nvim-pack/nvim-spectre.md">Oct 17, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/joblib/joblib">joblib/joblib</a><sup><sub> - Python - May 07, 2010</sub></sup><br/><sup><sub>Tags: #caching #memoization #multiprocessing #parallel-computing #python #threading</sub></sup><br/>Computing with Python functions. </td>
-  <td><a href="./stars/joblib/joblib.md">Oct 16, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/httpie/cli">httpie/cli</a><sup><sub> - Python - Feb 25, 2012</sub></sup><br/><sup><sub>Tags: #api #api-client #api-testing #cli #client #curl #debugging #developer-tools #development #devops #http #http-client<br/>#httpie #json #python #rest #rest-api #terminal #usability #web</sub></sup><br/>🥧 HTTPie CLI  — modern, user-friendly command-line HTTP client for the API<br/>era. JSON support, colors, sessions, downloads, plugins &amp; more. </td>
-  <td><a href="./stars/httpie/cli.md">Oct 15, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
 </table><!-- end-doc-gen -->
 

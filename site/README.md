@@ -13,13 +13,25 @@
 
 ## Stars by date
 
-Total Stars: <!-- doc-gen STAR_COUNT -->1,385<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->1,388<!-- end-doc-gen -->
 
 <!-- doc-gen ALL_STARS_TABLE -->
 <table>
   <tr>
   <th align="left">Repo</th>
   <th align="center">Starred On</th>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/numtide/llm-agents.nix">numtide/llm-agents.nix</a><sup><sub> - Nix - Jul 18, 2025</sub></sup><br/><sup><sub>Tags: #buildbot-numtide</sub></sup><br/>Nix packages for AI coding agents and development tools. Automatically<br/>updated daily. </td>
+  <td><a href="./stars/numtide/llm-agents.nix.md">Feb 09, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/Yuyz0112/claude-code-reverse">Yuyz0112/claude-code-reverse</a><sup><sub> - JavaScript - Feb 25, 2025</sub></sup><br/>A Tool to Visualize Claude Code&#039;s LLM Interactions. </td>
+  <td><a href="./stars/Yuyz0112/claude-code-reverse.md">Feb 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/eyaltoledano/claude-task-master">eyaltoledano/claude-task-master</a><sup><sub> - JavaScript - Mar 04, 2025</sub></sup><br/><sup><sub>Tags: #ai #cursor #cursor-ai #cursorai #lovable #lovable-dev #roocode #task-manager #tasks #tasks-list #windsurf<br/>#windsurf-ai</sub></sup><br/>An AI-powered task-management system you can drop into Cursor, Lovable,<br/>Windsurf, Roo, and others. </td>
+  <td><a href="./stars/eyaltoledano/claude-task-master.md">Feb 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
   <tr>
   <td><a href="https://github.com/uwsampl/SparseTIR">uwsampl/SparseTIR</a><sup><sub> - Python - Mar 10, 2022</sub></sup><br/><sup><sub>Tags: #compiler #sparse #tensor-compiler</sub></sup><br/>SparseTIR: Sparse Tensor Compiler for Deep Learning. </td>
@@ -160,6 +172,10 @@ Total Stars: <!-- doc-gen STAR_COUNT -->1,385<!-- end-doc-gen -->
   <tr>
   <td><a href="https://github.com/NotAShelf/nvf">NotAShelf/nvf</a><sup><sub> - Nix - Feb 01, 2023</sub></sup><br/><sup><sub>Tags: #home-manager #neovim #neovim-flake #nix #nix-flake #nixos-module #nvim</sub></sup><br/>Modular, extensible and distro-agnostic Neovim configuration framework for<br/>Nix/NixOS. </td>
   <td><a href="./stars/NotAShelf/nvf.md">Jan 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/RunMaestro/Maestro">RunMaestro/Maestro</a><sup><sub> - TypeScript - Nov 23, 2025</sub></sup><br/><sup><sub>Tags: #ai-agents #claude-code #codex #generative-ai #opencode</sub></sup><br/>Agent Orchestration Command Center. </td>
+  <td><a href="./stars/RunMaestro/Maestro.md">Jan 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
   <tr>
   <td><a href="https://github.com/pedramamini/Maestro">pedramamini/Maestro</a><sup><sub> - TypeScript - Nov 23, 2025</sub></sup><br/><sup><sub>Tags: #ai-agents #claude-code #codex #generative-ai #opencode</sub></sup><br/>Agent Orchestration Command Center. </td>
@@ -4004,22 +4020,6 @@ Total Stars: <!-- doc-gen STAR_COUNT -->1,385<!-- end-doc-gen -->
   <tr>
   <td><a href="https://github.com/quantopian/quantopian-algos">quantopian/quantopian-algos</a><sup><sub> - Python - Nov 12, 2012</sub></sup><br/>Library of algorithm scripts for Quantopian. </td>
   <td><a href="./stars/quantopian/quantopian-algos.md">Oct 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/quantopian/research_public">quantopian/research_public</a><sup><sub> - Jupyter Notebook - Feb 26, 2015</sub></sup><br/>Quantitative research and educational materials. </td>
-  <td><a href="./stars/quantopian/research_public.md">Oct 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/gaphor/gaphor">gaphor/gaphor</a><sup><sub> - Python - Jun 24, 2009</sub></sup><br/><sup><sub>Tags: #c4model #diagram #fta #gnome #gtk #mbse #model-based-systems-engineering #modeling #python #stpa #sysml<br/>#uml</sub></sup><br/>Gaphor is the simple modeling tool. </td>
-  <td><a href="./stars/gaphor/gaphor.md">Oct 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/fbdesignpro/sweetviz">fbdesignpro/sweetviz</a><sup><sub> - Python - May 09, 2020</sub></sup><br/><sup><sub>Tags: #data-analysis #data-exploration #data-profiling #data-science #data-visualization #eda #exploration<br/>#exploratory-data-analysis #machine-learning #pandas #pandas-dataframe #python #statistics</sub></sup><br/>Visualize and compare datasets, target values and associations, with one<br/>line of code. </td>
-  <td><a href="./stars/fbdesignpro/sweetviz.md">Oct 20, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/declancm/maximize.nvim">declancm/maximize.nvim</a><sup><sub> - Lua - May 04, 2022</sub></sup><br/><sup><sub>Tags: #lua #maximize #neovim #nvim #plugin #vim</sub></sup><br/>Maximize window splits. A Neovim plugin written in Lua!. </td>
-  <td><a href="./stars/declancm/maximize.nvim.md">Oct 18, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
 </table><!-- end-doc-gen -->
 

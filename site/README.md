@@ -13,13 +13,61 @@
 
 ## Stars by date
 
-Total Stars: <!-- doc-gen STAR_COUNT -->1,388<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->1,400<!-- end-doc-gen -->
 
 <!-- doc-gen ALL_STARS_TABLE -->
 <table>
   <tr>
   <th align="left">Repo</th>
   <th align="center">Starred On</th>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/j178/prek">j178/prek</a><sup><sub> - Rust - Oct 07, 2024</sub></sup><br/><sup><sub>Tags: #git #git-hooks #pre-commit</sub></sup><br/>⚡ Better `pre-commit`, re-engineered in Rust. </td>
+  <td><a href="./stars/j178/prek.md">Feb 20, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/cachix/git-hooks.nix">cachix/git-hooks.nix</a><sup><sub> - Nix - Aug 16, 2019</sub></sup><br/><sup><sub>Tags: #nix #pre-commit</sub></sup><br/>Seamless integration of https://pre-commit.com git hooks with Nix. </td>
+  <td><a href="./stars/cachix/git-hooks.nix.md">Feb 20, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/nvmd/nixos-raspberrypi">nvmd/nixos-raspberrypi</a><sup><sub> - Nix - Jun 21, 2024</sub></sup><br/><sup><sub>Tags: #nix-flake #nixos #raspberry-pi</sub></sup><br/>Nix flake for a fully declarative NixOS on Raspberry Pi. </td>
+  <td><a href="./stars/nvmd/nixos-raspberrypi.md">Feb 19, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/triton-lang/Triton-to-tile-IR">triton-lang/Triton-to-tile-IR</a><sup><sub> - MLIR - Dec 13, 2025</sub></sup><br/>incubator repo for CUDA-TileIR backend. </td>
+  <td><a href="./stars/triton-lang/Triton-to-tile-IR.md">Feb 17, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/gsd-build/get-shit-done">gsd-build/get-shit-done</a><sup><sub> - JavaScript - Dec 14, 2025</sub></sup><br/><sup><sub>Tags: #claude-code #context-engineering #meta-prompting #spec-driven-development</sub></sup><br/>A light-weight and powerful meta-prompting, context engineering and<br/>spec-driven development system for Claude Code and OpenCode. </td>
+  <td><a href="./stars/gsd-build/get-shit-done.md">Feb 17, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/remotion-dev/remotion">remotion-dev/remotion</a><sup><sub> - TypeScript - Jun 23, 2020</sub></sup><br/><sup><sub>Tags: #javascript #react #video</sub></sup><br/>🎥      Make videos programmatically with React. </td>
+  <td><a href="./stars/remotion-dev/remotion.md">Feb 17, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/pytorch/helion">pytorch/helion</a><sup><sub> - Python - Apr 22, 2025</sub></sup><br/>A Python-embedded DSL that makes it easy to write fast, scalable ML kernels<br/>with minimal boilerplate. </td>
+  <td><a href="./stars/pytorch/helion.md">Feb 17, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/onikan27/claude-code-monitor">onikan27/claude-code-monitor</a><sup><sub> - TypeScript - Jan 17, 2026</sub></sup><br/><sup><sub>Tags: #claude #claude-code</sub></sup><br/>Real-time dashboard for monitoring multiple Claude Code sessions. CLI +<br/>Mobile Web UI with QR code access, terminal focus   switching (iTerm2,<br/>Terminal.app, Ghostty). macOS only. </td>
+  <td><a href="./stars/onikan27/claude-code-monitor.md">Feb 17, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/serdes21/flashtile">serdes21/flashtile</a><sup><sub> - Rust - Feb 06, 2026</sub></sup><br/><sup><sub>Tags: #compiler #cutile #gpu #tile</sub></sup><br/>FlashTile is a CUDA Tile IR compiler that is compatible with NVIDIA&#039;s<br/>tileiras, targeting SM70 through SM121 NVIDIA GPUs. </td>
+  <td><a href="./stars/serdes21/flashtile.md">Feb 16, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/flame/blis">flame/blis</a><sup><sub> - C - Jan 22, 2014</sub></sup><br/><sup><sub>Tags: #blas #blas-libraries #blis #high-performance #high-performance-computing #hpc #linear-algebra #linear-algebra-library<br/>#matrix #matrix-calculations #matrix-functions #matrix-library #matrix-multiplication #optimization</sub></sup><br/>BLAS-like Library Instantiation Software Framework. </td>
+  <td><a href="./stars/flame/blis.md">Feb 16, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/flame/how-to-optimize-gemm">flame/how-to-optimize-gemm</a><sup><sub> - C - Aug 09, 2016</sub></sup><br/><sup><sub>Tags: #blis #code-optimization #gemm #gotoblas #matrix-multiplication</sub></sup></td>
+  <td><a href="./stars/flame/how-to-optimize-gemm.md">Feb 16, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/tile-ai/TileRT">tile-ai/TileRT</a><sup><sub> - Python - Nov 12, 2025</sub></sup><br/>Tile-Based Runtime for Ultra-Low-Latency LLM Inference. </td>
+  <td><a href="./stars/tile-ai/TileRT.md">Feb 15, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
   <tr>
   <td><a href="https://github.com/numtide/llm-agents.nix">numtide/llm-agents.nix</a><sup><sub> - Nix - Jul 18, 2025</sub></sup><br/><sup><sub>Tags: #buildbot-numtide</sub></sup><br/>Nix packages for AI coding agents and development tools. Automatically<br/>updated daily. </td>
@@ -64,6 +112,10 @@ Total Stars: <!-- doc-gen STAR_COUNT -->1,388<!-- end-doc-gen -->
   <tr>
   <td><a href="https://github.com/Veraticus/nix-config">Veraticus/nix-config</a><sup><sub> - Nix - Apr 28, 2023</sub></sup></td>
   <td><a href="./stars/Veraticus/nix-config.md">Jan 25, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/joshsymonds/nix-config">joshsymonds/nix-config</a><sup><sub> - Nix - Apr 28, 2023</sub></sup></td>
+  <td><a href="./stars/joshsymonds/nix-config.md">Jan 25, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
   <tr>
   <td><a href="https://github.com/microvm-nix/microvm.nix">microvm-nix/microvm.nix</a><sup><sub> - Nix - Jun 24, 2021</sub></sup><br/><sup><sub>Tags: #cloud-hypervisor #crosvm #firecracker #flake #flakes #kvmtool #microvm #microvms #nix #nix-flake #nixos #qemu<br/>#virtualization</sub></sup><br/>NixOS MicroVMs. </td>
@@ -260,6 +312,10 @@ Total Stars: <!-- doc-gen STAR_COUNT -->1,388<!-- end-doc-gen -->
   <tr>
   <td><a href="https://github.com/bramgiessen/chatgpt-lag-fixer">bramgiessen/chatgpt-lag-fixer</a><sup><sub> - JavaScript - Nov 18, 2025</sub></sup><br/>A Chrome extension that makes long ChatGPT conversations fast again by<br/>virtualizing off-screen messages without losing any context. </td>
   <td><a href="./stars/bramgiessen/chatgpt-lag-fixer.md">Dec 20, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/bramvdg/chatgpt-lag-fixer">bramvdg/chatgpt-lag-fixer</a><sup><sub> - JavaScript - Nov 18, 2025</sub></sup><br/>A Chrome extension that makes long ChatGPT conversations fast again by<br/>virtualizing off-screen messages without losing any context. </td>
+  <td><a href="./stars/bramvdg/chatgpt-lag-fixer.md">Dec 20, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
   <tr>
   <td><a href="https://github.com/DeveloperPaul123/modern-cv">DeveloperPaul123/modern-cv</a><sup><sub> - Typst - Mar 22, 2024</sub></sup><br/><sup><sub>Tags: #awesome-cv #clean #cover-letter #cover-letter-template #cover-letter-templates #cv #modern #resume #resume-template<br/>#resume-templates #typst #typst-cv #typst-template</sub></sup><br/>A modern resume template written in Typst, inspired by Awesome-CV. </td>
@@ -3964,62 +4020,6 @@ Total Stars: <!-- doc-gen STAR_COUNT -->1,388<!-- end-doc-gen -->
   <tr>
   <td><a href="https://github.com/shawnbrown/datatest">shawnbrown/datatest</a><sup><sub> - Python - May 12, 2016</sub></sup><br/><sup><sub>Tags: #data-wrangling #pytest-plugin #python #quality-assurance #testing #unittest</sub></sup><br/>Tools for test driven data-wrangling and data validation. </td>
   <td><a href="./stars/shawnbrown/datatest.md">Oct 26, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/alteryx/woodwork">alteryx/woodwork</a><sup><sub> - Python - Aug 24, 2020</sub></sup><br/><sup><sub>Tags: #data-science #dataframe #dataframes #evalml #featuretools #inference #machine-learning #nlp-primitives #python<br/>#semantic-tags #typing #woodwork</sub></sup><br/>Woodwork is a Python library that provides robust methods for managing and<br/>communicating data typing information. </td>
-  <td><a href="./stars/alteryx/woodwork.md">Oct 26, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/nalepae/pandarallel">nalepae/pandarallel</a><sup><sub> - Python - Mar 10, 2019</sub></sup><br/><sup><sub>Tags: #pandas #parallel #python</sub></sup><br/>A simple and efficient tool to parallelize Pandas operations on all<br/>available CPUs. </td>
-  <td><a href="./stars/nalepae/pandarallel.md">Oct 26, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/jankapunkt/latexcv">jankapunkt/latexcv</a><sup><sub> - TeX - Jun 15, 2014</sub></sup><br/><sup><sub>Tags: #application #carreer #classic #cv #cv-template #hacktoberfest #infographic #job #latex #modern #resume<br/>#resume-template #sidebar #template #tex</sub></sup><br/>:necktie: A collection of cv and resume templates written in LaTeX. Leave<br/>an issue if your language is not supported!. </td>
-  <td><a href="./stars/jankapunkt/latexcv.md">Oct 26, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/posquit0/Awesome-CV">posquit0/Awesome-CV</a><sup><sub> - TeX - Jan 18, 2015</sub></sup><br/><sup><sub>Tags: #awesome #coverletter #cv #latex #latex-template #overleaf #pdf #resume #sharelatex #tex</sub></sup><br/>:page_facing_up: Awesome CV is LaTeX template for your outstanding job<br/>application. </td>
-  <td><a href="./stars/posquit0/Awesome-CV.md">Oct 26, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mjswensen/themer">mjswensen/themer</a><sup><sub> - TypeScript - Nov 21, 2016</sub></sup><br/><sup><sub>Tags: #alfred #chrome #cmd #conemu #hacktoberfest #hyper #iterm #lightline #sketch #slack #sublime-text #terminal #theme<br/>#themer #vim #vscode #wallpapers #xcode</sub></sup><br/>🎨 themer takes a set of colors and outputs themes for your apps (editors,<br/>terminals, wallpapers, and more). </td>
-  <td><a href="./stars/mjswensen/themer.md">Oct 24, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/jpbruinsslot/slack-term">jpbruinsslot/slack-term</a><sup><sub> - Go - Sep 11, 2016</sub></sup><br/><sup><sub>Tags: #cli #go #golang #slack #terminal #tui</sub></sup><br/>Slack client for your terminal. </td>
-  <td><a href="./stars/jpbruinsslot/slack-term.md">Oct 24, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/AndreMiras/gitpop2">AndreMiras/gitpop2</a><sup><sub> - JavaScript - Mar 02, 2014</sub></sup><br/>Find the most popular fork on GitHub. </td>
-  <td><a href="./stars/AndreMiras/gitpop2.md">Oct 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/pymc-devs/pymc">pymc-devs/pymc</a><sup><sub> - Python - May 05, 2009</sub></sup><br/><sup><sub>Tags: #bayesian-inference #mcmc #probabilistic-programming #pytensor #python #statistical-analysis<br/>#variational-inference</sub></sup><br/>Bayesian Modeling and Probabilistic Programming in Python. </td>
-  <td><a href="./stars/pymc-devs/pymc.md">Oct 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/tuplex/tuplex">tuplex/tuplex</a><sup><sub> - C++ - Jun 30, 2021</sub></sup><br/>Tuplex is a parallel big data processing framework that runs data science<br/>pipelines written in Python at the speed of compiled code. Tuplex has<br/>similar Python APIs to Apache Spark or Dask, but rather than invoking the<br/>Python interpreter, Tuplex generates optimized LLVM bytecode for the given<br/>pipeline and input data set. </td>
-  <td><a href="./stars/tuplex/tuplex.md">Oct 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/stefan-jansen/alphalens-reloaded">stefan-jansen/alphalens-reloaded</a><sup><sub> - Python - Feb 23, 2021</sub></sup><br/>Performance analysis of predictive (alpha) stock factors. </td>
-  <td><a href="./stars/stefan-jansen/alphalens-reloaded.md">Oct 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/stefan-jansen/pyfolio-reloaded">stefan-jansen/pyfolio-reloaded</a><sup><sub> - Jupyter Notebook - Feb 22, 2021</sub></sup><br/>Portfolio and risk analytics in Python. </td>
-  <td><a href="./stars/stefan-jansen/pyfolio-reloaded.md">Oct 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mgedmin/objgraph">mgedmin/objgraph</a><sup><sub> - Python - Aug 09, 2013</sub></sup><br/>Visually explore Python object graphs. </td>
-  <td><a href="./stars/mgedmin/objgraph.md">Oct 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers">CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers</a><sup><sub> - Jupyter Notebook - Jan 14, 2013</sub></sup><br/><sup><sub>Tags: #bayesian-methods #data-science #jupyter-notebook #mathematical-analysis #pymc #statistics</sub></sup><br/>aka &quot;Bayesian Methods for Hackers&quot;: An introduction to Bayesian<br/>methods + probabilistic programming with a computation/understanding-first,<br/>mathematics-second point of view. All in pure Python ;). </td>
-  <td><a href="./stars/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers.md">Oct 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/quantopian/quantopian-algos">quantopian/quantopian-algos</a><sup><sub> - Python - Nov 12, 2012</sub></sup><br/>Library of algorithm scripts for Quantopian. </td>
-  <td><a href="./stars/quantopian/quantopian-algos.md">Oct 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
 </table><!-- end-doc-gen -->
 

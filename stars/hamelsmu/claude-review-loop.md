@@ -1,0 +1,158 @@
+---
+repo: hamelsmu/claude-review-loop
+url: 'https://github.com/hamelsmu/claude-review-loop'
+homepage: null
+starredAt: '2026-02-27T22:52:41Z'
+createdAt: '2026-02-21T02:13:01Z'
+updatedAt: '2026-02-28T19:55:29Z'
+language: Shell
+license: NA
+branch: main
+stars: 507
+isPublic: true
+isTemplate: false
+isArchived: false
+isFork: false
+hasReadMe: true
+refreshedAt: '2026-02-28T22:32:30.330Z'
+description: 'Claude Code plugin: automated code review loop with Codex'
+tags: []
+---
+
+# review-loop
+
+A Claude Code plugin that adds an automated code review loop to your workflow.
+
+## What it does
+
+When you use `/review-loop`, the plugin creates a two-phase lifecycle:
+
+1. **Task phase**: You describe a task, Claude implements it
+2. **Review phase**: When Claude finishes, the stop hook automatically runs [Codex](https://github.com/openai/codex) for an independent code review, then asks Claude to address the feedback
+
+The result: every task gets an independent second opinion before you accept the changes.
+
+<img width="2284" height="1959" alt="memelord_meme_2026-02-22 (3)" src="https://github.com/user-attachments/assets/75af1351-47e6-4b70-a50a-9b3311773be7" />
+
+
+## Review coverage
+
+The plugin spawns up to 4 parallel Codex sub-agents, depending on project type:
+
+| Agent | Always runs? | Focus |
+|-------|-------------|-------|
+| **Diff Review** | Yes | `git diff` — code quality, test coverage, security (OWASP top 10) |
+| **Holistic Review** | Yes | Project structure, documentation, AGENTS.md, agent harness, architecture |
+| **Next.js Review** | If `next.config.*` or `"next"` in `package.json` | App Router, Server Components, caching, Server Actions, React performance |
+| **UX Review** | If `app/`, `pages/`, `public/`, or `index.html` exists | Browser E2E via [agent-browser](https://agent-browser.dev/), accessibility, responsive design |
+
+After all agents finish, Codex deduplicates findings and writes a single consolidated review to `reviews/review-<id>.md`.
+
+## Requirements
+
+- [Claude Code](https://claude.ai/code) (CLI)
+- `jq` — `brew install jq` (macOS) / `apt install jq` (Linux)
+- [Codex CLI](https://github.com/openai/codex) — `npm install -g @openai/codex`
+
+### Codex multi-agent
+
+This plugin uses Codex [multi-agent](https://developers.openai.com/codex/multi-agent/) to run parallel review agents. The `/review-loop` command automatically enables it in `~/.codex/config.toml` on first use.
+
+To set it up manually instead:
+
+```toml
+# ~/.codex/config.toml
+[features]
+multi_agent = true
+```
+
+## Installation
+
+From the CLI:
+
+```bash
+claude plugin marketplace add hamelsmu/claude-review-loop
+claude plugin install review-loop@hamel-review
+```
+
+Or from within a Claude Code session:
+
+```
+/plugin marketplace add hamelsmu/claude-review-loop
+/plugin install review-loop@hamel-review
+```
+
+
+## Updating
+
+```bash
+claude plugin marketplace update hamel-review
+claude plugin update review-loop@hamel-review
+```
+
+## Usage
+
+### Start a review loop
+
+```
+/review-loop Add user authentication with JWT tokens and test coverage
+```
+
+Claude will implement the task. When it finishes, the stop hook:
+1. Runs `codex exec` for an independent review
+2. Writes findings to `reviews/review-<id>.md`
+3. Blocks Claude's exit and asks it to address the feedback
+4. Claude addresses items it agrees with, then stops
+
+### Cancel a review loop
+
+```
+/cancel-review
+```
+
+## How it works
+
+The plugin uses a **Stop hook** — Claude Code's mechanism for intercepting agent exit. When Claude tries to stop:
+
+1. The hook reads the state file (`.claude/review-loop.local.md`)
+2. If in `task` phase: runs Codex, transitions to `addressing`, blocks exit
+3. If in `addressing` phase: allows exit and cleans up
+
+State is tracked in `.claude/review-loop.local.md` (add to `.gitignore`). Reviews are written to `reviews/review-<id>.md`.
+
+## File structure
+
+```
+claude-review-loop/
+├── .claude-plugin/
+│   └── plugin.json           # Plugin manifest
+├── commands/
+│   ├── review-loop.md        # /review-loop slash command
+│   └── cancel-review.md      # /cancel-review slash command
+├── hooks/
+│   ├── hooks.json            # Stop hook registration (900s timeout)
+│   └── stop-hook.sh          # Core lifecycle engine
+├── scripts/
+│   └── setup-review-loop.sh  # Argument parsing, state file creation
+├── AGENTS.md                  # Agent operating guidelines
+├── CLAUDE.md                  # Symlink to AGENTS.md
+└── README.md
+```
+
+## Configuration
+
+The stop hook timeout is set to 900 seconds (15 minutes) in `hooks/hooks.json`. Adjust if your Codex reviews take longer.
+
+### Environment variables
+
+| Variable | Default | Description |
+|----------|---------|-------------|
+| `REVIEW_LOOP_CODEX_FLAGS` | `--dangerously-bypass-approvals-and-sandbox` | Flags passed to `codex`. Set to `--sandbox workspace-write` for safer sandboxed reviews. |
+
+### Telemetry
+
+Execution logs are written to `.claude/review-loop.log` with timestamps, codex exit codes, and elapsed times. This file is gitignored.
+
+## Credits
+
+Inspired by the [Ralph Wiggum plugin](https://github.com/anthropics/claude-code/tree/main/plugins/ralph-wiggum) and [Ryan Carson's compound engineering loop](https://x.com/ryancarson/article/2016520542723924279).

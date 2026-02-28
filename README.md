@@ -13,13 +13,89 @@
 
 ## Stars by date
 
-Total Stars: <!-- doc-gen STAR_COUNT -->1,400<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->1,419<!-- end-doc-gen -->
 
 <!-- doc-gen ALL_STARS_TABLE -->
 <table>
   <tr>
   <th align="left">Repo</th>
   <th align="center">Starred On</th>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/SakanaAI/doc-to-lora">SakanaAI/doc-to-lora</a><sup><sub> - Python - Feb 11, 2026</sub></sup><br/><sup><sub>Tags: #ai #ai-agent #hypernetworks #llm #llm-agent #lora #machine-learning #memory</sub></sup><br/>Hypernetworks that update LLMs to remember factual information. </td>
+  <td><a href="./stars/SakanaAI/doc-to-lora.md">Feb 27, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/HyperbolicLabs/hyperbolic-mcp">HyperbolicLabs/hyperbolic-mcp</a><sup><sub> - TypeScript - Mar 12, 2025</sub></sup><br/>MCP Server for Claude. </td>
+  <td><a href="./stars/HyperbolicLabs/hyperbolic-mcp.md">Feb 27, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/hamelsmu/claude-review-loop">hamelsmu/claude-review-loop</a><sup><sub> - Shell - Feb 21, 2026</sub></sup><br/>Claude Code plugin: automated code review loop with Codex. </td>
+  <td><a href="./stars/hamelsmu/claude-review-loop.md">Feb 27, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/nkrusch/awesome-research-guides">nkrusch/awesome-research-guides</a><sup><sub> - Markdown - Dec 22, 2025</sub></sup><br/><sup><sub>Tags: #awesome #awesome-list #research #research-methods #science</sub></sup><br/>A curated list of guidance about conducting scientific research. </td>
+  <td><a href="./stars/nkrusch/awesome-research-guides.md">Feb 26, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/gautam1858/tiny-gpu-compiler">gautam1858/tiny-gpu-compiler</a><sup><sub> - TypeScript - Feb 24, 2026</sub></sup><br/>An MLIR-based compiler that takes GPU kernels and compiles them to real<br/>hardware instructions. Interactive web visualizer included. </td>
+  <td><a href="./stars/gautam1858/tiny-gpu-compiler.md">Feb 26, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/noahgorstein/jqp">noahgorstein/jqp</a><sup><sub> - Go - Aug 28, 2022</sub></sup><br/><sup><sub>Tags: #go #jq #tui</sub></sup><br/>A TUI playground to experiment with jq. </td>
+  <td><a href="./stars/noahgorstein/jqp.md">Feb 25, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/ngc92/pygpubench">ngc92/pygpubench</a><sup><sub> - C++ - Feb 17, 2026</sub></sup><br/>GPU kernel benchmarking. </td>
+  <td><a href="./stars/ngc92/pygpubench.md">Feb 25, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/rcarmo/webterm">rcarmo/webterm</a><sup><sub> - Go - Jan 18, 2026</sub></sup><br/>Yet another web terminal, but with style. </td>
+  <td><a href="./stars/rcarmo/webterm.md">Feb 25, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/erikjuhani/basalt">erikjuhani/basalt</a><sup><sub> - Rust - Sep 19, 2023</sub></sup><br/><sup><sub>Tags: #markdown #obsidian #ratatui #tui</sub></sup><br/>TUI Application to manage Obsidian notes directly from the terminal. </td>
+  <td><a href="./stars/erikjuhani/basalt.md">Feb 23, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/ArthurSonzogni/Diagon">ArthurSonzogni/Diagon</a><sup><sub> - C++ - Jan 22, 2018</sub></sup><br/><sup><sub>Tags: #antlr #arthursonzogni #ascii #ascii-art #ascii-diagram #cmake #cpp #generators #lexer #markdown #parser #uml<br/>#uml-diagram #unicode #webapp #webapplication #webassembly</sub></sup><br/>Interactive ASCII art diagram generators. :star2:. </td>
+  <td><a href="./stars/ArthurSonzogni/Diagon.md">Feb 23, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/iamgio/quarkdown">iamgio/quarkdown</a><sup><sub> - Kotlin - Jan 30, 2024</sub></sup><br/><sup><sub>Tags: #compiler #knowledge-management #markdown #markup #markup-language #paper #pdf #presentations #scripting-language<br/>#slides #static-site-generator #typesetting #typesetting-system</sub></sup><br/>🪐 Markdown with superpowers: from ideas to papers, presentations,<br/>websites, books, and knowledge bases. </td>
+  <td><a href="./stars/iamgio/quarkdown.md">Feb 23, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/adamtheturtle/doccmd">adamtheturtle/doccmd</a><sup><sub> - Python - Sep 09, 2024</sub></sup><br/>Run commands against code blocks in Markdown or reStructuredText<br/>documentation. </td>
+  <td><a href="./stars/adamtheturtle/doccmd.md">Feb 23, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/openziti/runzmd">openziti/runzmd</a><sup><sub> - Go - Oct 20, 2022</sub></sup><br/><sup><sub>Tags: #golang #markdown</sub></sup><br/>Runnable Markdown for Tutorials and Demos. </td>
+  <td><a href="./stars/openziti/runzmd.md">Feb 23, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/joerdav/xc">joerdav/xc</a><sup><sub> - Go - Oct 15, 2021</sub></sup><br/><sup><sub>Tags: #build-tool #documentation #go #golang #task-runner</sub></sup><br/>Markdown defined task runner. </td>
+  <td><a href="./stars/joerdav/xc.md">Feb 23, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/openclaw/openclaw">openclaw/openclaw</a><sup><sub> - TypeScript - Nov 24, 2025</sub></sup><br/><sup><sub>Tags: #ai #assistant #crustacean #molty #openclaw #own-your-data #personal</sub></sup><br/>Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞. </td>
+  <td><a href="./stars/openclaw/openclaw.md">Feb 23, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/thedotmack/claude-mem">thedotmack/claude-mem</a><sup><sub> - TypeScript - Aug 31, 2025</sub></sup><br/><sup><sub>Tags: #ai #ai-agents #ai-memory #anthropic #artificial-intelligence #chromadb #claude #claude-agent-sdk #claude-agents<br/>#claude-code #claude-code-plugin #claude-skills #embeddings #long-term-memory #mem0 #memory-engine #openmemory #rag #sqlite<br/>#supermemory</sub></sup><br/>A Claude Code plugin that automatically captures everything Claude does<br/>during your coding sessions, compresses it with AI (using Claude&#039;s<br/>agent-sdk), and injects relevant context back into future sessions. </td>
+  <td><a href="./stars/thedotmack/claude-mem.md">Feb 23, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/Ranrar/Marco">Ranrar/Marco</a><sup><sub> - Rust - Jul 16, 2025</sub></sup><br/><sup><sub>Tags: #editor #gtk-rs #linux #markdown #rust #webkit #windows #wry</sub></sup><br/>Marco — a lightweight Markdown Composer and Viewer. </td>
+  <td><a href="./stars/Ranrar/Marco.md">Feb 22, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/ROCm/FlyDSL">ROCm/FlyDSL</a><sup><sub> - Python - Nov 23, 2025</sub></sup></td>
+  <td><a href="./stars/ROCm/FlyDSL.md">Feb 22, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/StanfordPL/stoke">StanfordPL/stoke</a><sup><sub> - C++ - Feb 12, 2014</sub></sup><br/>STOKE: A stochastic superoptimizer and program synthesizer. </td>
+  <td><a href="./stars/StanfordPL/stoke.md">Feb 22, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
   <tr>
   <td><a href="https://github.com/j178/prek">j178/prek</a><sup><sub> - Rust - Oct 07, 2024</sub></sup><br/><sup><sub>Tags: #git #git-hooks #pre-commit</sub></sup><br/>⚡ Better `pre-commit`, re-engineered in Rust. </td>
@@ -3944,82 +4020,6 @@ Total Stars: <!-- doc-gen STAR_COUNT -->1,400<!-- end-doc-gen -->
   <tr>
   <td><a href="https://github.com/cTatu/DFuller-Numpy">cTatu/DFuller-Numpy</a><sup><sub> - Python - May 06, 2021</sub></sup><br/>Implementation of the Augmented Dickey-Fuller Test in Numpy. </td>
   <td><a href="./stars/cTatu/DFuller-Numpy.md">Nov 12, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/serge-sans-paille/pythran">serge-sans-paille/pythran</a><sup><sub> - C++ - May 29, 2012</sub></sup><br/>Ahead of Time compiler for numeric kernels. </td>
-  <td><a href="./stars/serge-sans-paille/pythran.md">Nov 12, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/encode/httpx">encode/httpx</a><sup><sub> - Python - Apr 04, 2019</sub></sup><br/><sup><sub>Tags: #asyncio #http #python #trio</sub></sup><br/>A next generation HTTP client for Python. 🦋. </td>
-  <td><a href="./stars/encode/httpx.md">Nov 10, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/httpie/http-prompt">httpie/http-prompt</a><sup><sub> - Python - Apr 06, 2016</sub></sup><br/><sup><sub>Tags: #api #api-cli #api-testing #autocomplete #cli #developer-tools #development #http #http-client #httpie #json #python<br/>#rest-api #shell #syntax-highlighting #terminal #web-development</sub></sup><br/>An interactive command-line HTTP and API testing client built on top of<br/>HTTPie featuring autocomplete, syntax highlighting, and more.<br/>https://twitter.com/httpie. </td>
-  <td><a href="./stars/httpie/http-prompt.md">Nov 10, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/kutsan/zsh-system-clipboard">kutsan/zsh-system-clipboard</a><sup><sub> - Shell - Sep 30, 2017</sub></sup><br/><sup><sub>Tags: #zsh #zsh-plugin</sub></sup><br/>System clipboard key bindings for Zsh Line Editor with vi mode. It is<br/>similar to what `set clipboard=unnamed` does for vim. </td>
-  <td><a href="./stars/kutsan/zsh-system-clipboard.md">Nov 02, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/steveruizok/telestrator">steveruizok/telestrator</a><sup><sub> - TypeScript - Feb 11, 2021</sub></sup><br/>A disappearing drawing tool for your screen. </td>
-  <td><a href="./stars/steveruizok/telestrator.md">Nov 02, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sgtpep/pmenu">sgtpep/pmenu</a><sup><sub> - Python - Oct 16, 2015</sub></sup><br/><sup><sub>Tags: #application-launcher #ctrlp #dmenu #ncurses #vim</sub></sup><br/>A dynamic terminal-based menu inspired by dmenu written in Python without<br/>dependencies with an optional MRU ordering which could also be used as an<br/>application launcher and CtrlP alternative. </td>
-  <td><a href="./stars/sgtpep/pmenu.md">Nov 02, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/facebook/PathPicker">facebook/PathPicker</a><sup><sub> - Python - May 01, 2015</sub></sup><br/>PathPicker accepts a wide range of input -- output from git commands, grep<br/>results, searches -- pretty much anything. After parsing the input,<br/>PathPicker presents you with a nice UI to select which files you&#039;re<br/>interested in. After that you can open them in your favorite editor or<br/>execute arbitrary commands. </td>
-  <td><a href="./stars/facebook/PathPicker.md">Nov 02, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/magmax/python-inquirer">magmax/python-inquirer</a><sup><sub> - Python - May 02, 2014</sub></sup><br/>A collection of common interactive command line user interfaces, based on<br/>Inquirer.js (https://github.com/SBoudrias/Inquirer.js/). </td>
-  <td><a href="./stars/magmax/python-inquirer.md">Nov 02, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/justfoolingaround/fzf.py">justfoolingaround/fzf.py</a><sup><sub> - Python - Jul 08, 2022</sub></sup><br/>Fzf.py - A Pythonic Fzf Wrapper. </td>
-  <td><a href="./stars/justfoolingaround/fzf.py.md">Nov 02, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/guildai/guildai">guildai/guildai</a><sup><sub> - Python - Sep 27, 2017</sub></sup><br/>Experiment tracking, ML developer tools. </td>
-  <td><a href="./stars/guildai/guildai.md">Oct 31, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/aimhubio/aim">aimhubio/aim</a><sup><sub> - Python - May 31, 2019</sub></sup><br/><sup><sub>Tags: #ai #data-science #data-visualization #experiment-tracking #machine-learning #metadata #metadata-tracking #ml #mlflow<br/>#mlops #prompt-engineering #python #pytorch #tensorboard #tensorflow #visualization</sub></sup><br/>Aim 💫 — An easy-to-use &amp; supercharged open-source experiment tracker. </td>
-  <td><a href="./stars/aimhubio/aim.md">Oct 31, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/nvim-focus/focus.nvim">nvim-focus/focus.nvim</a><sup><sub> - Lua - Feb 12, 2021</sub></sup><br/><sup><sub>Tags: #lua #navigation #neovim #nvim #resizing #splits #vim #windows</sub></sup><br/>Auto-Focusing and Auto-Resizing Splits/Windows for Neovim written in Lua. A<br/>full suite of window management enhancements. Vim splits on steroids!. </td>
-  <td><a href="./stars/nvim-focus/focus.nvim.md">Oct 29, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/jironghuang/bootstrap-index">jironghuang/bootstrap-index</a><sup><sub> - HTML - Dec 28, 2020</sub></sup><br/>Producing bootstrap indexes of data frames for cross validation. </td>
-  <td><a href="./stars/jironghuang/bootstrap-index.md">Oct 29, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/hluk/CopyQ">hluk/CopyQ</a><sup><sub> - C++ - Oct 21, 2009</sub></sup><br/><sup><sub>Tags: #clipboard #clipboard-manager #copyq #cross-platform #scripting #tray</sub></sup><br/>Clipboard manager with advanced features. </td>
-  <td><a href="./stars/hluk/CopyQ.md">Oct 26, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/cdown/clipmenu">cdown/clipmenu</a><sup><sub> - C - Feb 05, 2014</sub></sup><br/><sup><sub>Tags: #c #clipboard #clipboard-buffer #clipboard-management #dmenu #simple #suckless</sub></sup><br/>Clipboard management using dmenu. </td>
-  <td><a href="./stars/cdown/clipmenu.md">Oct 26, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/gautamkrishnar/nothing-private">gautamkrishnar/nothing-private</a><sup><sub> - JavaScript - Dec 16, 2016</sub></sup><br/><sup><sub>Tags: #browser-fingerprinting #browsers #fingerprinting #google-analytics #hacktoberfest #icognito-mode #privacy<br/>#private-browsing #proof-of-concept #security #website</sub></sup><br/>Do you think you are safe using private browsing or incognito mode?.<br/>:smile: :imp: This will prove that you&#039;re wrong.   Previously hosted<br/>at nothingprivate.ml. </td>
-  <td><a href="./stars/gautamkrishnar/nothing-private.md">Oct 26, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sktime/sktime">sktime/sktime</a><sup><sub> - Python - Nov 06, 2018</sub></sup><br/><sup><sub>Tags: #ai #anomaly-detection #changepoint-detection #data-mining #data-science #forecasting #hacktoberfest #machine-learning<br/>#scikit-learn #sktime #time-series #time-series-analysis #time-series-classification #time-series-regression<br/>#time-series-segmentation</sub></sup><br/>A unified framework for machine learning with time series. </td>
-  <td><a href="./stars/sktime/sktime.md">Oct 26, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/modin-project/modin">modin-project/modin</a><sup><sub> - Python - Jun 21, 2018</sub></sup><br/><sup><sub>Tags: #analytics #data-science #dataframe #datascience #distributed #modin #pandas #python #sql</sub></sup><br/>Modin: Scale your Pandas workflows by changing a single line of code. </td>
-  <td><a href="./stars/modin-project/modin.md">Oct 26, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/shawnbrown/datatest">shawnbrown/datatest</a><sup><sub> - Python - May 12, 2016</sub></sup><br/><sup><sub>Tags: #data-wrangling #pytest-plugin #python #quality-assurance #testing #unittest</sub></sup><br/>Tools for test driven data-wrangling and data validation. </td>
-  <td><a href="./stars/shawnbrown/datatest.md">Oct 26, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
 </table><!-- end-doc-gen -->
 

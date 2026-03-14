@@ -13,13 +13,81 @@
 
 ## Stars by date
 
-Total Stars: <!-- doc-gen STAR_COUNT -->1,422<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->1,436<!-- end-doc-gen -->
 
 <!-- doc-gen ALL_STARS_TABLE -->
 <table>
   <tr>
   <th align="left">Repo</th>
   <th align="center">Starred On</th>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/backnotprop/plannotator">backnotprop/plannotator</a><sup><sub> - TypeScript - Dec 28, 2025</sub></sup><br/><sup><sub>Tags: #claude-code #obsidian #opencode #pi-mono #plan-mode</sub></sup><br/>Annotate and review coding agent plans and code diffs visually, share with<br/>your team, send feedback to agents with one click. </td>
+  <td><a href="./stars/backnotprop/plannotator.md">Mar 14, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/NVIDIA/jax-tvm-ffi">NVIDIA/jax-tvm-ffi</a><sup><sub> - Python - Oct 09, 2025</sub></sup><br/>JAX support for tvm-ffi abi. </td>
+  <td><a href="./stars/NVIDIA/jax-tvm-ffi.md">Mar 11, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/wesm/agentsview">wesm/agentsview</a><sup><sub> - Go - Feb 19, 2026</sub></sup><br/>A local-first desktop and web application for browsing, searching, and<br/>analyzing AI agent coding sessions. Supports Claude Code, Codex, OpenCode,<br/>and 8 other agents. </td>
+  <td><a href="./stars/wesm/agentsview.md">Mar 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/karpathy/autoresearch">karpathy/autoresearch</a><sup><sub> - Python - Mar 06, 2026</sub></sup><br/>AI agents running research on single-GPU nanochat training automatically. </td>
+  <td><a href="./stars/karpathy/autoresearch.md">Mar 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/Ataraxy-Labs/sem">Ataraxy-Labs/sem</a><sup><sub> - Rust - Feb 05, 2026</sub></sup><br/><sup><sub>Tags: #ai-agents #cli #code-review #developer-tools #diff #git #rust #semantic-diff #tree-sitter</sub></sup><br/>Semantic version control CLI. Entity-level diff, blame, graph, and impact<br/>analysis for code. 16 languages via tree-sitter. </td>
+  <td><a href="./stars/Ataraxy-Labs/sem.md">Mar 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/mrjohannchang/fz.sh">mrjohannchang/fz.sh</a><sup><sub> - Shell - Mar 18, 2017</sub></sup><br/><sup><sub>Tags: #autocompletion #autojump #bash #bash-completion #cd #completion #fasd #fuzzy #fuzzy-search #j #jump #oh-my-zsh<br/>#pluging #tab-completion #z #zplug #zsh #zsh-completion #zsh-plugin</sub></sup><br/>Cli shell plugin, the missing fuzzy tab completion feature for the z jump<br/>around command. </td>
+  <td><a href="./stars/mrjohannchang/fz.sh.md">Mar 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/pingdotgg/t3code">pingdotgg/t3code</a><sup><sub> - TypeScript - Feb 08, 2026</sub></sup></td>
+  <td><a href="./stars/pingdotgg/t3code.md">Mar 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/acidghost/argparse-usage">acidghost/argparse-usage</a><sup><sub> - Python - Mar 07, 2026</sub></sup><br/>argparse + https://usage.jdx.dev/. </td>
+  <td><a href="./stars/acidghost/argparse-usage.md">Mar 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/msaroufim/thumbnail-montage">msaroufim/thumbnail-montage</a><sup><sub> - Python - Mar 03, 2026</sub></sup><br/>GPU MODE 100 lectures thumbnail montage video generator. </td>
+  <td><a href="./stars/msaroufim/thumbnail-montage.md">Mar 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/aardappel/lobster">aardappel/lobster</a><sup><sub> - C++ - Jun 10, 2013</sub></sup><br/>The Lobster Programming Language. </td>
+  <td><a href="./stars/aardappel/lobster.md">Mar 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/NVIDIA/cuopt">NVIDIA/cuopt</a><sup><sub> - Cuda - Apr 08, 2025</sub></sup><br/><sup><sub>Tags: #cuda #gpu #linear-programming #optimization</sub></sup><br/>GPU accelerated decision optimization. </td>
+  <td><a href="./stars/NVIDIA/cuopt.md">Mar 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/googleworkspace/cli">googleworkspace/cli</a><sup><sub> - Rust - Mar 02, 2026</sub></sup><br/><sup><sub>Tags: #agent-skills #ai-agent #automation #cli #discovery-api #gemini-cli-extension #google-admin #google-api<br/>#google-calendar #google-chat #google-docs #google-drive #google-sheets #google-workspace #oauth2 #rust</sub></sup><br/>Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar,<br/>Sheets, Docs, Chat, Admin, and more. Dynamically built from Google<br/>Discovery Service. Includes AI agent skills. </td>
+  <td><a href="./stars/googleworkspace/cli.md">Mar 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/SiriusNEO/Triton-Puzzles-Lite">SiriusNEO/Triton-Puzzles-Lite</a><sup><sub> - Python - Nov 07, 2024</sub></sup><br/>Puzzles for learning Triton, play it with minimal environment<br/>configuration!. </td>
+  <td><a href="./stars/SiriusNEO/Triton-Puzzles-Lite.md">Mar 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/Oneflow-Inc/oneflow">Oneflow-Inc/oneflow</a><sup><sub> - C++ - Feb 11, 2017</sub></sup><br/><sup><sub>Tags: #cuda #deep-learning #deep-neural-networks #distributed #machine-learning #ml #neural-network</sub></sup><br/>OneFlow is a deep learning framework designed to be user-friendly, scalable<br/>and efficient. </td>
+  <td><a href="./stars/Oneflow-Inc/oneflow.md">Mar 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/Ataraxy-Labs/weave">Ataraxy-Labs/weave</a><sup><sub> - Rust - Feb 06, 2026</sub></sup><br/><sup><sub>Tags: #ai-agents #conflict-resolution #developer-tools #git #mcp #merge #merge-driver #rust #semantic-merge<br/>#tree-sitter</sub></sup><br/>Entity-level semantic merge driver for Git. Resolves conflicts that git<br/>can&#039;t by understanding code structure via tree-sitter. 31/31 clean<br/>merges vs git&#039;s 15/31. </td>
+  <td><a href="./stars/Ataraxy-Labs/weave.md">Mar 07, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/lightsofapollo/attn">lightsofapollo/attn</a><sup><sub> - Svelte - Mar 01, 2026</sub></sup><br/><sup><sub>Tags: #cli #desktop #developer-tools #live-reload #macos #markdown #markdown-editor #markdown-viewer #native #rust #svelte<br/>#terminal</sub></sup><br/>A native markdown viewer that launches from the terminal. Rust + Svelte 5. </td>
+  <td><a href="./stars/lightsofapollo/attn.md">Mar 07, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/vancluever/z2d">vancluever/z2d</a><sup><sub> - Zig - Jan 11, 2024</sub></sup><br/>Pure Zig 2D graphics library. </td>
+  <td><a href="./stars/vancluever/z2d.md">Mar 04, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
   <tr>
   <td><a href="https://github.com/SakanaAI/doc-to-lora">SakanaAI/doc-to-lora</a><sup><sub> - Python - Feb 11, 2026</sub></sup><br/><sup><sub>Tags: #ai #ai-agent #hypernetworks #llm #llm-agent #lora #machine-learning #memory</sub></sup><br/>Hypernetworks that update LLMs to remember factual information. </td>
@@ -44,6 +112,10 @@ Total Stars: <!-- doc-gen STAR_COUNT -->1,422<!-- end-doc-gen -->
   <tr>
   <td><a href="https://github.com/noahgorstein/jqp">noahgorstein/jqp</a><sup><sub> - Go - Aug 28, 2022</sub></sup><br/><sup><sub>Tags: #go #jq #tui</sub></sup><br/>A TUI playground to experiment with jq. </td>
   <td><a href="./stars/noahgorstein/jqp.md">Feb 25, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/gpu-mode/pygpubench">gpu-mode/pygpubench</a><sup><sub> - Python - Feb 17, 2026</sub></sup><br/>GPU kernel benchmarking. </td>
+  <td><a href="./stars/gpu-mode/pygpubench.md">Feb 25, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
   <tr>
   <td><a href="https://github.com/ngc92/pygpubench">ngc92/pygpubench</a><sup><sub> - C++ - Feb 17, 2026</sub></sup><br/>GPU kernel benchmarking. </td>
@@ -3948,78 +4020,6 @@ Total Stars: <!-- doc-gen STAR_COUNT -->1,422<!-- end-doc-gen -->
   <tr>
   <td><a href="https://github.com/JetBrains/ideavim">JetBrains/ideavim</a><sup><sub> - Kotlin - Mar 09, 2011</sub></sup><br/><sup><sub>Tags: #ideavim #intellij #intellij-platform #intellij-plugin #jb-official #jetbrains #jetbrains-ides #kotlin #vim</sub></sup><br/>IdeaVim – A Vim engine for JetBrains IDEs. </td>
   <td><a href="./stars/JetBrains/ideavim.md">Nov 18, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/gregsexton/ob-ipython">gregsexton/ob-ipython</a><sup><sub> - Emacs Lisp - Jun 06, 2015</sub></sup><br/>org-babel integration with Jupyter for evaluation of (Python by default)<br/>code blocks. </td>
-  <td><a href="./stars/gregsexton/ob-ipython.md">Nov 17, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/millejoh/emacs-ipython-notebook">millejoh/emacs-ipython-notebook</a><sup><sub> - Emacs Lisp - Apr 10, 2014</sub></sup><br/><sup><sub>Tags: #emacs-lisp #jupyter-notebook</sub></sup><br/>Jupyter notebook client in Emacs. </td>
-  <td><a href="./stars/millejoh/emacs-ipython-notebook.md">Nov 17, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/jkitchin/scimax">jkitchin/scimax</a><sup><sub> - Emacs Lisp - Jun 14, 2016</sub></sup><br/><sup><sub>Tags: #emacs #starterkit</sub></sup><br/>An emacs starterkit for scientists and engineers. </td>
-  <td><a href="./stars/jkitchin/scimax.md">Nov 17, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Eskimon/draw-on-stream-telestrator">Eskimon/draw-on-stream-telestrator</a><sup><sub> - Python - Sep 17, 2019</sub></sup><br/><sup><sub>Tags: #drawing #python #streaming #telestrator #tkinter #tool #whiteboard</sub></sup><br/>Telestrator tool to easy draw on your stream without having to capture your<br/>full screen. </td>
-  <td><a href="./stars/Eskimon/draw-on-stream-telestrator.md">Nov 16, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/RJT1990/pyflux">RJT1990/pyflux</a><sup><sub> - Python - Feb 16, 2016</sub></sup><br/><sup><sub>Tags: #statistics #time-series</sub></sup><br/>Open source time series library for Python. </td>
-  <td><a href="./stars/RJT1990/pyflux.md">Nov 16, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/rapidsai/cuml">rapidsai/cuml</a><sup><sub> - C++ - Oct 11, 2018</sub></sup><br/><sup><sub>Tags: #cuda #gpu #machine-learning #machine-learning-algorithms #nvidia</sub></sup><br/>cuML - RAPIDS Machine Learning Library. </td>
-  <td><a href="./stars/rapidsai/cuml.md">Nov 16, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/NurmikkoLab-Brown/mikko">NurmikkoLab-Brown/mikko</a><sup><sub> - Python - Sep 25, 2019</sub></sup><br/>Mikko (&quot;meeko&quot;) is a neural processing toolkit designed for<br/>large-scale computational neuroscience experiments. </td>
-  <td><a href="./stars/NurmikkoLab-Brown/mikko.md">Nov 16, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/AshleySetter/kalmancpp">AshleySetter/kalmancpp</a><sup><sub> - Python - Mar 08, 2017</sub></sup><br/>Linear Kalman filter implementation in C++ with Cython Wrapper so that it<br/>may be used in python. </td>
-  <td><a href="./stars/AshleySetter/kalmancpp.md">Nov 16, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/TheBlob42/idea-which-key">TheBlob42/idea-which-key</a><sup><sub> - Kotlin - Nov 27, 2020</sub></sup><br/><sup><sub>Tags: #ideavim #intellij #vim</sub></sup><br/>IdeaVim extension that displays available keybindings in a popup. </td>
-  <td><a href="./stars/TheBlob42/idea-which-key.md">Nov 16, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Rungutan/structlog-sentry-lambda">Rungutan/structlog-sentry-lambda</a><sup><sub> - Python - Dec 09, 2021</sub></sup><br/>An AWS approved version of https://github.<br/>com/TeoZosa/structlog-sentry-logger which is compatible with AWS Lambda as<br/>well as AWS Fargate. </td>
-  <td><a href="./stars/Rungutan/structlog-sentry-lambda.md">Nov 15, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/kiwicom/structlog-sentry">kiwicom/structlog-sentry</a><sup><sub> - Python - Apr 24, 2019</sub></sup><br/>Sentry integration for structlog. </td>
-  <td><a href="./stars/kiwicom/structlog-sentry.md">Nov 15, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/programeri-tech/logzio-structlog-handler">programeri-tech/logzio-structlog-handler</a><sup><sub> - Python - Jan 10, 2022</sub></sup><br/>Sending structlogs to logzio. </td>
-  <td><a href="./stars/programeri-tech/logzio-structlog-handler.md">Nov 15, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/HariSekhon/DevOps-Python-tools">HariSekhon/DevOps-Python-tools</a><sup><sub> - Python - Oct 27, 2015</sub></sup><br/><sup><sub>Tags: #avro #aws #cloudformation #devops #docker #dockerhub #elasticsearch #gcf #gcp #hadoop #hbase #hdfs #json #linux<br/>#parquet #pyspark #python #solr #spark #travis-ci</sub></sup><br/>80+ DevOps &amp; Data CLI Tools - AWS, GCP, GCF Python Cloud Functions, Log<br/>Anonymizer, Spark, Hadoop, HBase, Hive, Impala, Linux, Docker, Spark Data<br/>Converters &amp; Validators (Avro/Parquet/JSON/CSV/INI/XML/YAML), Travis<br/>CI, AWS CloudFormation, Elasticsearch, Solr etc. </td>
-  <td><a href="./stars/HariSekhon/DevOps-Python-tools.md">Nov 15, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/TeoZosa/structlog-sentry-logger">TeoZosa/structlog-sentry-logger</a><sup><sub> - Python - Oct 13, 2020</sub></sup><br/><sup><sub>Tags: #logging #sentry #structlog #structured-logging</sub></sup><br/>A multi-purpose, pre-configured, performance-optimized structlog logger<br/>with (optional) Sentry integration via structlog-sentry. </td>
-  <td><a href="./stars/TeoZosa/structlog-sentry-logger.md">Nov 15, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/metwork-framework/mflog">metwork-framework/mflog</a><sup><sub> - Python - Jan 21, 2019</sub></sup><br/><sup><sub>Tags: #autoreadme #github-actions #integration-level-3 #library #logging #python2 #python3 #structlog</sub></sup><br/>opinionated python (structured) logging library built on structlog. </td>
-  <td><a href="./stars/metwork-framework/mflog.md">Nov 15, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/grantjenks/python-diskcache">grantjenks/python-diskcache</a><sup><sub> - Python - Feb 03, 2016</sub></sup><br/><sup><sub>Tags: #cache #filesystem #key-value-store #persistence #python</sub></sup><br/>Python disk-backed cache (Django-compatible). Faster than Redis and<br/>Memcached. Pure-Python. </td>
-  <td><a href="./stars/grantjenks/python-diskcache.md">Nov 13, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/featureform/featureform">featureform/featureform</a><sup><sub> - Go - Oct 16, 2020</sub></sup><br/><sup><sub>Tags: #data-quality #data-science #embeddings #embeddings-similarity #feature-engineering #feature-store #hacktoberfest<br/>#machine-learning #ml #mlops #python #vector-database</sub></sup><br/>The Virtual Feature Store. Turn your existing data infrastructure into a<br/>feature store. </td>
-  <td><a href="./stars/featureform/featureform.md">Nov 13, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/cTatu/DFuller-Numpy">cTatu/DFuller-Numpy</a><sup><sub> - Python - May 06, 2021</sub></sup><br/>Implementation of the Augmented Dickey-Fuller Test in Numpy. </td>
-  <td><a href="./stars/cTatu/DFuller-Numpy.md">Nov 12, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
 </table><!-- end-doc-gen -->
 

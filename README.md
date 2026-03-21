@@ -13,13 +13,41 @@
 
 ## Stars by date
 
-Total Stars: <!-- doc-gen STAR_COUNT -->1,436<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->1,443<!-- end-doc-gen -->
 
 <!-- doc-gen ALL_STARS_TABLE -->
 <table>
   <tr>
   <th align="left">Repo</th>
   <th align="center">Starred On</th>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/google-deepmind/simply">google-deepmind/simply</a><sup><sub> - Python - Mar 13, 2025</sub></sup><br/>Minimal and scalable research codebase in JAX, designed for rapid iteration<br/>on frontier research in LLM and other autoregressive models. </td>
+  <td><a href="./stars/google-deepmind/simply.md">Mar 15, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/meta-pytorch/MSLK">meta-pytorch/MSLK</a><sup><sub> - Python - Nov 03, 2025</sub></sup><br/>MSLK (Meta Superintelligence Labs Kernels) is a collection of PyTorch GPU<br/>operator libraries that are designed and optimized for GenAI training and<br/>inference, such as FP8 row-wise quantization and collective communications. </td>
+  <td><a href="./stars/meta-pytorch/MSLK.md">Mar 15, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/ypwang61/One-Shot-RLVR">ypwang61/One-Shot-RLVR</a><sup><sub> - Python - Apr 30, 2025</sub></sup><br/>[NeurIPS 2025] Reinforcement Learning for Reasoning in Large Language<br/>Models with One Training Example. </td>
+  <td><a href="./stars/ypwang61/One-Shot-RLVR.md">Mar 15, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/re-cinq/shift-log">re-cinq/shift-log</a><sup><sub> - Go - Feb 02, 2026</sub></sup><br/><sup><sub>Tags: #claude-code #codex-cli #copilot-cli #gemini-cli #git #git-notes #opencode</sub></sup><br/>Save coding agents&#039; conversations in Git Notes, automatically. </td>
+  <td><a href="./stars/re-cinq/shift-log.md">Mar 15, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/mlsyscourse/assignment-tirx-gemm">mlsyscourse/assignment-tirx-gemm</a><sup><sub> - Python - Mar 12, 2026</sub></sup><br/>Blackwell GEMM Kernel Optimization. </td>
+  <td><a href="./stars/mlsyscourse/assignment-tirx-gemm.md">Mar 15, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/koka-lang/koka">koka-lang/koka</a><sup><sub> - Koka - Dec 08, 2016</sub></sup><br/><sup><sub>Tags: #algebraic-effects #effect-handlers #handler #haskell #koka</sub></sup><br/>Koka language compiler and interpreter. </td>
+  <td><a href="./stars/koka-lang/koka.md">Mar 15, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/meta-pytorch/KernelAgent">meta-pytorch/KernelAgent</a><sup><sub> - Python - Jul 10, 2025</sub></sup><br/>Autonomous GPU Kernel Generation &amp; Optimization via Deep Agents. </td>
+  <td><a href="./stars/meta-pytorch/KernelAgent.md">Mar 15, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
   <tr>
   <td><a href="https://github.com/backnotprop/plannotator">backnotprop/plannotator</a><sup><sub> - TypeScript - Dec 28, 2025</sub></sup><br/><sup><sub>Tags: #claude-code #obsidian #opencode #pi-mono #plan-mode</sub></sup><br/>Annotate and review coding agent plans and code diffs visually, share with<br/>your team, send feedback to agents with one click. </td>
@@ -3992,34 +4020,6 @@ Total Stars: <!-- doc-gen STAR_COUNT -->1,436<!-- end-doc-gen -->
   <tr>
   <td><a href="https://github.com/catppuccin/emacs">catppuccin/emacs</a><sup><sub> - Emacs Lisp - Jan 26, 2022</sub></sup><br/><sup><sub>Tags: #catppuccin #emacs #emacs-package #emacs-theme #hacktoberfest #theme</sub></sup><br/>🍄 Soothing pastel theme for Emacs. </td>
   <td><a href="./stars/catppuccin/emacs.md">Nov 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/windwp/nvim-ts-autotag">windwp/nvim-ts-autotag</a><sup><sub> - Lua - Mar 08, 2021</sub></sup><br/><sup><sub>Tags: #autotag #treesitter</sub></sup><br/>Use treesitter to auto close and auto rename html tag. </td>
-  <td><a href="./stars/windwp/nvim-ts-autotag.md">Nov 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/pierreglaser/folding-nvim">pierreglaser/folding-nvim</a><sup><sub> - Lua - Jul 12, 2020</sub></sup></td>
-  <td><a href="./stars/pierreglaser/folding-nvim.md">Nov 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/interdependence/tree-sitter-htmldjango">interdependence/tree-sitter-htmldjango</a><sup><sub> - JavaScript - Feb 25, 2022</sub></sup><br/><sup><sub>Tags: #django #grammar #htmldjango #tree-sitter</sub></sup><br/>A tree-sitter grammar for the Django template language. </td>
-  <td><a href="./stars/interdependence/tree-sitter-htmldjango.md">Nov 20, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/tweekmonster/django-plus.vim">tweekmonster/django-plus.vim</a><sup><sub> - Vim script - Jun 10, 2016</sub></sup><br/><sup><sub>Tags: #django #htmldjango #neovim #vim #vim-plugins</sub></sup><br/>:guitar: Improvements to the handling of Django related files in Vim. </td>
-  <td><a href="./stars/tweekmonster/django-plus.vim.md">Nov 20, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/matthewsia98/dotfiles">matthewsia98/dotfiles</a><sup><sub> - Lua - Jul 25, 2022</sub></sup></td>
-  <td><a href="./stars/matthewsia98/dotfiles.md">Nov 19, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ervinpopescu/dots">ervinpopescu/dots</a><sup><sub> - Python - Jun 22, 2022</sub></sup><br/><sup><sub>Tags: #dotfiles #linux #lua #neovim #python #qtile #qtile-config #zsh</sub></sup><br/>there&#039;s no place like ~. </td>
-  <td><a href="./stars/ervinpopescu/dots.md">Nov 19, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/JetBrains/ideavim">JetBrains/ideavim</a><sup><sub> - Kotlin - Mar 09, 2011</sub></sup><br/><sup><sub>Tags: #ideavim #intellij #intellij-platform #intellij-plugin #jb-official #jetbrains #jetbrains-ides #kotlin #vim</sub></sup><br/>IdeaVim – A Vim engine for JetBrains IDEs. </td>
-  <td><a href="./stars/JetBrains/ideavim.md">Nov 18, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
 </table><!-- end-doc-gen -->
 

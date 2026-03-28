@@ -13,13 +13,53 @@
 
 ## Stars by date
 
-Total Stars: <!-- doc-gen STAR_COUNT -->1,443<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->1,451<!-- end-doc-gen -->
 
 <!-- doc-gen ALL_STARS_TABLE -->
 <table>
   <tr>
   <th align="left">Repo</th>
   <th align="center">Starred On</th>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/rayokota/jsonata-python">rayokota/jsonata-python</a><sup><sub> - Python - May 19, 2024</sub></sup><br/><sup><sub>Tags: #json #jsonata #python3</sub></sup><br/>JSONata for Python. </td>
+  <td><a href="./stars/rayokota/jsonata-python.md">Mar 27, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/Satty-org/Satty">Satty-org/Satty</a><sup><sub> - Rust - Sep 21, 2023</sub></sup><br/>Satty - Modern Screenshot Annotation. </td>
+  <td><a href="./stars/Satty-org/Satty.md">Mar 27, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/bytedance/flux">bytedance/flux</a><sup><sub> - C++ - Mar 01, 2024</sub></sup><br/><sup><sub>Tags: #cuda #cutlass #gpu #pytorch</sub></sup><br/>A fast communication-overlapping library for tensor/expert parallelism on<br/>GPUs. </td>
+  <td><a href="./stars/bytedance/flux.md">Mar 27, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/flexflow/flexflow-train">flexflow/flexflow-train</a><sup><sub> - C++ - Dec 08, 2018</sub></sup><br/>Automatically Discovering Fast Parallelization Strategies for Distributed<br/>Deep Neural Network Training. </td>
+  <td><a href="./stars/flexflow/flexflow-train.md">Mar 27, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/lucaas-d3v/flint">lucaas-d3v/flint</a><sup><sub> - Zig - Mar 07, 2026</sub></sup><br/><sup><sub>Tags: #c99 #cli #compiler #devops #flint #language #pipeline #scripting-language #transpiler #zig</sub></sup><br/>A pipeline-oriented system language for robust CLI tools. Transpiles to<br/>C99. Built in Zig. </td>
+  <td><a href="./stars/lucaas-d3v/flint.md">Mar 27, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/bdwgc/bdwgc">bdwgc/bdwgc</a><sup><sub> - C - Jul 26, 2011</sub></sup><br/><sup><sub>Tags: #c #c-plus-plus #cplusplus #cpp #cross-platform #garbage-collection #garbage-collector #gc #leak-detection #library<br/>#memory-allocation #memory-leak-detection #memory-management #portable</sub></sup><br/>The Boehm-Demers-Weiser conservative C/C++ Garbage Collector (bdwgc, also<br/>known as bdw-gc, boehm-gc, libgc). </td>
+  <td><a href="./stars/bdwgc/bdwgc.md">Mar 26, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/bugen/pypipe">bugen/pypipe</a><sup><sub> - Python - Sep 20, 2023</sub></sup><br/>Python pipe command line tool. </td>
+  <td><a href="./stars/bugen/pypipe.md">Mar 26, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/raskrebs/sonar">raskrebs/sonar</a><sup><sub> - Go - Mar 04, 2026</sub></sup><br/><sup><sub>Tags: #cli #developer-tools #docker #golang #linux #localhost #macos #portscanner #powershell</sub></sup><br/>CLI tool for inspecting and managing services listening on localhost ports. </td>
+  <td><a href="./stars/raskrebs/sonar.md">Mar 25, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/duriantaco/fyn">duriantaco/fyn</a><sup><sub> - Rust - Mar 23, 2026</sub></sup><br/><sup><sub>Tags: #dependency-management #fork #forked-repo #package-manager #packaging #pyproject-toml #python #resolver #uv</sub></sup><br/>Fyn is a fork of uv for fast Python package management, dependency<br/>resolution, virtual environments, and pyproject.toml workflows. </td>
+  <td><a href="./stars/duriantaco/fyn.md">Mar 24, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/deeperlearning/professional-cuda-c-programming">deeperlearning/professional-cuda-c-programming</a><sup><sub> - Cuda - Jun 24, 2015</sub></sup></td>
+  <td><a href="./stars/deeperlearning/professional-cuda-c-programming.md">Mar 24, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
   <tr>
   <td><a href="https://github.com/google-deepmind/simply">google-deepmind/simply</a><sup><sub> - Python - Mar 13, 2025</sub></sup><br/>Minimal and scalable research codebase in JAX, designed for rapid iteration<br/>on frontier research in LLM and other autoregressive models. </td>
@@ -3980,46 +4020,6 @@ Total Stars: <!-- doc-gen STAR_COUNT -->1,443<!-- end-doc-gen -->
   <tr>
   <td><a href="https://github.com/diggit/ulauncher-lolcate">diggit/ulauncher-lolcate</a><sup><sub> - Python - Oct 17, 2021</sub></sup><br/>Extension for ulauncher to visit your files anytime, anywhere. </td>
   <td><a href="./stars/diggit/ulauncher-lolcate.md">Nov 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ngirard/lolcate-rs">ngirard/lolcate-rs</a><sup><sub> - Rust - Apr 29, 2019</sub></sup><br/><sup><sub>Tags: #filesearch #filesystem-indexer #mlocate #regex #rust #search #search-engine</sub></sup><br/>Lolcate -- A comically fast way of indexing and querying your filesystem.<br/>Replaces locate / mlocate / updatedb. Written in Rust. </td>
-  <td><a href="./stars/ngirard/lolcate-rs.md">Nov 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Rapha149/ulauncher-bluetooth">Rapha149/ulauncher-bluetooth</a><sup><sub> - Python - Apr 22, 2022</sub></sup><br/><sup><sub>Tags: #bluetooth #ulauncher #ulauncher-extension</sub></sup><br/>Powerful Ulauncher tool for managing Bluetooth devices. </td>
-  <td><a href="./stars/Rapha149/ulauncher-bluetooth.md">Nov 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/brndnmtthws/conky">brndnmtthws/conky</a><sup><sub> - C++ - Dec 26, 2012</sub></sup><br/><sup><sub>Tags: #c-plus-plus #cairo #conky #imlib2 #linux #lua #system-monitoring #wayland</sub></sup><br/>Light-weight system monitor for X, Wayland, and other things, too. </td>
-  <td><a href="./stars/brndnmtthws/conky.md">Nov 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/cerebroapp/cerebro">cerebroapp/cerebro</a><sup><sub> - JavaScript - Jul 03, 2016</sub></sup><br/><sup><sub>Tags: #cerebro #electron #launcher #search</sub></sup><br/>🔵 Cerebro is an open-source launcher to improve your productivity and<br/>efficiency. </td>
-  <td><a href="./stars/cerebroapp/cerebro.md">Nov 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Ulauncher/Ulauncher">Ulauncher/Ulauncher</a><sup><sub> - Python - May 10, 2015</sub></sup><br/><sup><sub>Tags: #gtk #launcher #linux #python</sub></sup><br/>Feature rich application Launcher for Linux. </td>
-  <td><a href="./stars/Ulauncher/Ulauncher.md">Nov 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/SuperCuber/rmenu">SuperCuber/rmenu</a><sup><sub> - Rust - Jul 02, 2017</sub></sup><br/>A dmenu and rofi inspired menu. </td>
-  <td><a href="./stars/SuperCuber/rmenu.md">Nov 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/babyman/quick-tabs-chrome-extension">babyman/quick-tabs-chrome-extension</a><sup><sub> - JavaScript - Dec 28, 2009</sub></sup><br/>A quick tab list and switch plugin inspired by the intelliJ IDEA java IDE. </td>
-  <td><a href="./stars/babyman/quick-tabs-chrome-extension.md">Nov 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/dracula/cava">dracula/cava</a><sup><sub> - Oct 20, 2022</sub></sup><br/>🧛🏻‍♂️ Dark theme for Cava. </td>
-  <td><a href="./stars/dracula/cava.md">Nov 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/worron/cavalcade">worron/cavalcade</a><sup><sub> - Python - Jan 14, 2017</sub></sup><br/>C.A.V.A. gui. </td>
-  <td><a href="./stars/worron/cavalcade.md">Nov 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/catppuccin/emacs">catppuccin/emacs</a><sup><sub> - Emacs Lisp - Jan 26, 2022</sub></sup><br/><sup><sub>Tags: #catppuccin #emacs #emacs-package #emacs-theme #hacktoberfest #theme</sub></sup><br/>🍄 Soothing pastel theme for Emacs. </td>
-  <td><a href="./stars/catppuccin/emacs.md">Nov 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
 </table><!-- end-doc-gen -->
 

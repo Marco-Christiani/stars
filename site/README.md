@@ -13,13 +13,45 @@
 
 ## Stars by date
 
-Total Stars: <!-- doc-gen STAR_COUNT -->1,455<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->1,460<!-- end-doc-gen -->
 
 <!-- doc-gen ALL_STARS_TABLE -->
 <table>
   <tr>
   <th align="left">Repo</th>
   <th align="center">Starred On</th>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/Mic92/cntr">Mic92/cntr</a><sup><sub> - Rust - Jun 01, 2016</sub></sup><br/><sup><sub>Tags: #build-with-buildbot #docker #lxc #rkt #systemd-nspawn</sub></sup><br/>A container debugging tool based on FUSE. </td>
+  <td><a href="./stars/Mic92/cntr.md">Apr 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/containers/toolbox">containers/toolbox</a><sup><sub> - Shell - Aug 31, 2018</sub></sup><br/><sup><sub>Tags: #containers #linux</sub></sup><br/>Tool for interactive command line environments on Linux. </td>
+  <td><a href="./stars/containers/toolbox.md">Apr 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/synapdeck/github-actions-nix">synapdeck/github-actions-nix</a><sup><sub> - Nix - Nov 22, 2025</sub></sup><br/>Generate GitHub Actions workflows from Nix configuration. </td>
+  <td><a href="./stars/synapdeck/github-actions-nix.md">Apr 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/NVIDIA/warp">NVIDIA/warp</a><sup><sub> - Python - Mar 18, 2022</sub></sup><br/><sup><sub>Tags: #cuda #differentiable-programming #gpu #gpu-acceleration #nvidia #nvidia-warp #python</sub></sup><br/>A Python framework for GPU-accelerated simulation, robotics, and machine<br/>learning. </td>
+  <td><a href="./stars/NVIDIA/warp.md">Apr 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/wislertt/bakefile">wislertt/bakefile</a><sup><sub> - Python - Dec 21, 2025</sub></sup><br/><sup><sub>Tags: #build-tool #cli #command-line #devops #justfile #makefile #pydantic #python #task-runner #typer</sub></sup><br/>An OOP task runner in Python. Like a Makefile, but with tasks as Python<br/>class methods—so you can inherit, compose, and reuse them across projects. </td>
+  <td><a href="./stars/wislertt/bakefile.md">Apr 07, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/1st1/lat.md">1st1/lat.md</a><sup><sub> - TypeScript - Mar 09, 2026</sub></sup><br/>Agent Lattice: a knowledge graph for your codebase, written in markdown. </td>
+  <td><a href="./stars/1st1/lat.md.md">Apr 02, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/flame/blislab">flame/blislab</a><sup><sub> - C - Apr 20, 2016</sub></sup><br/><sup><sub>Tags: #blis #code-optimization #gemm #matrix-multiplication</sub></sup><br/>BLISlab: A Sandbox for Optimizing GEMM. </td>
+  <td><a href="./stars/flame/blislab.md">Apr 02, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/n0-computer/sendme">n0-computer/sendme</a><sup><sub> - Rust - Dec 12, 2023</sub></sup><br/>A tool to send files and directories, based on iroh. </td>
+  <td><a href="./stars/n0-computer/sendme.md">Mar 31, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
   <tr>
   <td><a href="https://github.com/rayokota/jsonata-python">rayokota/jsonata-python</a><sup><sub> - Python - May 19, 2024</sub></sup><br/><sup><sub>Tags: #json #jsonata #python3</sub></sup><br/>JSONata for Python. </td>
@@ -3988,38 +4020,6 @@ Total Stars: <!-- doc-gen STAR_COUNT -->1,455<!-- end-doc-gen -->
   <tr>
   <td><a href="https://github.com/balta2ar/brotab">balta2ar/brotab</a><sup><sub> - Python - Aug 12, 2017</sub></sup><br/><sup><sub>Tags: #automation #browser #browser-extension #chrome-extension #cli #command-line #command-line-tool #commandline #firefox<br/>#firefox-extension #javascript #productivity #python</sub></sup><br/>Control your browser&#039;s tabs from the command line. </td>
   <td><a href="./stars/balta2ar/brotab.md">Nov 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/brpaz/ulauncher-brotab">brpaz/ulauncher-brotab</a><sup><sub> - Python - Jun 13, 2020</sub></sup><br/><sup><sub>Tags: #ulauncher-extension</sub></sup><br/>Control your browser tabs directly from Ulauncher with the help of Brotab. </td>
-  <td><a href="./stars/brpaz/ulauncher-brotab.md">Nov 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/pschmitt/cmp-brotab">pschmitt/cmp-brotab</a><sup><sub> - Lua - May 05, 2022</sub></sup><br/><sup><sub>Tags: #brotab #browser #neovim #nvim #nvim-cmp</sub></sup><br/>Brotab completion for nvim-cmp. </td>
-  <td><a href="./stars/pschmitt/cmp-brotab.md">Nov 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/zakuciael/ulauncher-jetbrains-reloaded">zakuciael/ulauncher-jetbrains-reloaded</a><sup><sub> - Python - Dec 31, 2021</sub></sup><br/><sup><sub>Tags: #clion #ide #intellij-idea #jetbrains #phpstorm #pycharm #rider #ulauncher #ulauncher-extension #webstorm</sub></sup><br/>Ulauncher extension that lets you open your projects in JetBrains IDEs. </td>
-  <td><a href="./stars/zakuciael/ulauncher-jetbrains-reloaded.md">Nov 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/plibither8/ulauncher-zoom">plibither8/ulauncher-zoom</a><sup><sub> - Python - Jun 25, 2021</sub></sup><br/><sup><sub>Tags: #ulauncher #ulauncher-extension #zoom</sub></sup><br/>📹 Join a Zoom meeting quickly from Ulauncher. </td>
-  <td><a href="./stars/plibither8/ulauncher-zoom.md">Nov 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/brpaz/ulauncher-raindrop">brpaz/ulauncher-raindrop</a><sup><sub> - Python - May 09, 2021</sub></sup><br/><sup><sub>Tags: #ulauncher-extension</sub></sup><br/>Search in your Raindrop bookmarks from Ulauncher. </td>
-  <td><a href="./stars/brpaz/ulauncher-raindrop.md">Nov 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/randomCharacter/ulauncher-meet">randomCharacter/ulauncher-meet</a><sup><sub> - Python - Feb 26, 2021</sub></sup></td>
-  <td><a href="./stars/randomCharacter/ulauncher-meet.md">Nov 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/pbkhrv/ulauncher-notes-nv">pbkhrv/ulauncher-notes-nv</a><sup><sub> - Python - Oct 23, 2019</sub></sup><br/><sup><sub>Tags: #notational-velocity #ulauncher #ulauncher-extension #ulauncher-extensions</sub></sup><br/>Ulauncher extension to search, store and retrieve plain text notes,<br/>inspired by NotationalVelocity. </td>
-  <td><a href="./stars/pbkhrv/ulauncher-notes-nv.md">Nov 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/diggit/ulauncher-lolcate">diggit/ulauncher-lolcate</a><sup><sub> - Python - Oct 17, 2021</sub></sup><br/>Extension for ulauncher to visit your files anytime, anywhere. </td>
-  <td><a href="./stars/diggit/ulauncher-lolcate.md">Nov 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
 </table><!-- end-doc-gen -->
 

@@ -13,7 +13,7 @@
 
 ## Stars by date
 
-Total Stars: <!-- doc-gen STAR_COUNT -->1,460<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->1,463<!-- end-doc-gen -->
 
 <!-- doc-gen ALL_STARS_TABLE -->
 <table>

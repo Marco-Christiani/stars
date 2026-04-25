@@ -13,13 +13,73 @@
 
 ## Stars by date
 
-Total Stars: <!-- doc-gen STAR_COUNT -->1,463<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->1,475<!-- end-doc-gen -->
 
 <!-- doc-gen ALL_STARS_TABLE -->
 <table>
   <tr>
   <th align="left">Repo</th>
   <th align="center">Starred On</th>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/deepseek-ai/TileKernels">deepseek-ai/TileKernels</a><sup><sub> - Python - Apr 22, 2026</sub></sup><br/>A kernel library written in tilelang. </td>
+  <td><a href="./stars/deepseek-ai/TileKernels.md">Apr 25, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/hijohnnylin/neuronpedia">hijohnnylin/neuronpedia</a><sup><sub> - TypeScript - Jun 21, 2023</sub></sup><br/><sup><sub>Tags: #ai #interpretability</sub></sup><br/>open source interpretability platform 🧠. </td>
+  <td><a href="./stars/hijohnnylin/neuronpedia.md">Apr 25, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/hauntsaninja/pyp">hauntsaninja/pyp</a><sup><sub> - Python - Apr 14, 2020</sub></sup><br/><sup><sub>Tags: #awk #cli #command-line #python #shell</sub></sup><br/>Easily run Python at the shell! Magical, but never mysterious. </td>
+  <td><a href="./stars/hauntsaninja/pyp.md">Apr 24, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/vatlab/sos">vatlab/sos</a><sup><sub> - Python - Feb 13, 2016</sub></sup><br/>SoS workflow system for daily data analysis. </td>
+  <td><a href="./stars/vatlab/sos.md">Apr 22, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/gazorby/fifc">gazorby/fifc</a><sup><sub> - Shell - Jul 01, 2022</sub></sup><br/><sup><sub>Tags: #cli #complete #completion #fish #fish-packages #fish-plugin #fish-shell #fisher #fuzzy-search #fzf #fzf-preview-pane<br/>#fzf-scripts #fzf-tab</sub></sup><br/>🐠 Configurable fzf completions for fish shell. </td>
+  <td><a href="./stars/gazorby/fifc.md">Apr 22, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/pirate/fish-utils">pirate/fish-utils</a><sup><sub> - Shell - Nov 07, 2014</sub></sup><br/><sup><sub>Tags: #command-line-tools #dotfiles #fish #fish-functions #fish-shell #shell-scripts #utility-function</sub></sup><br/>:wrench: My utility belt of fish functions, writing these has saved me many<br/>hours in the long run... I hope... </td>
+  <td><a href="./stars/pirate/fish-utils.md">Apr 22, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/razzius/fish-functions">razzius/fish-functions</a><sup><sub> - Shell - Oct 31, 2016</sub></sup><br/><sup><sub>Tags: #fish #fish-shell #shell</sub></sup><br/>Useful fish functions. </td>
+  <td><a href="./stars/razzius/fish-functions.md">Apr 22, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/adaszko/complgen">adaszko/complgen</a><sup><sub> - Rust - Mar 26, 2023</sub></sup><br/><sup><sub>Tags: #bash #bash-shell #completion #completions #fish #fish-shell #powershell #pwsh #shell-completion #zsh<br/>#zsh-shell</sub></sup><br/>Declarative bash/fish/zsh/pwsh completions without writing shell scripts!. </td>
+  <td><a href="./stars/adaszko/complgen.md">Apr 22, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/rdavison/graphite-layout">rdavison/graphite-layout</a><sup><sub> - Apr 05, 2023</sub></sup><br/>Graphite keyboard layout. </td>
+  <td><a href="./stars/rdavison/graphite-layout.md">Apr 22, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/imsnif/diskonaut">imsnif/diskonaut</a><sup><sub> - Rust - Feb 22, 2020</sub></sup><br/><sup><sub>Tags: #cli #disk-space #navigator #terminal #visualization</sub></sup><br/>Terminal disk space navigator 🔭. </td>
+  <td><a href="./stars/imsnif/diskonaut.md">Apr 22, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/PrefectHQ/prefab">PrefectHQ/prefab</a><sup><sub> - HTML - Feb 06, 2026</sub></sup><br/>🎨 The generative UI framework that even humans can use. </td>
+  <td><a href="./stars/PrefectHQ/prefab.md">Apr 21, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/pydantic/FastUI">pydantic/FastUI</a><sup><sub> - Python - Sep 18, 2023</sub></sup><br/><sup><sub>Tags: #fastapi #pydantic #python #react</sub></sup><br/>Build better UIs faster. </td>
+  <td><a href="./stars/pydantic/FastUI.md">Apr 21, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/xit-vcs/xit">xit-vcs/xit</a><sup><sub> - Zig - Jun 09, 2023</sub></sup><br/>a git alternative written in zig. </td>
+  <td><a href="./stars/xit-vcs/xit.md">Apr 18, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/jpetrucciani/pog">jpetrucciani/pog</a><sup><sub> - Nix - Feb 13, 2022</sub></sup><br/><sup><sub>Tags: #bash #cli #nix</sub></sup><br/>🤯 a new, powerful way to do bash scripts. </td>
+  <td><a href="./stars/jpetrucciani/pog.md">Apr 13, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/dbrattli/Expression">dbrattli/Expression</a><sup><sub> - Python - Sep 23, 2020</sub></sup><br/><sup><sub>Tags: #fsharp #functional-programming #oslash #python #railway-oriented-programming</sub></sup><br/>Functional programming for Python. </td>
+  <td><a href="./stars/dbrattli/Expression.md">Apr 13, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
   <tr>
   <td><a href="https://github.com/Mic92/cntr">Mic92/cntr</a><sup><sub> - Rust - Jun 01, 2016</sub></sup><br/><sup><sub>Tags: #build-with-buildbot #docker #lxc #rkt #systemd-nspawn</sub></sup><br/>A container debugging tool based on FUSE. </td>
@@ -72,6 +132,10 @@ Total Stars: <!-- doc-gen STAR_COUNT -->1,463<!-- end-doc-gen -->
   <tr>
   <td><a href="https://github.com/lucaas-d3v/flint">lucaas-d3v/flint</a><sup><sub> - Zig - Mar 07, 2026</sub></sup><br/><sup><sub>Tags: #c99 #cli #compiler #devops #flint #language #pipeline #scripting-language #transpiler #zig</sub></sup><br/>A pipeline-oriented system language for robust CLI tools. Transpiles to<br/>C99. Built in Zig. </td>
   <td><a href="./stars/lucaas-d3v/flint.md">Mar 27, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/the-flint-lang/flint">the-flint-lang/flint</a><sup><sub> - Zig - Mar 07, 2026</sub></sup><br/><sup><sub>Tags: #c99 #cli #compiler #devops #flint #language #pipeline #scripting-language #transpiler #zig</sub></sup><br/>A pipeline-oriented system language for robust CLI tools. Transpiles to<br/>C99. Built in Zig. </td>
+  <td><a href="./stars/the-flint-lang/flint.md">Mar 27, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
   <tr>
   <td><a href="https://github.com/bdwgc/bdwgc">bdwgc/bdwgc</a><sup><sub> - C - Jul 26, 2011</sub></sup><br/><sup><sub>Tags: #c #c-plus-plus #cplusplus #cpp #cross-platform #garbage-collection #garbage-collector #gc #leak-detection #library<br/>#memory-allocation #memory-leak-detection #memory-management #portable</sub></sup><br/>The Boehm-Demers-Weiser conservative C/C++ Garbage Collector (bdwgc, also<br/>known as bdw-gc, boehm-gc, libgc). </td>
@@ -140,6 +204,10 @@ Total Stars: <!-- doc-gen STAR_COUNT -->1,463<!-- end-doc-gen -->
   <tr>
   <td><a href="https://github.com/Ataraxy-Labs/sem">Ataraxy-Labs/sem</a><sup><sub> - Rust - Feb 05, 2026</sub></sup><br/><sup><sub>Tags: #ai-agents #cli #code-review #developer-tools #diff #git #rust #semantic-diff #tree-sitter</sub></sup><br/>Semantic version control CLI. Entity-level diff, blame, graph, and impact<br/>analysis for code. 16 languages via tree-sitter. </td>
   <td><a href="./stars/Ataraxy-Labs/sem.md">Mar 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/johannjhang/fz.sh">johannjhang/fz.sh</a><sup><sub> - Shell - Mar 18, 2017</sub></sup><br/><sup><sub>Tags: #autocompletion #autojump #bash #bash-completion #cd #completion #fasd #fuzzy #fuzzy-search #j #jump #oh-my-zsh<br/>#pluging #tab-completion #z #zplug #zsh #zsh-completion #zsh-plugin</sub></sup><br/>Cli shell plugin, the missing fuzzy tab completion feature for the z jump<br/>around command. </td>
+  <td><a href="./stars/johannjhang/fz.sh.md">Mar 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
   <tr>
   <td><a href="https://github.com/mrjohannchang/fz.sh">mrjohannchang/fz.sh</a><sup><sub> - Shell - Mar 18, 2017</sub></sup><br/><sup><sub>Tags: #autocompletion #autojump #bash #bash-completion #cd #completion #fasd #fuzzy #fuzzy-search #j #jump #oh-my-zsh<br/>#pluging #tab-completion #z #zplug #zsh #zsh-completion #zsh-plugin</sub></sup><br/>Cli shell plugin, the missing fuzzy tab completion feature for the z jump<br/>around command. </td>
@@ -3952,74 +4020,6 @@ Total Stars: <!-- doc-gen STAR_COUNT -->1,463<!-- end-doc-gen -->
   <tr>
   <td><a href="https://github.com/maybelinot/df2gspread">maybelinot/df2gspread</a><sup><sub> - Python - Aug 27, 2015</sub></sup><br/><sup><sub>Tags: #google-sheets #google-spreadsheet #gspread #pandas #pandas-dataframe #python</sub></sup><br/>Manage Google Spreadsheets in Pandas DataFrame with Python. </td>
   <td><a href="./stars/maybelinot/df2gspread.md">Nov 25, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/fumitoh/modelx">fumitoh/modelx</a><sup><sub> - Python - Sep 17, 2017</sub></sup><br/><sup><sub>Tags: #actuarial #actuary #cache #finance #memoization #modeling #monte-carlo #python #quantitative-finance #recursion<br/>#risk-management #time-series</sub></sup><br/>Use Python like a spreadsheet!. </td>
-  <td><a href="./stars/fumitoh/modelx.md">Nov 25, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/saulpw/visidata">saulpw/visidata</a><sup><sub> - Python - Oct 27, 2016</sub></sup><br/><sup><sub>Tags: #cli #csv #datajournalism #datawrangling #devops-tools #eda #hdf5 #json #opendata #pandas #python #reconciliation<br/>#spreadsheet #sqlite #tabular-data #tsv #tui #unix-toolkit</sub></sup><br/>A terminal spreadsheet multitool for discovering and arranging data. </td>
-  <td><a href="./stars/saulpw/visidata.md">Nov 25, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/burnash/gspread">burnash/gspread</a><sup><sub> - Python - Dec 02, 2011</sub></sup><br/><sup><sub>Tags: #google-sheets #google-sheets-api #google-sheets-api-v4 #gspread #spreadsheet #spreadsheets</sub></sup><br/>Google Sheets Python API. </td>
-  <td><a href="./stars/burnash/gspread.md">Nov 25, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/pennersr/django-allauth">pennersr/django-allauth</a><sup><sub> - Python - Oct 10, 2010</sub></sup><br/><sup><sub>Tags: #accounts #authentication #django #login #oauth2 #openid-connect #passkeys #python #registration #saml #signup<br/>#social-login #two-factor-authentication #webauthn</sub></sup><br/>Integrated set of Django applications addressing authentication,<br/>registration, account management as well as 3rd party (social) account<br/>authentication. 🔁 Mirror of https://codeberg.org/allauth/django-allauth/. </td>
-  <td><a href="./stars/pennersr/django-allauth.md">Nov 25, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/pwntester/octo.nvim">pwntester/octo.nvim</a><sup><sub> - Lua - Sep 26, 2020</sub></sup><br/><sup><sub>Tags: #github #neovim</sub></sup><br/>Edit and review GitHub issues and pull requests from the comfort of your<br/>favorite editor. </td>
-  <td><a href="./stars/pwntester/octo.nvim.md">Nov 24, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/idlesign/keybind">idlesign/keybind</a><sup><sub> - Python - Nov 15, 2018</sub></sup><br/><sup><sub>Tags: #hotkeys #keybindings #linux #python #unix #x11</sub></sup><br/>Global key binding made easy. </td>
-  <td><a href="./stars/idlesign/keybind.md">Nov 24, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/MichaelAquilina/zsh-auto-notify">MichaelAquilina/zsh-auto-notify</a><sup><sub> - Shell - Jul 13, 2019</sub></sup><br/>⏰ ZSH plugin that automatically sends out a notification when a long<br/>running task has completed. </td>
-  <td><a href="./stars/MichaelAquilina/zsh-auto-notify.md">Nov 23, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/micans/apparix">micans/apparix</a><sup><sub> - Shell - Mar 16, 2021</sub></sup><br/><sup><sub>Tags: #bash #bookmarks #command-line #directories #directory-bookmarking #directory-bookmarks #tab-completion<br/>#zsh</sub></sup><br/>Command line directory bookmarks with jumping to bookmarks, subdirectory<br/>tab completion, distant listing etc. </td>
-  <td><a href="./stars/micans/apparix.md">Nov 23, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mollifier/anyframe">mollifier/anyframe</a><sup><sub> - Shell - Jul 02, 2014</sub></sup><br/>peco/percol/fzf wrapper plugin for zsh. </td>
-  <td><a href="./stars/mollifier/anyframe.md">Nov 23, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/akash329d/zsh-alias-finder">akash329d/zsh-alias-finder</a><sup><sub> - Shell - Aug 04, 2022</sub></sup><br/>Simple ZSH Plugin to help you remember aliases. </td>
-  <td><a href="./stars/akash329d/zsh-alias-finder.md">Nov 23, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/pre-commit-ci/lite-action">pre-commit-ci/lite-action</a><sup><sub> - JavaScript - Nov 01, 2022</sub></sup><br/>github action for pre-commit-ci lite. </td>
-  <td><a href="./stars/pre-commit-ci/lite-action.md">Nov 23, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/shankarpandala/lazypredict">shankarpandala/lazypredict</a><sup><sub> - Python - Nov 16, 2019</sub></sup><br/><sup><sub>Tags: #automl #classification #machine-learning #regression</sub></sup><br/>Lazy Predict help build a lot of basic models without much code and helps<br/>understand which models works better without any parameter tuning. </td>
-  <td><a href="./stars/shankarpandala/lazypredict.md">Nov 23, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/jacquessham/DashExamples">jacquessham/DashExamples</a><sup><sub> - Python - Apr 02, 2020</sub></sup><br/><sup><sub>Tags: #analytics #business-intelligence #data-visualization #plotly #plotly-dash #python</sub></sup><br/>Demonstrate how to use Dash by Plotly and Plotly to create dashboard or<br/>visualization in Python. </td>
-  <td><a href="./stars/jacquessham/DashExamples.md">Nov 22, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/cmuench/ulauncher-todoist">cmuench/ulauncher-todoist</a><sup><sub> - Python - Aug 24, 2019</sub></sup><br/>Extension to manage Todoist tasks in Ulauncher. </td>
-  <td><a href="./stars/cmuench/ulauncher-todoist.md">Nov 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/brpaz/hawkeye">brpaz/hawkeye</a><sup><sub> - Python - Aug 15, 2018</sub></sup><br/><sup><sub>Tags: #file-preview #gtk #linux #python3</sub></sup><br/>Hawkeye is a command line GTK Application that allow to quickly open PDFs,<br/>Markkown Files, Images and Websites in a &quot;small&quot; window, somewhat<br/>inspired by MacOS quicklook. </td>
-  <td><a href="./stars/brpaz/hawkeye.md">Nov 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/brpaz/ulauncher-docsearch">brpaz/ulauncher-docsearch</a><sup><sub> - Python - Jul 31, 2019</sub></sup><br/><sup><sub>Tags: #algolia #documentation #ulauncher #ulauncher-extension</sub></sup><br/>Ulauncher extension for doing full text search on Documentation sites,<br/>powered by Algolia. </td>
-  <td><a href="./stars/brpaz/ulauncher-docsearch.md">Nov 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/balta2ar/brotab">balta2ar/brotab</a><sup><sub> - Python - Aug 12, 2017</sub></sup><br/><sup><sub>Tags: #automation #browser #browser-extension #chrome-extension #cli #command-line #command-line-tool #commandline #firefox<br/>#firefox-extension #javascript #productivity #python</sub></sup><br/>Control your browser&#039;s tabs from the command line. </td>
-  <td><a href="./stars/balta2ar/brotab.md">Nov 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
 </table><!-- end-doc-gen -->
 

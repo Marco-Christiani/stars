@@ -1,0 +1,85 @@
+---
+repo: hermeticbuild/cuda-toolkit
+url: 'https://github.com/hermeticbuild/cuda-toolkit'
+homepage: ''
+starredAt: '2026-05-02T04:38:55Z'
+createdAt: '2026-03-05T11:16:33Z'
+updatedAt: '2026-05-02T04:38:55Z'
+language: Starlark
+license: MIT
+branch: main
+stars: 12
+isPublic: true
+isTemplate: false
+isArchived: false
+isFork: false
+hasReadMe: true
+refreshedAt: '2026-05-09T22:35:15.017Z'
+description: Hermetic CUDA Toolkit using Bazel
+tags: []
+---
+
+# CUDA Toolkit
+
+[![CI](https://github.com/hermeticbuild/cuda-toolkit/actions/workflows/ci.yml/badge.svg)](https://github.com/hermeticbuild/cuda-toolkit/actions/workflows/ci.yml)
+
+<img width="320" height="320" alt="image" src="https://github.com/user-attachments/assets/1d816875-0282-4ac7-9405-0f53528f5495" />
+
+## Project Overview
+
+This repository provides the CUDA toolkit (CUDA, cuDNN, and related redistributions)
+hermetically using Bazel.
+
+This project has similarities with `rules_cuda` or `rules_ml_toolchain` except that it provides only the CUDA toolkit without any toolchain definitions or usage assumptions.
+
+It is meant to be consumed by other Bazel projects, notably rulesets and toolchains.
+
+## Supported versions
+
+Supported versions are defined in:
+- `cuda/cuda_redist_versions.json`
+- `cudnn/cudnn_redist_versions.json`
+- `nvshmem/nvshmem_redist_versions.json`
+
+## Supported platforms
+
+CUDA components are typically published for these platforms:
+- `linux-x86_64`
+- `linux-sbsa`
+
+This module exposes each component through proxy subpackages:
+- `@cuda//<component>`
+
+These proxy targets are platform-aware and resolve to the correct concrete package for the active Bazel configuration.
+
+For example, `@cuda//nvcc:ptxas` used from an attribute with `cfg = "exec"` resolves automatically to the appropriate execution-platform binary.
+
+## Recommended usage
+
+Example `MODULE.bazel` setup:
+
+```starlark
+cuda_ext = use_extension("@cuda_toolkit//extensions:cuda.bzl", "cuda")
+
+cuda_ext.redist(
+    name = "cuda_12_9_1",
+    version = "12.9.1",
+    cudnn_version = "8.9.7",
+    nvshmem_version = "3.3.24",
+)
+
+use_repo(cuda_ext, "cuda")
+```
+
+## Notes
+
+- CUDA versions are registered explicitly with `cuda_ext.redist(...)`.
+- cuDNN and NVSHMEM versions, when used, are pinned on the same `cuda_ext.redist(...)` tag.
+- CUDA packages under `@cuda//<components>` are platform-resolving proxies. The selected concrete redistribution
+  is chosen from the current Bazel configuration platform (including exec config).
+- For local validation on non-Linux hosts, you can force Linux selection with
+  `--platforms=//:platform_linux_amd64` or `--platforms=//:platform_linux_arm64`.
+
+## License
+
+This project is licensed under the MIT License.

@@ -13,13 +13,65 @@
 
 ## Stars by date
 
-Total Stars: <!-- doc-gen STAR_COUNT -->1,480<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->1,488<!-- end-doc-gen -->
 
 <!-- doc-gen ALL_STARS_TABLE -->
 <table>
   <tr>
   <th align="left">Repo</th>
   <th align="center">Starred On</th>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/Parquery/pylddwrap">Parquery/pylddwrap</a><sup><sub> - Python - Sep 06, 2018</sub></sup><br/>Python 3 wrapper around ldd *nix utility to determine shared libraries of a<br/>program. </td>
+  <td><a href="./stars/Parquery/pylddwrap.md">May 07, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/sabre-io/Baikal">sabre-io/Baikal</a><sup><sub> - PHP - Feb 27, 2012</sub></sup><br/>Baïkal is a Calendar+Contacts server. </td>
+  <td><a href="./stars/sabre-io/Baikal.md">May 06, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/fireducks-dev/fireducks">fireducks-dev/fireducks</a><sup><sub> - Jupyter Notebook - Oct 12, 2023</sub></sup><br/>Create an issue on FireDucks. </td>
+  <td><a href="./stars/fireducks-dev/fireducks.md">May 06, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/flightlessmango/MangoHud">flightlessmango/MangoHud</a><sup><sub> - C - Jan 28, 2020</sub></sup><br/><sup><sub>Tags: #benchmarking #hud #linux #monitoring #opengl #vulkan</sub></sup><br/>A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load<br/>and more. </td>
+  <td><a href="./stars/flightlessmango/MangoHud.md">May 06, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/kamiyaa/joshuto">kamiyaa/joshuto</a><sup><sub> - Rust - Jul 13, 2018</sub></sup><br/><sup><sub>Tags: #clipboard #concurrency #file-manager #hacktoberfest #joshuto #linux #ncurses #ranger #rust #termion #toml #tui<br/>#tui-rs</sub></sup><br/>ranger-like terminal file manager written in Rust. </td>
+  <td><a href="./stars/kamiyaa/joshuto.md">May 06, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/unikraft/kraftkit">unikraft/kraftkit</a><sup><sub> - Go - Mar 16, 2022</sub></sup><br/><sup><sub>Tags: #docker #go #golang #osdev #unikernel #unikraft</sub></sup><br/>Build and use highly customized and ultra-lightweight unikernel VMs. </td>
+  <td><a href="./stars/unikraft/kraftkit.md">May 06, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/veracrypt/VeraCrypt">veracrypt/VeraCrypt</a><sup><sub> - C - Nov 08, 2014</sub></sup><br/><sup><sub>Tags: #encryption #encryption-algorithms #encryption-decryption #idrix #veracrypt #veracrypt-source</sub></sup><br/>Disk encryption with strong security based on TrueCrypt. </td>
+  <td><a href="./stars/veracrypt/VeraCrypt.md">May 06, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/divnix/std">divnix/std</a><sup><sub> - Nix - Nov 14, 2021</sub></sup><br/><sup><sub>Tags: #devops #nix #nix-flakes #sdlc</sub></sup><br/>A DevOps framework for the SDLC with the power of Nix and Flakes. Good for<br/>keeping deadlines!. </td>
+  <td><a href="./stars/divnix/std.md">May 06, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/hermeticbuild/hermetic-llvm">hermeticbuild/hermetic-llvm</a><sup><sub> - Starlark - Mar 31, 2025</sub></sup><br/><sup><sub>Tags: #bazel #hermetic #llvm #remote-execution</sub></sup><br/>A zero sysroot, fully hermetic C/C++ cross compilation toolchain for Bazel<br/>based on LLVM. </td>
+  <td><a href="./stars/hermeticbuild/hermetic-llvm.md">May 02, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/hermeticbuild/llvm-redist">hermeticbuild/llvm-redist</a><sup><sub> - Shell - Mar 03, 2026</sub></sup><br/>A repository that publishes more lightweight LLVM releases (mirroring<br/>official releases). </td>
+  <td><a href="./stars/hermeticbuild/llvm-redist.md">May 02, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/hermeticbuild/cuda-toolkit">hermeticbuild/cuda-toolkit</a><sup><sub> - Starlark - Mar 05, 2026</sub></sup><br/>Hermetic CUDA Toolkit using Bazel. </td>
+  <td><a href="./stars/hermeticbuild/cuda-toolkit.md">May 02, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/nilslice/workers-zig">nilslice/workers-zig</a><sup><sub> - Zig - Apr 15, 2026</sub></sup><br/><sup><sub>Tags: #cloudflare #webassembly #workers #zig</sub></sup><br/>Write Cloudflare Workers in 100% Zig via WebAssembly. </td>
+  <td><a href="./stars/nilslice/workers-zig.md">May 02, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/nix-community/srvos">nix-community/srvos</a><sup><sub> - Nix - Dec 01, 2022</sub></sup><br/><sup><sub>Tags: #nix #nixos</sub></sup><br/>NixOS profiles for servers [maintainer=@numtide]. </td>
+  <td><a href="./stars/nix-community/srvos.md">Apr 29, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
   <tr>
   <td><a href="https://github.com/deepseek-ai/TileKernels">deepseek-ai/TileKernels</a><sup><sub> - Python - Apr 22, 2026</sub></sup><br/>A kernel library written in tilelang. </td>
@@ -3968,58 +4020,6 @@ Total Stars: <!-- doc-gen STAR_COUNT -->1,480<!-- end-doc-gen -->
   <tr>
   <td><a href="https://github.com/vyleung/logseq-helium-plugin">vyleung/logseq-helium-plugin</a><sup><sub> - JavaScript - Apr 22, 2022</sub></sup><br/><sup><sub>Tags: #logseq #logseq-plugin</sub></sup><br/>a Logseq plugin to float items (e.g. videos) for an improved note-taking<br/>experience. </td>
   <td><a href="./stars/vyleung/logseq-helium-plugin.md">Nov 26, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/gidongkwon/logseq-plugin-tags">gidongkwon/logseq-plugin-tags</a><sup><sub> - TypeScript - Dec 31, 2021</sub></sup><br/><sup><sub>Tags: #logseq #logseq-plugin</sub></sup><br/>A logseq plugin that lets you find #tags. </td>
-  <td><a href="./stars/gidongkwon/logseq-plugin-tags.md">Nov 26, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/phildenhoff/logseq-raindrop">phildenhoff/logseq-raindrop</a><sup><sub> - TypeScript - May 07, 2022</sub></sup><br/><sup><sub>Tags: #logseq-plugin #svelte</sub></sup><br/>A Raindrop plugin for Logseq. </td>
-  <td><a href="./stars/phildenhoff/logseq-raindrop.md">Nov 26, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/YU000jp/Logseq-column-Layout">YU000jp/Logseq-column-Layout</a><sup><sub> - CSS - Sep 10, 2022</sub></sup><br/><sup><sub>Tags: #logseq #logseq-plugin</sub></sup><br/>Apply column layout style to Journals in Logseq. </td>
-  <td><a href="./stars/YU000jp/Logseq-column-Layout.md">Nov 26, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sawhney17/logseq-calendars-plugin">sawhney17/logseq-calendars-plugin</a><sup><sub> - TypeScript - Jan 27, 2022</sub></sup></td>
-  <td><a href="./stars/sawhney17/logseq-calendars-plugin.md">Nov 26, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/briansunter/logseq-plugin-gpt3-openai">briansunter/logseq-plugin-gpt3-openai</a><sup><sub> - TypeScript - May 31, 2022</sub></sup><br/><sup><sub>Tags: #dall-e #gpt-3 #gpt-4 #gpt3 #logseq #logseq-plugin #openai #typescript</sub></sup><br/>A plugin for GPT-3 AI assisted note taking in Logseq. </td>
-  <td><a href="./stars/briansunter/logseq-plugin-gpt3-openai.md">Nov 26, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/typeddjango/django-stubs">typeddjango/django-stubs</a><sup><sub> - Python - Jul 29, 2018</sub></sup><br/><sup><sub>Tags: #django #hacktoberfest #mypy #pep484 #python #python3</sub></sup><br/>PEP-484 stubs for Django. </td>
-  <td><a href="./stars/typeddjango/django-stubs.md">Nov 25, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/catppuccin/dunst">catppuccin/dunst</a><sup><sub> - Mar 22, 2022</sub></sup><br/><sup><sub>Tags: #catppuccin #catppuccin-theme #dunst #dunstrc #hacktoberfest</sub></sup><br/>🐤 Soothing pastel theme for Dunst. </td>
-  <td><a href="./stars/catppuccin/dunst.md">Nov 25, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/VSCodium/vscodium">VSCodium/vscodium</a><sup><sub> - Shell - Aug 13, 2018</sub></sup><br/><sup><sub>Tags: #editor #floss #ide #open-source-licensing #vscode</sub></sup><br/>binary releases of VS Code without MS branding/telemetry/licensing. </td>
-  <td><a href="./stars/VSCodium/vscodium.md">Nov 25, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/debauchee/barrier">debauchee/barrier</a><sup><sub> - C - Jan 25, 2018</sub></sup><br/><sup><sub>Tags: #barrier #gplv2 #keyboard #kvm #mouse #sharing</sub></sup><br/>Open-source KVM software. </td>
-  <td><a href="./stars/debauchee/barrier.md">Nov 25, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/polybar/polybar">polybar/polybar</a><sup><sub> - C++ - May 19, 2016</sub></sup><br/><sup><sub>Tags: #bar #bspwm #cpp #hacktoberfest #i3wm #linux #polybar #window-manager #x11</sub></sup><br/>A fast and easy-to-use status bar. </td>
-  <td><a href="./stars/polybar/polybar.md">Nov 25, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/adi1090x/polybar-themes">adi1090x/polybar-themes</a><sup><sub> - Shell - Jan 03, 2019</sub></sup><br/><sup><sub>Tags: #adi1090x #archcraft #archlinux #debian #desktop-environment #i3status #icon-fonts #lemonbar #linux #material-icons<br/>#nerd-fonts #polybar #polybar-config #polybar-scripts #polybar-themes #status-bar #statusbar #ubuntu #unixporn<br/>#window-manager</sub></sup><br/>A huge collection of polybar themes with different styles, colors and<br/>variants. </td>
-  <td><a href="./stars/adi1090x/polybar-themes.md">Nov 25, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/aiguofer/gspread-pandas">aiguofer/gspread-pandas</a><sup><sub> - Python - Oct 12, 2016</sub></sup><br/><sup><sub>Tags: #data #data-analytics #data-engineering #data-science #dataframes #google #google-sheets #google-spreadsheets #gspread<br/>#pandas #python #sheets</sub></sup><br/>A package to easily open an instance of a Google spreadsheet and interact<br/>with worksheets through Pandas DataFrames. </td>
-  <td><a href="./stars/aiguofer/gspread-pandas.md">Nov 25, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/maybelinot/df2gspread">maybelinot/df2gspread</a><sup><sub> - Python - Aug 27, 2015</sub></sup><br/><sup><sub>Tags: #google-sheets #google-spreadsheet #gspread #pandas #pandas-dataframe #python</sub></sup><br/>Manage Google Spreadsheets in Pandas DataFrame with Python. </td>
-  <td><a href="./stars/maybelinot/df2gspread.md">Nov 25, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
 </table><!-- end-doc-gen -->
 

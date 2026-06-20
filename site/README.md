@@ -13,13 +13,133 @@
 
 ## Stars by date
 
-Total Stars: <!-- doc-gen STAR_COUNT -->1,496<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->1,516<!-- end-doc-gen -->
 
 <!-- doc-gen ALL_STARS_TABLE -->
 <table>
   <tr>
   <th align="left">Repo</th>
   <th align="center">Starred On</th>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/LeGoffLoic/Nodz">LeGoffLoic/Nodz</a><sup><sub> - Python - Jun 01, 2017</sub></sup><br/><sup><sub>Tags: #free #graph #nodal #nodes #nodz #python #qgraphicsscene #qgraphicsview</sub></sup><br/>Nodz : Visualize your data - Free nodes based graph generator. </td>
+  <td><a href="./stars/LeGoffLoic/Nodz.md">Jun 20, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/hasielhassan/PlumberManager">hasielhassan/PlumberManager</a><sup><sub> - Python - Apr 06, 2019</sub></sup><br/><sup><sub>Tags: #animation #cgi #dataflow #diagrams #documentation #flowchart #graph-editor #graph-editor-gui #node-based-ui<br/>#node-editor #nodebased #nodes #pipeline #pyside #python #qt #vfx #vfx-graph #vfx-pipeline #workflow</sub></sup><br/>A helper tool to design CG Pipeline interactive diagrams and data flow<br/>documentation. </td>
+  <td><a href="./stars/hasielhassan/PlumberManager.md">Jun 20, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/bytedance/flowgram.ai">bytedance/flowgram.ai</a><sup><sub> - TypeScript - Feb 17, 2025</sub></sup><br/><sup><sub>Tags: #ai #automation #coze #data-flow #diagram #flow #flowchart #graph #integration-framework #javascript #no-code<br/>#node-based-ui #react #typescript #typescript-library #visualization #workflow #workflow-automation</sub></sup><br/>FlowGram is an extensible workflow development framework with built-in<br/>canvas, form, variable, and materials that helps developers build AI<br/>workflow platforms faster and simpler. </td>
+  <td><a href="./stars/bytedance/flowgram.ai.md">Jun 20, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/xyflow/xyflow">xyflow/xyflow</a><sup><sub> - TypeScript - Jul 15, 2019</sub></sup><br/><sup><sub>Tags: #flowchart #graph #javascript #node-based-ui #react #react-flow #svelte #svelte-flow #typescript #typescript-library<br/>#workflow</sub></sup><br/>React Flow | Svelte Flow - Powerful open source libraries for building<br/>node-based UIs with React (https://reactflow.dev) or Svelte<br/>(https://svelteflow.dev). Ready out-of-the-box and infinitely customizable. </td>
+  <td><a href="./stars/xyflow/xyflow.md">Jun 20, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/jumerckx/Tamagoyaki">jumerckx/Tamagoyaki</a><sup><sub> - MLIR - Dec 18, 2025</sub></sup><br/>Bringing e-graphs to MLIR, natively. </td>
+  <td><a href="./stars/jumerckx/Tamagoyaki.md">Jun 19, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/makslevental/mmlir">makslevental/mmlir</a><sup><sub> - CMake - May 25, 2024</sub></sup><br/>A minimal (really) out-of-tree MLIR example. </td>
+  <td><a href="./stars/makslevental/mmlir.md">Jun 19, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/modem-dev/hunk">modem-dev/hunk</a><sup><sub> - TypeScript - Mar 17, 2026</sub></sup><br/><sup><sub>Tags: #cli #code-review #diff #git #tui</sub></sup><br/>Review-first terminal diff viewer for agentic coders. </td>
+  <td><a href="./stars/modem-dev/hunk.md">Jun 19, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/kestrellang/kestrel">kestrellang/kestrel</a><sup><sub> - Rust - Nov 30, 2025</sub></sup></td>
+  <td><a href="./stars/kestrellang/kestrel.md">Jun 19, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/calcom/cal.diy">calcom/cal.diy</a><sup><sub> - TypeScript - Mar 22, 2021</sub></sup><br/><sup><sub>Tags: #next-auth #nextjs #open-source #postgresql #prisma #t3-stack #tailwindcss #trpc #turborepo #typescript<br/>#zod</sub></sup><br/>Scheduling infrastructure for absolutely everyone. </td>
+  <td><a href="./stars/calcom/cal.diy.md">Jun 19, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/facebook/pyrefly">facebook/pyrefly</a><sup><sub> - Rust - Feb 19, 2025</sub></sup><br/><sup><sub>Tags: #code-quality #contributions-welcome #good-first-issue #hacktoberfest #ide #language-server #lsp #python #rust<br/>#type-check #type-checker #typecheck #typechecker #types #typing</sub></sup><br/>A fast type checker and language server for Python. </td>
+  <td><a href="./stars/facebook/pyrefly.md">Jun 18, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/wfxr/xre">wfxr/xre</a><sup><sub> - Rust - Mar 15, 2026</sub></sup><br/>A fast regex extraction tool with pattern matching, replacement, and<br/>configurable sorting. </td>
+  <td><a href="./stars/wfxr/xre.md">Jun 18, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/rtk-ai/rtk">rtk-ai/rtk</a><sup><sub> - Rust - Jan 22, 2026</sub></sup><br/><sup><sub>Tags: #agentic-coding #ai-coding #anthropic #claude-code #cli #command-line-tool #cost-reduction #developer-tools #llm<br/>#open-source #productivity #rust #token-optimization</sub></sup><br/>CLI proxy that reduces LLM token consumption by 60-90% on common dev<br/>commands. Single Rust binary, zero dependencies. </td>
+  <td><a href="./stars/rtk-ai/rtk.md">Jun 18, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/hanxiao/knowledge-graph-extractor">hanxiao/knowledge-graph-extractor</a><sup><sub> - Python - May 27, 2026</sub></sup><br/><sup><sub>Tags: #fastapi #force-graph #gpu #information-extraction #knowledge-graph #llama-cpp #llm #qwen #self-hosted</sub></sup><br/>Turn any document or a whole zip into an interactive knowledge graph, using<br/>a self-hosted Qwen3.6-35B-A3B-MTP on a single NVIDIA L4. </td>
+  <td><a href="./stars/hanxiao/knowledge-graph-extractor.md">Jun 18, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/DanMcInerney/architect-loop">DanMcInerney/architect-loop</a><sup><sub> - HTML - Jun 12, 2026</sub></sup><br/>Claude Fable 5 as architect, GPT-5.5 Codex as builder, the repo as memory -<br/>a research-backed Claude Code skill for the cross-vendor agent loop. </td>
+  <td><a href="./stars/DanMcInerney/architect-loop.md">Jun 18, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/mlc-ai/tirx-kernels">mlc-ai/tirx-kernels</a><sup><sub> - Python - Jun 16, 2026</sub></sup><br/>ML kernels and benchmarking infrastructure written in TIRx. </td>
+  <td><a href="./stars/mlc-ai/tirx-kernels.md">Jun 18, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/NVlabs/tiny-cuda-nn">NVlabs/tiny-cuda-nn</a><sup><sub> - C++ - Apr 16, 2021</sub></sup><br/><sup><sub>Tags: #cuda #deep-learning #gpu #mlp #nerf #neural-network #pytorch #real-time #rendering</sub></sup><br/>Lightning fast C++/CUDA neural network framework. </td>
+  <td><a href="./stars/NVlabs/tiny-cuda-nn.md">Jun 18, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/NVlabs/parrot">NVlabs/parrot</a><sup><sub> - Cuda - Oct 07, 2025</sub></sup><br/><sup><sub>Tags: #algorithms #cuda #gpu #parallel</sub></sup><br/>Parrot is an array fusion GPU library built on NVIDIA&#039;s CCCL libaries<br/>(Thrust/CUB). </td>
+  <td><a href="./stars/NVlabs/parrot.md">Jun 18, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/FlashML-org/flashlib">FlashML-org/flashlib</a><sup><sub> - Python - May 26, 2026</sub></sup><br/>Fast and memory-efficient classical machine learning operators. </td>
+  <td><a href="./stars/FlashML-org/flashlib.md">Jun 18, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/termux/termux-gui">termux/termux-gui</a><sup><sub> - Kotlin - Nov 02, 2021</sub></sup><br/>A plugin for Termux to use native Android GUI components from CLI<br/>applications. </td>
+  <td><a href="./stars/termux/termux-gui.md">Jun 15, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/nix-community/nix-on-droid">nix-community/nix-on-droid</a><sup><sub> - Nix - Mar 06, 2019</sub></sup><br/><sup><sub>Tags: #android #home-manager #nix #nix-on-droid</sub></sup><br/>Nix-enabled environment for your Android device. [maintainers=@t184256,<br/>@Gerschtli]. </td>
+  <td><a href="./stars/nix-community/nix-on-droid.md">Jun 15, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/Exorust/TorchLeet">Exorust/TorchLeet</a><sup><sub> - Jupyter Notebook - Dec 25, 2024</sub></sup><br/>Leetcode for Pytorch. </td>
+  <td><a href="./stars/Exorust/TorchLeet.md">Jun 09, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/ajaxorg/ace">ajaxorg/ace</a><sup><sub> - JavaScript - Oct 27, 2010</sub></sup><br/>Ace (Ajax.org Cloud9 Editor). </td>
+  <td><a href="./stars/ajaxorg/ace.md">Jun 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/hjson/hjson">hjson/hjson</a><sup><sub> - HTML - Mar 19, 2014</sub></sup><br/><sup><sub>Tags: #hjson #human #json #spec</sub></sup><br/>Hjson, a user interface for JSON. </td>
+  <td><a href="./stars/hjson/hjson.md">Jun 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/chopratejas/headroom">chopratejas/headroom</a><sup><sub> - Python - Jan 07, 2026</sub></sup><br/><sup><sub>Tags: #agent #ai #anthropic #claude-code #compression #context-engineering #context-window #cursor #fastapi #langchain #llm<br/>#mcp #openai #prompt-engineering #proxy #python #rag #token-optimization #tokens #typescript</sub></sup><br/>Compress tool outputs, logs, files, and RAG chunks before they reach the<br/>LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server. </td>
+  <td><a href="./stars/chopratejas/headroom.md">May 25, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/mistricky/codesnap.nvim">mistricky/codesnap.nvim</a><sup><sub> - Lua - Feb 13, 2024</sub></sup><br/><sup><sub>Tags: #code-snapshot #graphics #lua #neovim #neovim-plugin #plugin #pretty-snapshot #rust #skia #snapshot #tiny-skia<br/>#vim</sub></sup><br/>📸 Snapshot plugin with rich features that can make pretty code snapshots<br/>for Neovim. </td>
+  <td><a href="./stars/mistricky/codesnap.nvim.md">May 24, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/codesnap-rs/codesnap">codesnap-rs/codesnap</a><sup><sub> - Rust - Sep 22, 2024</sub></sup><br/><sup><sub>Tags: #beautiful-snapshot #cli #code #codesnap #idea #idea-plugin #neovim #neovim-plugin #rust #snapshot-cli<br/>#snapshot-library #snapshot-tool #vscode #vscode-extension #zed #zed-extension</sub></sup><br/>🦀️📸 Pure Rust tool to generate beautiful code snapshots, provide CLI and<br/>Library. </td>
+  <td><a href="./stars/codesnap-rs/codesnap.md">May 24, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/danimelchor/clypi">danimelchor/clypi</a><sup><sub> - Python - Feb 21, 2025</sub></sup><br/>Your all-in-one for beautiful, prod-ready CLIs. </td>
+  <td><a href="./stars/danimelchor/clypi.md">May 24, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/ConradIrwin/conl">ConradIrwin/conl</a><sup><sub> - Rust - Oct 19, 2024</sub></sup><br/>A post-minimal configuration language. </td>
+  <td><a href="./stars/ConradIrwin/conl.md">May 22, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/llvm/lighthouse">llvm/lighthouse</a><sup><sub> - Python - Aug 01, 2025</sub></sup><br/>Meta project around MLIR. </td>
+  <td><a href="./stars/llvm/lighthouse.md">May 20, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/dotnet/fsharp">dotnet/fsharp</a><sup><sub> - F# - Jan 10, 2015</sub></sup><br/><sup><sub>Tags: #compiler #dotnet #fsharp #functional-programming #intellisense #netcore #tools #visual-studio</sub></sup><br/>The F# compiler, F# core library, F# language service, and F# tooling<br/>integration for Visual Studio. </td>
+  <td><a href="./stars/dotnet/fsharp.md">May 12, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
   <tr>
   <td><a href="https://github.com/Parquery/pylddwrap">Parquery/pylddwrap</a><sup><sub> - Python - Sep 06, 2018</sub></sup><br/>Python 3 wrapper around ldd *nix utility to determine shared libraries of a<br/>program. </td>
@@ -244,6 +364,10 @@ Total Stars: <!-- doc-gen STAR_COUNT -->1,496<!-- end-doc-gen -->
   <tr>
   <td><a href="https://github.com/NVIDIA/jax-tvm-ffi">NVIDIA/jax-tvm-ffi</a><sup><sub> - Python - Oct 09, 2025</sub></sup><br/>JAX support for tvm-ffi abi. </td>
   <td><a href="./stars/NVIDIA/jax-tvm-ffi.md">Mar 11, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/kenn-io/agentsview">kenn-io/agentsview</a><sup><sub> - Go - Feb 19, 2026</sub></sup><br/>Local-first session search, analytics, insights, and token use statistics<br/>for coding agents, supporting Claude Code, Codex, and more than 20 other<br/>agents. </td>
+  <td><a href="./stars/kenn-io/agentsview.md">Mar 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
   <tr>
   <td><a href="https://github.com/wesm/agentsview">wesm/agentsview</a><sup><sub> - Go - Feb 19, 2026</sub></sup><br/>A local-first desktop and web application for browsing, searching, and<br/>analyzing AI agent coding sessions. Supports Claude Code, Codex, OpenCode,<br/>and 8 other agents. </td>
@@ -3896,130 +4020,6 @@ Total Stars: <!-- doc-gen STAR_COUNT -->1,496<!-- end-doc-gen -->
   <tr>
   <td><a href="https://github.com/dalanicolai/toc-mode">dalanicolai/toc-mode</a><sup><sub> - Emacs Lisp - Jul 15, 2020</sub></sup><br/>Create, cleanup, add and manage Table Of Contents (TOC) of pdf and djvu<br/>documents with Emacs. </td>
   <td><a href="./stars/dalanicolai/toc-mode.md">Dec 18, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/maxpmaxp/pdfreader">maxpmaxp/pdfreader</a><sup><sub> - Python - Aug 28, 2019</sub></sup><br/>Python API for PDF documents. </td>
-  <td><a href="./stars/maxpmaxp/pdfreader.md">Dec 18, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/tabulapdf/tabula">tabulapdf/tabula</a><sup><sub> - CSS - Mar 11, 2013</sub></sup><br/><sup><sub>Tags: #csv #excel #pdf #scraping #tables</sub></sup><br/>Tabula is a tool for liberating data tables trapped inside PDF files. </td>
-  <td><a href="./stars/tabulapdf/tabula.md">Dec 18, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ekaj2/MeshTools">ekaj2/MeshTools</a><sup><sub> - Python - Dec 10, 2016</sub></sup><br/>A suite of free mesh tools for Blender. </td>
-  <td><a href="./stars/ekaj2/MeshTools.md">Dec 17, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/nortikin/sverchok">nortikin/sverchok</a><sup><sub> - Python - Oct 26, 2013</sub></sup><br/>Sverchok. </td>
-  <td><a href="./stars/nortikin/sverchok.md">Dec 17, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/FreeCAD/FreeCAD">FreeCAD/FreeCAD</a><sup><sub> - C++ - Sep 09, 2012</sub></sup><br/><sup><sub>Tags: #3d #3d-printing #architecture #bim #cad #cam #coin #engineering #fem #freecad #linux #macos #opencascade<br/>#windows</sub></sup><br/>Official source code of FreeCAD, a free and opensource multiplatform 3D<br/>parametric modeler. </td>
-  <td><a href="./stars/FreeCAD/FreeCAD.md">Dec 14, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/STRRL/logseq-pages">STRRL/logseq-pages</a><sup><sub> - Go - Jan 23, 2022</sub></sup><br/>cli tools for list all pages in logseq repo, marked with public or private. </td>
-  <td><a href="./stars/STRRL/logseq-pages.md">Dec 12, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sawhney17/logseq-schrodinger">sawhney17/logseq-schrodinger</a><sup><sub> - TypeScript - Mar 23, 2022</sub></sup><br/><sup><sub>Tags: #hugo #logseq</sub></sup><br/>A plugin to export pages in Logseq to Hugo. </td>
-  <td><a href="./stars/sawhney17/logseq-schrodinger.md">Dec 12, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/pengx17/logseq-publish">pengx17/logseq-publish</a><sup><sub> - JavaScript - Dec 31, 2021</sub></sup><br/><sup><sub>Tags: #logseq #publish</sub></sup><br/>Archived. Please check https://github.com/logseq/publish-spa instead. </td>
-  <td><a href="./stars/pengx17/logseq-publish.md">Dec 12, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/tatsath/fin-ml">tatsath/fin-ml</a><sup><sub> - Jupyter Notebook - May 10, 2020</sub></sup><br/><sup><sub>Tags: #algorithmic-trading #finance #fintech #machine-learning #python</sub></sup><br/>This github repository of &quot;Machine Learning and Data Science<br/>Blueprints for Finance&quot;. Please star. </td>
-  <td><a href="./stars/tatsath/fin-ml.md">Dec 12, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mrtkp9993/QuantitaveFinanceExamplesPy">mrtkp9993/QuantitaveFinanceExamplesPy</a><sup><sub> - Jupyter Notebook - Aug 29, 2021</sub></sup><br/><sup><sub>Tags: #market-data #portfolio-optimization #python #quant #quantitative-finance #quantitative-trading #stock-analysis<br/>#stock-market</sub></sup><br/>Financial analysis, algorithmic trading, portfolio optimization examples<br/>with Python (DISCLAIMER - No Investment Advice Provided, YASAL UYARI -<br/>Yatırım tavsiyesi değildir). </td>
-  <td><a href="./stars/mrtkp9993/QuantitaveFinanceExamplesPy.md">Dec 12, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/highfestiva/finplot">highfestiva/finplot</a><sup><sub> - Python - Aug 22, 2018</sub></sup><br/>Performant and effortless finance plotting for Python. </td>
-  <td><a href="./stars/highfestiva/finplot.md">Dec 08, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/kieranjwood/trading-momentum-transformer">kieranjwood/trading-momentum-transformer</a><sup><sub> - Python - Dec 27, 2021</sub></sup><br/><sup><sub>Tags: #deep-learning #machine-learning #momentum-trading-strategy #quantitative-finance #trading-strategies<br/>#transformer</sub></sup><br/>This code accompanies the the paper Trading with the Momentum Transformer:<br/>An Intelligent and Interpretable Architecture (https://arxiv.org/pdf/2112.<br/>08534.pdf). </td>
-  <td><a href="./stars/kieranjwood/trading-momentum-transformer.md">Dec 08, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/kieranjwood/slow-momentum-fast-reversion">kieranjwood/slow-momentum-fast-reversion</a><sup><sub> - Python - Jun 27, 2021</sub></sup><br/><sup><sub>Tags: #change-point-detection #deep-learning #machine-learning #momentum-trading-strategy #quantum-mechanics #trading<br/>#trading-strategies</sub></sup><br/>This code accompanies the the paper Slow Momentum with Fast Reversion: A<br/>Trading Strategy Using Deep Learning and Changepoint Detection<br/>(https://arxiv.org/pdf/2105.13727.pdf). </td>
-  <td><a href="./stars/kieranjwood/slow-momentum-fast-reversion.md">Dec 08, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/predict-idlab/plotly-resampler">predict-idlab/plotly-resampler</a><sup><sub> - Python - Nov 20, 2021</sub></sup><br/><sup><sub>Tags: #data-analysis #data-science #data-visualization #plotly #plotly-dash #python #time-series #visualization</sub></sup><br/>Visualize large time series data with plotly.py. </td>
-  <td><a href="./stars/predict-idlab/plotly-resampler.md">Dec 01, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/lmmentel/awesome-time-series">lmmentel/awesome-time-series</a><sup><sub> - Oct 26, 2021</sub></sup><br/><sup><sub>Tags: #anomaly-detection #database #machine-learning #python #time-series #time-series-analysis #time-series-classification<br/>#time-series-data-mining #time-series-database #time-series-forecasting #time-series-prediction</sub></sup><br/>Resources for working with time series and sequence data. </td>
-  <td><a href="./stars/lmmentel/awesome-time-series.md">Nov 30, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/unit8co/darts">unit8co/darts</a><sup><sub> - Python - Sep 13, 2018</sub></sup><br/><sup><sub>Tags: #anomaly-detection #data-science #deep-learning #forecasting #machine-learning #python #time-series</sub></sup><br/>A python library for user-friendly forecasting and anomaly detection on<br/>time series. </td>
-  <td><a href="./stars/unit8co/darts.md">Nov 30, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/wwrechard/pydlm">wwrechard/pydlm</a><sup><sub> - Python - Jun 29, 2016</sub></sup><br/><sup><sub>Tags: #bayesian #dlm #model #python #seasonality #statistics #time-series #timeseries #trends</sub></sup><br/>A python library for Bayesian time series modeling. </td>
-  <td><a href="./stars/wwrechard/pydlm.md">Nov 30, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/online-ml/river">online-ml/river</a><sup><sub> - Python - Jan 24, 2019</sub></sup><br/><sup><sub>Tags: #concept-drift #data-science #incremental-learning #machine-learning #online-learning #online-machine-learning<br/>#online-statistics #python #real-time-processing #stream-processing #streaming #streaming-data</sub></sup><br/>🌊 Online machine learning in Python. </td>
-  <td><a href="./stars/online-ml/river.md">Nov 30, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/H-M-H/Weylus">H-M-H/Weylus</a><sup><sub> - Rust - May 01, 2020</sub></sup><br/><sup><sub>Tags: #android #android-application #app #browser #ffmpeg #hardware-acceleration #ipados #linux #multi-touch #remote-desktop<br/>#rust #screen-mirroring #stylus #tablet #touch-screen #uinput #wayland #webapp #x11 #xdg-desktop-portal</sub></sup><br/>Use your tablet as graphic tablet/touch screen on your computer. </td>
-  <td><a href="./stars/H-M-H/Weylus.md">Nov 28, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/huijunchen9260/dmenufm">huijunchen9260/dmenufm</a><sup><sub> - Shell - Aug 17, 2019</sub></sup><br/><sup><sub>Tags: #dmenu #posix #shell</sub></sup><br/>A simple file manager using dmenu. </td>
-  <td><a href="./stars/huijunchen9260/dmenufm.md">Nov 28, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/davidhalter/jedi">davidhalter/jedi</a><sup><sub> - Python - Feb 19, 2012</sub></sup><br/><sup><sub>Tags: #auto-complete #python #refactoring #static-analysis #type-inference</sub></sup><br/>Awesome autocompletion, static analysis and refactoring library for python. </td>
-  <td><a href="./stars/davidhalter/jedi.md">Nov 28, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/r-hegde/logseq-vertical-panels">r-hegde/logseq-vertical-panels</a><sup><sub> - CSS - Apr 03, 2022</sub></sup><br/><sup><sub>Tags: #css #theme</sub></sup><br/>Vertical panels for Logseq. </td>
-  <td><a href="./stars/r-hegde/logseq-vertical-panels.md">Nov 28, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/amtoine/dotfiles">amtoine/dotfiles</a><sup><sub> - Nushell - Nov 11, 2021</sub></sup><br/><sup><sub>Tags: #config</sub></sup><br/>My personal archlinux config files. </td>
-  <td><a href="./stars/amtoine/dotfiles.md">Nov 27, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Alex108-lab/Qtile-config">Alex108-lab/Qtile-config</a><sup><sub> - Python - Mar 27, 2021</sub></sup><br/><sup><sub>Tags: #archlinux #python #qtile #windowmanager</sub></sup><br/>Qtile configuration is very nice, contains everything you need to run on<br/>both desktops and laptops. </td>
-  <td><a href="./stars/Alex108-lab/Qtile-config.md">Nov 27, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/m-col/qtile-config">m-col/qtile-config</a><sup><sub> - Python - Jun 14, 2021</sub></sup><br/><sup><sub>Tags: #qtile #qtile-configuration</sub></sup><br/>:cookie: My Qtile config. </td>
-  <td><a href="./stars/m-col/qtile-config.md">Nov 27, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/antoniosarosi/dotfiles">antoniosarosi/dotfiles</a><sup><sub> - Vim Script - Apr 11, 2020</sub></sup><br/><sup><sub>Tags: #arch-linux #dotfiles #dwm #neovim #openbox #qtile #spectrwm #tiling-window-manager #xmonad</sub></sup><br/>My dotfiles repo, here you can find all my window manager configs as well<br/>as documentation and a guide on how to make your own desktop environment. </td>
-  <td><a href="./stars/antoniosarosi/dotfiles.md">Nov 27, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ramnes/qtile-config">ramnes/qtile-config</a><sup><sub> - Python - Mar 11, 2014</sub></sup><br/><sup><sub>Tags: #config #python #qtile #window-manager</sub></sup><br/>My ~/.config/qtile. </td>
-  <td><a href="./stars/ramnes/qtile-config.md">Nov 27, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/DaniDiazTech/Qtile-Config">DaniDiazTech/Qtile-Config</a><sup><sub> - Python - Nov 23, 2020</sub></sup><br/><sup><sub>Tags: #autostart #python #qtile #qtile-configuration</sub></sup><br/>This is my configuration of Qtile, a window manager written in python. </td>
-  <td><a href="./stars/DaniDiazTech/Qtile-Config.md">Nov 27, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sminez/qtile-config">sminez/qtile-config</a><sup><sub> - Python - Apr 18, 2018</sub></sup><br/><sup><sub>Tags: #config #dots #qtile #window-manager</sub></sup><br/>My qtile config. </td>
-  <td><a href="./stars/sminez/qtile-config.md">Nov 27, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Textualize/rich-cli">Textualize/rich-cli</a><sup><sub> - Python - Jan 22, 2022</sub></sup><br/><sup><sub>Tags: #markdown #rich #syntax-highlighting #terminal #terminal-colors</sub></sup><br/>Rich-cli is a command line toolbox for fancy output in the terminal. </td>
-  <td><a href="./stars/Textualize/rich-cli.md">Nov 26, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/vyleung/logseq-helium-plugin">vyleung/logseq-helium-plugin</a><sup><sub> - JavaScript - Apr 22, 2022</sub></sup><br/><sup><sub>Tags: #logseq #logseq-plugin</sub></sup><br/>a Logseq plugin to float items (e.g. videos) for an improved note-taking<br/>experience. </td>
-  <td><a href="./stars/vyleung/logseq-helium-plugin.md">Nov 26, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
 </table><!-- end-doc-gen -->
 

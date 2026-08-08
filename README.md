@@ -13,13 +13,61 @@
 
 ## Stars by date
 
-Total Stars: <!-- doc-gen STAR_COUNT -->1,527<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->1,528<!-- end-doc-gen -->
 
 <!-- doc-gen ALL_STARS_TABLE -->
 <table>
   <tr>
   <th align="left">Repo</th>
   <th align="center">Starred On</th>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/davidbau/emwc">davidbau/emwc</a><sup><sub> - TeX - Aug 03, 2026</sub></sup><br/>Engineering Machine-Written Code: a modern software engineering textbook<br/>for building large, dependable systems with LLM coding agents. </td>
+  <td><a href="./stars/davidbau/emwc.md">Aug 07, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/cozodb/cozo">cozodb/cozo</a><sup><sub> - Rust - Oct 14, 2022</sub></sup><br/><sup><sub>Tags: #client-server #cozo #cozoscript #cross-platform #database #datalog #embedded-database #graph #graph-algorithms<br/>#graph-database #graphdb #relational-database #single-executable</sub></sup><br/>A transactional, relational-graph-vector database that uses Datalog for<br/>query. The hippocampus for AI!. </td>
+  <td><a href="./stars/cozodb/cozo.md">Jul 25, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/silbinarywolf/zig-android-sdk">silbinarywolf/zig-android-sdk</a><sup><sub> - Zig - Sep 19, 2024</sub></sup><br/>This library allows you to setup and build an APK for your Android devices. </td>
+  <td><a href="./stars/silbinarywolf/zig-android-sdk.md">Jul 20, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/nteract/nteract">nteract/nteract</a><sup><sub> - TypeScript - Feb 11, 2026</sub></sup><br/>We&#039;re back! Now firing notebooks out of a t-shirt gun. </td>
+  <td><a href="./stars/nteract/nteract.md">Jul 14, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/rockorager/prise">rockorager/prise</a><sup><sub> - Zig - Nov 15, 2025</sub></sup><br/><sup><sub>Tags: #multiplexer #terminal #zig</sub></sup><br/>a terminal multiplexer for modern terminals. </td>
+  <td><a href="./stars/rockorager/prise.md">Jul 05, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/storybookjs/storybook">storybookjs/storybook</a><sup><sub> - TypeScript - Mar 18, 2016</sub></sup><br/><sup><sub>Tags: #angular #components #design-systems #documentation #html #javascript #react #react-native #stories #storybook<br/>#styleguide #svelte #testing #typescript #ui #vite #vue #web-components #webpack #workshop</sub></sup><br/>Storybook is the industry standard workshop for building, documenting, and<br/>testing UI components in isolation. </td>
+  <td><a href="./stars/storybookjs/storybook.md">Jul 01, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/ingydotnet/git-subrepo">ingydotnet/git-subrepo</a><sup><sub> - Shell - Dec 01, 2013</sub></sup><br/><sup><sub>Tags: #bash #git</sub></sup></td>
+  <td><a href="./stars/ingydotnet/git-subrepo.md">Jun 24, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/Parquery/icontract">Parquery/icontract</a><sup><sub> - Python - Jul 31, 2018</sub></sup><br/>Design-by-contract in Python3 with informative violation messages and<br/>inheritance. </td>
+  <td><a href="./stars/Parquery/icontract.md">Jun 24, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/ScaleX-IO/uGDS">ScaleX-IO/uGDS</a><sup><sub> - C - Jun 06, 2026</sub></sup><br/>A user-space GPU Direct Storage library. </td>
+  <td><a href="./stars/ScaleX-IO/uGDS.md">Jun 24, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/mlc-ai/modern-gpu-programming-for-mlsys">mlc-ai/modern-gpu-programming-for-mlsys</a><sup><sub> - HTML - Mar 26, 2026</sub></sup><br/>A tutorial on modern GPU programming for machine learning systems. </td>
+  <td><a href="./stars/mlc-ai/modern-gpu-programming-for-mlsys.md">Jun 24, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/raphamorim/rio">raphamorim/rio</a><sup><sub> - Rust - Oct 05, 2022</sub></sup><br/><sup><sub>Tags: #gpu-acceleration #metal #rio #rio-terminal #rust #rust-lang #terminal #terminal-emulator #terminal-emulators<br/>#terminal-ui #vte #vulkan #wgpu</sub></sup><br/>A hardware-accelerated GPU terminal emulator focusing to run in desktops<br/>and browsers. </td>
+  <td><a href="./stars/raphamorim/rio.md">Jun 22, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/iree-org/fusilli">iree-org/fusilli</a><sup><sub> - C++ - Nov 14, 2025</sub></sup><br/>C++ Graph API and JIT Engine powered by IREE. </td>
+  <td><a href="./stars/iree-org/fusilli.md">Jun 21, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
   <tr>
   <td><a href="https://github.com/LeGoffLoic/Nodz">LeGoffLoic/Nodz</a><sup><sub> - Python - Jun 01, 2017</sub></sup><br/><sup><sub>Tags: #free #graph #nodal #nodes #nodz #python #qgraphicsscene #qgraphicsview</sub></sup><br/>Nodz : Visualize your data - Free nodes based graph generator. </td>
@@ -116,6 +164,10 @@ Total Stars: <!-- doc-gen STAR_COUNT -->1,527<!-- end-doc-gen -->
   <tr>
   <td><a href="https://github.com/chopratejas/headroom">chopratejas/headroom</a><sup><sub> - Python - Jan 07, 2026</sub></sup><br/><sup><sub>Tags: #agent #ai #anthropic #claude-code #compression #context-engineering #context-window #cursor #fastapi #langchain #llm<br/>#mcp #openai #prompt-engineering #proxy #python #rag #token-optimization #tokens #typescript</sub></sup><br/>Compress tool outputs, logs, files, and RAG chunks before they reach the<br/>LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server. </td>
   <td><a href="./stars/chopratejas/headroom.md">May 25, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/headroomlabs-ai/headroom">headroomlabs-ai/headroom</a><sup><sub> - Python - Jan 07, 2026</sub></sup><br/><sup><sub>Tags: #agent #ai #anthropic #claude-code #compression #context-engineering #context-window #cursor #fastapi #langchain #llm<br/>#mcp #openai #prompt-engineering #proxy #python #rag #token-optimization #tokens #typescript</sub></sup><br/>Compress tool outputs, logs, files, and RAG chunks before they reach the<br/>LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same<br/>answers. Library, proxy, MCP server. </td>
+  <td><a href="./stars/headroomlabs-ai/headroom.md">May 25, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
   <tr>
   <td><a href="https://github.com/mistricky/codesnap.nvim">mistricky/codesnap.nvim</a><sup><sub> - Lua - Feb 13, 2024</sub></sup><br/><sup><sub>Tags: #code-snapshot #graphics #lua #neovim #neovim-plugin #plugin #pretty-snapshot #rust #skia #snapshot #tiny-skia<br/>#vim</sub></sup><br/>📸 Snapshot plugin with rich features that can make pretty code snapshots<br/>for Neovim. </td>
@@ -3968,58 +4020,6 @@ Total Stars: <!-- doc-gen STAR_COUNT -->1,527<!-- end-doc-gen -->
   <tr>
   <td><a href="https://github.com/sawhney17/logseq-pdf-export">sawhney17/logseq-pdf-export</a><sup><sub> - TypeScript - Feb 19, 2022</sub></sup></td>
   <td><a href="./stars/sawhney17/logseq-pdf-export.md">Dec 26, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/demotu/detecta">demotu/detecta</a><sup><sub> - Python - Mar 28, 2020</sub></sup><br/>A Python module to detect events in data. </td>
-  <td><a href="./stars/demotu/detecta.md">Dec 26, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/BMClab/BMC">BMClab/BMC</a><sup><sub> - Jupyter Notebook - Nov 05, 2013</sub></sup><br/><sup><sub>Tags: #biomechanics #biomedical-engineering #jupyter-notebook #motor-control #python #scientific-computing</sub></sup><br/>Notes on Scientific Computing for Biomechanics and Motor Control. </td>
-  <td><a href="./stars/BMClab/BMC.md">Dec 26, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/fracdiff/fracdiff">fracdiff/fracdiff</a><sup><sub> - Python - Apr 27, 2021</sub></sup><br/><sup><sub>Tags: #finance #python #pytorch #time-series</sub></sup><br/>Compute fractional differentiation super-fast. Processes time-series to be<br/>stationary while preserving memory. cf. &quot;Advances in Financial Machine<br/>Learning&quot; by M. Prado. </td>
-  <td><a href="./stars/fracdiff/fracdiff.md">Dec 26, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mk-fg/pulseaudio-mixer-cli">mk-fg/pulseaudio-mixer-cli</a><sup><sub> - Python - Feb 03, 2012</sub></sup><br/><sup><sub>Tags: #automation #console #interactive #linux #mixer #ncurses #pulseaudio #python #sound #tui #volume</sub></sup><br/>Interactive python/ncurses UI to control volume of pulse streams with some<br/>automation. </td>
-  <td><a href="./stars/mk-fg/pulseaudio-mixer-cli.md">Dec 25, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/cantaro86/Financial-Models-Numerical-Methods">cantaro86/Financial-Models-Numerical-Methods</a><sup><sub> - Jupyter Notebook - Sep 10, 2019</sub></sup><br/><sup><sub>Tags: #american-options #brownian-motion #econometrics #financial-engineering #financial-mathematics #fourier-inversion<br/>#heston-model #jump-diffusion-mertons-model #jupyter-notebooks #kalman-filter #levy-processes #linear-regression<br/>#linear-systems-equations #monte-carlo-methods #option-pricing #partial-differential-equations #python #quantitative-finance<br/>#stochastic-differential-equations #stochastic-processes</sub></sup><br/>Collection of notebooks about quantitative finance, with interactive python<br/>code. </td>
-  <td><a href="./stars/cantaro86/Financial-Models-Numerical-Methods.md">Dec 25, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/gwgundersen/ml">gwgundersen/ml</a><sup><sub> - Python - Jun 06, 2018</sub></sup><br/>A didactic Python library with well-commented and annotated implementations<br/>of machine learning algorithms. </td>
-  <td><a href="./stars/gwgundersen/ml.md">Dec 25, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/gwgundersen/blog-theme">gwgundersen/blog-theme</a><sup><sub> - CSS - Jan 13, 2020</sub></sup><br/>Files needed to replicate my research blog. </td>
-  <td><a href="./stars/gwgundersen/blog-theme.md">Dec 25, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/fmoo/python-editor">fmoo/python-editor</a><sup><sub> - Python - Jan 10, 2015</sub></sup><br/>Programmatically open an editor, capture the result. </td>
-  <td><a href="./stars/fmoo/python-editor.md">Dec 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/pyinvoke/invoke">pyinvoke/invoke</a><sup><sub> - Python - Feb 29, 2012</sub></sup><br/>Pythonic task management &amp; command execution. </td>
-  <td><a href="./stars/pyinvoke/invoke.md">Dec 18, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/miso-belica/sumy">miso-belica/sumy</a><sup><sub> - Python - Feb 20, 2013</sub></sup><br/><sup><sub>Tags: #html-extraction #html-extractor #html-page #lsa #nlp #pagerank-algorithm #python #reduction #summarization #summarizer<br/>#summary #sumy #text-extraction #textteaser</sub></sup><br/>Module for automatic summarization of text documents and HTML pages. </td>
-  <td><a href="./stars/miso-belica/sumy.md">Dec 18, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/amyxzhang/wikum">amyxzhang/wikum</a><sup><sub> - JavaScript - Jan 20, 2016</sub></sup><br/>tool for collectively summarizing large discussions. </td>
-  <td><a href="./stars/amyxzhang/wikum.md">Dec 18, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Krasjet/pdf.tocgen">Krasjet/pdf.tocgen</a><sup><sub> - Python - Jul 28, 2020</sub></sup><br/><sup><sub>Tags: #cli #pdf #pdf-document #pdf-files #pymupdf #scraping #table-of-contents #toc-generator</sub></sup><br/>A CLI toolset to generate table of contents for PDF files automatically. </td>
-  <td><a href="./stars/Krasjet/pdf.tocgen.md">Dec 18, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/dalanicolai/toc-mode">dalanicolai/toc-mode</a><sup><sub> - Emacs Lisp - Jul 15, 2020</sub></sup><br/>Create, cleanup, add and manage Table Of Contents (TOC) of pdf and djvu<br/>documents with Emacs. </td>
-  <td><a href="./stars/dalanicolai/toc-mode.md">Dec 18, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
 </table><!-- end-doc-gen -->
 

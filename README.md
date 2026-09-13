@@ -13,13 +13,81 @@
 
 ## Stars by date
 
-Total Stars: <!-- doc-gen STAR_COUNT -->1,545<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->1,561<!-- end-doc-gen -->
 
 <!-- doc-gen ALL_STARS_TABLE -->
 <table>
   <tr>
   <th align="left">Repo</th>
   <th align="center">Starred On</th>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/mindspore-ai/mindspore">mindspore-ai/mindspore</a><sup><sub> - C++ - Feb 11, 2020</sub></sup><br/>MindSpore is a new open source deep learning training/inference framework<br/>that could be used for mobile, edge and cloud scenarios. </td>
+  <td><a href="./stars/mindspore-ai/mindspore.md">Sep 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/OpenPPL/ppl.nn">OpenPPL/ppl.nn</a><sup><sub> - C++ - Jun 30, 2021</sub></sup><br/><sup><sub>Tags: #deep-learning #neural-network #onnx</sub></sup><br/>A primitive library for neural network. </td>
+  <td><a href="./stars/OpenPPL/ppl.nn.md">Sep 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/libfirm/libfirm">libfirm/libfirm</a><sup><sub> - C - Apr 22, 2009</sub></sup><br/><sup><sub>Tags: #backend #c #compiler #graph #libfirm #optimization #ssa</sub></sup><br/>graph based intermediate representation and backend for optimising<br/>compilers. </td>
+  <td><a href="./stars/libfirm/libfirm.md">Sep 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/cloudcores/CuAssembler">cloudcores/CuAssembler</a><sup><sub> - Python - Jun 30, 2019</sub></sup><br/><sup><sub>Tags: #assembler #cuda #nvidia #sass</sub></sup><br/>An unofficial cuda assembler, for all generations of SASS, hopefully ：）. </td>
+  <td><a href="./stars/cloudcores/CuAssembler.md">Sep 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/HoangYell/markdy-com">HoangYell/markdy-com</a><sup><sub> - TypeScript - Apr 05, 2026</sub></sup><br/><sup><sub>Tags: #animated-diagrams #animation #architecture-diagrams #astro #developer-tools #diagram-as-code #dsl #mcp-server<br/>#mermaid-alternative #model-context-protocol #system-design #typescript #web-animations-api</sub></sup><br/>🎬 Open-source animated architecture diagrams as code. Diagram-native DSL,<br/>17 layout engines, Web Animations API, and MCP server for AI agents. </td>
+  <td><a href="./stars/HoangYell/markdy-com.md">Sep 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/nwg-piotr/nwg-displays">nwg-piotr/nwg-displays</a><sup><sub> - Python - Feb 22, 2022</sub></sup><br/><sup><sub>Tags: #display #displays #hyprland #monitors #sway #swaywm</sub></sup><br/>Output management utility for sway, Hyprland and Niri. </td>
+  <td><a href="./stars/nwg-piotr/nwg-displays.md">Sep 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/google/xls">google/xls</a><sup><sub> - C++ - May 07, 2020</sub></sup><br/><sup><sub>Tags: #compiler #high-level-synthesis #hls #mid-level-synthesis #open-source #pipeline #verilog</sub></sup><br/>XLS: Accelerated HW Synthesis. </td>
+  <td><a href="./stars/google/xls.md">Sep 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/MinishLab/semble">MinishLab/semble</a><sup><sub> - Python - Apr 06, 2026</sub></sup><br/><sup><sub>Tags: #agents #code-search #embeddings #mcp #mcp-server #model-context-protocol #retrieval</sub></sup><br/>Fast and Accurate Code Search for Agents. Uses 99% fewer tokens than<br/>grep+read. </td>
+  <td><a href="./stars/MinishLab/semble.md">Sep 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/nix-community/buildbot-nix">nix-community/buildbot-nix</a><sup><sub> - Python - Sep 10, 2023</sub></sup><br/><sup><sub>Tags: #build-with-buildbot</sub></sup><br/>A nixos module to make buildbot a proper Nix-CI [maintainer=@Mic92,<br/>@MagicRB]. </td>
+  <td><a href="./stars/nix-community/buildbot-nix.md">Sep 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/clarkarch/tfm-tui">clarkarch/tfm-tui</a><sup><sub> - TypeScript - Aug 25, 2026</sub></sup><br/><sup><sub>Tags: #bun #file-manager #kitty-terminal #opentui #terminal-file-manager #tui</sub></sup><br/>Modern mouse-first terminal file manager. </td>
+  <td><a href="./stars/clarkarch/tfm-tui.md">Sep 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/zhaofengli/attic">zhaofengli/attic</a><sup><sub> - Rust - Dec 31, 2022</sub></sup><br/><sup><sub>Tags: #binary-cache #nix #nixos</sub></sup><br/>Multi-tenant Nix Binary Cache. </td>
+  <td><a href="./stars/zhaofengli/attic.md">Sep 07, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/dlvhdr/diffnav">dlvhdr/diffnav</a><sup><sub> - Go - Sep 18, 2024</sub></sup><br/><sup><sub>Tags: #cli #delta #diff #git #github #golang #tui</sub></sup><br/>A git diff pager based on delta but with a file tree, à la GitHub. </td>
+  <td><a href="./stars/dlvhdr/diffnav.md">Sep 06, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/mookid/diffr">mookid/diffr</a><sup><sub> - Rust - Jun 30, 2019</sub></sup><br/><sup><sub>Tags: #code-review #console #diff #git</sub></sup><br/>Yet another diff highlighting tool. </td>
+  <td><a href="./stars/mookid/diffr.md">Sep 06, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/remorses/critique">remorses/critique</a><sup><sub> - TypeScript - Oct 08, 2025</sub></sup><br/><sup><sub>Tags: #diff #opentui #tui</sub></sup><br/>TUI &amp; website for reviewing git changes. </td>
+  <td><a href="./stars/remorses/critique.md">Sep 06, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/jmforsythe/Git-Heat-Map">jmforsythe/Git-Heat-Map</a><sup><sub> - JavaScript - Dec 16, 2022</sub></sup><br/><sup><sub>Tags: #database #git #python #treemap</sub></sup><br/>Visualise a git repository by diff activity. </td>
+  <td><a href="./stars/jmforsythe/Git-Heat-Map.md">Sep 06, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/anomalyco/opentui">anomalyco/opentui</a><sup><sub> - TypeScript - Jul 21, 2025</sub></sup><br/><sup><sub>Tags: #opencode #opentui #tui</sub></sup><br/>OpenTUI is a library to build terminal user interfaces (TUI). </td>
+  <td><a href="./stars/anomalyco/opentui.md">Sep 06, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/carboneio/carbone">carboneio/carbone</a><sup><sub> - JavaScript - Mar 31, 2017</sub></sup><br/><sup><sub>Tags: #carbone #document-conversion #javascript #libreoffice #microsoft-office #multilingual #nodejs #pdf-generation<br/>#report-generator #template-engine</sub></sup><br/>Fast and simple report generator, from JSON to pdf, xslx, docx, odt... </td>
+  <td><a href="./stars/carboneio/carbone.md">Sep 06, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
   <tr>
   <td><a href="https://github.com/lukilabs/beautiful-mermaid">lukilabs/beautiful-mermaid</a><sup><sub> - TypeScript - Jan 28, 2026</sub></sup></td>
@@ -3952,74 +4020,6 @@ Total Stars: <!-- doc-gen STAR_COUNT -->1,545<!-- end-doc-gen -->
   <tr>
   <td><a href="https://github.com/vaga/hugo-theme-m10c">vaga/hugo-theme-m10c</a><sup><sub> - HTML - Jan 19, 2019</sub></sup><br/><sup><sub>Tags: #dark #hugo #minimalistic #responsive #theme</sub></sup><br/>A minimalistic (m10c) blog theme for Hugo. </td>
   <td><a href="./stars/vaga/hugo-theme-m10c.md">Jan 03, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/fncnt/vncnt-hugo">fncnt/vncnt-hugo</a><sup><sub> - CSS - Jan 03, 2019</sub></sup><br/><sup><sub>Tags: #css #html #hugo #minimal #simple #static #static-website #theme</sub></sup><br/>a simple theme for hugo. </td>
-  <td><a href="./stars/fncnt/vncnt-hugo.md">Jan 03, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/darkreader/darkreader">darkreader/darkreader</a><sup><sub> - TypeScript - Nov 15, 2014</sub></sup><br/><sup><sub>Tags: #accessibility #chrome-extension #dark-mode #dark-theme #darkmode #eye-care #firefox-addon #night-mode<br/>#nightmode</sub></sup><br/>Dark Reader Chrome and Firefox extension. </td>
-  <td><a href="./stars/darkreader/darkreader.md">Jan 03, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/eyeseast/python-frontmatter">eyeseast/python-frontmatter</a><sup><sub> - Python - Sep 15, 2014</sub></sup><br/><sup><sub>Tags: #frontmatter #python #yaml</sub></sup><br/>Parse and manage posts with YAML (or other) frontmatter. </td>
-  <td><a href="./stars/eyeseast/python-frontmatter.md">Jan 01, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/adafruit/Adafruit_CircuitPython_PN532">adafruit/Adafruit_CircuitPython_PN532</a><sup><sub> - Python - Aug 21, 2018</sub></sup><br/><sup><sub>Tags: #hacktoberfest</sub></sup><br/>CircuitPython driver for the PN532 NFC/RFID Breakout and PN532 NFC/RFID<br/>Shield. </td>
-  <td><a href="./stars/adafruit/Adafruit_CircuitPython_PN532.md">Dec 31, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/infused-kim/zmk-config">infused-kim/zmk-config</a><sup><sub> - Python - Mar 04, 2022</sub></sup></td>
-  <td><a href="./stars/infused-kim/zmk-config.md">Dec 31, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/zhiayang/mikoto">zhiayang/mikoto</a><sup><sub> - HTML - Jan 02, 2021</sub></sup><br/><sup><sub>Tags: #bluetooth #electronics #kicad #nrf52840 #wireless</sub></sup><br/>Bluetooth LE nRF52840 microcontroller in a pro-micro footprint. </td>
-  <td><a href="./stars/zhiayang/mikoto.md">Dec 31, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/laike9m/logseq-chatgpt">laike9m/logseq-chatgpt</a><sup><sub> - JavaScript - Dec 27, 2022</sub></sup><br/><sup><sub>Tags: #chatgpt #logseq #logseq-plugin</sub></sup><br/>Talk to ChatGPT directly from Logseq. </td>
-  <td><a href="./stars/laike9m/logseq-chatgpt.md">Dec 29, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/QWxleA/logseq-cuvee">QWxleA/logseq-cuvee</a><sup><sub> - TypeScript - Apr 18, 2022</sub></sup><br/><sup><sub>Tags: #csv-export #logseq #logseq-plugin</sub></sup><br/>Bulk exporting queried data to CSV. </td>
-  <td><a href="./stars/QWxleA/logseq-cuvee.md">Dec 29, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/guzhongren/logseq-echarts">guzhongren/logseq-echarts</a><sup><sub> - TypeScript - Aug 23, 2022</sub></sup><br/>Logseq echarts plugin. </td>
-  <td><a href="./stars/guzhongren/logseq-echarts.md">Dec 29, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/rlhk/logseq-url-plus">rlhk/logseq-url-plus</a><sup><sub> - Clojure - Nov 04, 2022</sub></sup><br/><sup><sub>Tags: #clojure #clojurescript #logseq #logseq-plugin #plugin #url</sub></sup><br/>A Logseq plugin that takes the last token of an editing block, be it a word<br/>or URL, and augments the block with associated metadata in various formats. </td>
-  <td><a href="./stars/rlhk/logseq-url-plus.md">Dec 29, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/bsongOT/logseq-plugin-areas">bsongOT/logseq-plugin-areas</a><sup><sub> - JavaScript - Apr 06, 2022</sub></sup><br/>A plugin that make us be able to describe parts of a picture. </td>
-  <td><a href="./stars/bsongOT/logseq-plugin-areas.md">Dec 29, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/hiway/logseq-python-plugin">hiway/logseq-python-plugin</a><sup><sub> - Python - Oct 05, 2022</sub></sup><br/>Write Logseq Plugins in Python 3. </td>
-  <td><a href="./stars/hiway/logseq-python-plugin.md">Dec 29, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/benjypng/logseq-powertags-plugin">benjypng/logseq-powertags-plugin</a><sup><sub> - TypeScript - Dec 14, 2022</sub></sup><br/>Designate selected hashtags as PowerTags, and see them auto-create<br/>properties are you use them. </td>
-  <td><a href="./stars/benjypng/logseq-powertags-plugin.md">Dec 29, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Arrowyz01/csv2logseq_block">Arrowyz01/csv2logseq_block</a><sup><sub> - Python - Jan 31, 2022</sub></sup><br/><sup><sub>Tags: #csv #logseq #markdown</sub></sup><br/>Python script that can read csv file and output a markdown file containing<br/>logseq block and block properties (from csv data), and a basic query script<br/>to generate a table query (like the format in csv file). The goal is to<br/>simulate notion table database in logseq. Also come with a script to<br/>reverse!. </td>
-  <td><a href="./stars/Arrowyz01/csv2logseq_block.md">Dec 29, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/usoonees/logseq-plugin-link-unlink">usoonees/logseq-plugin-link-unlink</a><sup><sub> - TypeScript - Oct 30, 2022</sub></sup></td>
-  <td><a href="./stars/usoonees/logseq-plugin-link-unlink.md">Dec 29, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/viktomas/logseq-export">viktomas/logseq-export</a><sup><sub> - Go - Sep 25, 2022</sub></sup><br/><sup><sub>Tags: #export #golang #logseq</sub></sup><br/>Tool to export raw Logseq Markdown files into Markdown blog posts with<br/>front matter. </td>
-  <td><a href="./stars/viktomas/logseq-export.md">Dec 29, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/andreoliwa/logseq-doctor">andreoliwa/logseq-doctor</a><sup><sub> - Go - Mar 20, 2022</sub></sup><br/><sup><sub>Tags: #knowledge-base #knowledge-graph #logseq #logseq-plugin #markdown #markdown-format #markdown-formatter<br/>#markdown-formatting #python #python3</sub></sup><br/>Heal your Markdown files: convert to outline, list tasks and more tools to<br/>come. </td>
-  <td><a href="./stars/andreoliwa/logseq-doctor.md">Dec 29, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
 </table><!-- end-doc-gen -->
 

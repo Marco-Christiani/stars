@@ -1,0 +1,129 @@
+---
+repo: clarkarch/tfm-tui
+url: 'https://github.com/clarkarch/tfm-tui'
+homepage: 'https://clarkarch.github.io/tfm-tui/'
+starredAt: '2026-09-08T02:28:07Z'
+createdAt: '2026-08-25T08:01:30Z'
+updatedAt: '2026-09-12T18:32:52Z'
+language: TypeScript
+license: MIT
+branch: dev
+stars: 86
+isPublic: true
+isTemplate: false
+isArchived: false
+isFork: false
+hasReadMe: true
+refreshedAt: '2026-09-13T00:02:42.439Z'
+description: Modern mouse-first terminal file manager
+tags:
+  - bun
+  - file-manager
+  - kitty-terminal
+  - opentui
+  - terminal-file-manager
+  - tui
+---
+
+# tfm (terminal file manager)
+
+A modern, mouse-first file manager with places sidebar, grid view, drag & drop, image thumbnails and more, right inside your terminal.
+
+![alpha](https://img.shields.io/badge/status-alpha-red) [![website](https://img.shields.io/badge/website-tfm--tui-blue?logo=githubpages&logoColor=white)](https://clarkarch.github.io/tfm-tui/)
+
+> [!WARNING]
+> Experimental vibecoded software, expect rough edges. Don't test on files you can't afford to lose. If you want to test safely, use Podman: `podman run --rm -it archlinux bash`
+
+> [!IMPORTANT]
+> This is still a terminal UI running inside your terminal, expect some visual/behavioral anomalies.
+
+![tfm](screenshot.png)
+
+## Features
+
+- Click, rubber-band select, right-click menus, inline rename.
+- Drag files between folders (ctrl+drag), out to other apps, or in from outside.
+  Cross-app drag is kitty-only.
+- Places sidebar, GTK bookmarks, recent files, XDG trash with restore, clipboard.
+- Network locations: connect to `sftp://`, `smb://`, WebDAV, FTP… shares through
+  gvfs (sidebar or right-click → Connect to Server…); saved connections live in
+  your GTK bookmarks. Credentials are prompted in-app (passwords masked); ssh
+  keys/agent work without prompting.
+- Embedded terminal (right-click → Open Terminal Here).
+- Auto-hide panes: sidebar/preview/terminal collapse to the edge and slide back (animated) when the mouse nears them.
+- Extract and compress archives (right-click).
+- Image/video thumbnails, text syntax highlighting, folder sizes.
+- Type-to-search, tabs, undo/redo, 30+ themes.
+
+## Requirements
+
+- Linux.
+- Image thumbnails need the
+  [kitty graphics protocol](https://sw.kovidgoyal.net/kitty/graphics-protocol.html)
+  (kitty, ghostty, WezTerm, Konsole…). Without it you get Nerd Font glyphs.
+  Cross-app drag needs kitty.
+- Optional tools (the installer lists what's missing):
+  - `rsvg-convert` (icons and SVG thumbnails)
+  - `magick` (raster image thumbnails)
+  - `ffmpeg` (video thumbnails)
+  - `gio` (starred files, network locations)
+  - `xdg-open` (open files in their default app)
+  - `udisksctl` (mount/eject drives)
+  - `wl-clipboard` / `xclip` (clipboard with GUI apps)
+  - `tar` / `unzip` / `zip` / `7z` (archives)
+
+## Install
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/clarkarch/tfm-tui/main/install.sh | bash
+```
+
+Or build from source:
+
+```bash
+bun install --frozen-lockfile
+bun run check && bun test
+bun run compile && cp dist/tfm ~/.local/bin/
+```
+
+## Keys
+
+- `enter` open · `f2` rename · `backspace` up · `escape` menu
+- `ctrl+c/x/v/d` copy/cut/paste/duplicate · `ctrl+z/y` undo/redo
+- `ctrl+t/w` new/close tab · `ctrl+tab` switch tab
+- `delete` trash · `alt+enter` properties · `ctrl+q` quit
+- `ctrl+h` hidden · `ctrl+l` path bar · `ctrl+g` grid/list · `f9` preview · `f4` terminal · `ctrl+shift+s` connect to server
+
+Everything is remappable: `esc` → Settings → keys.
+
+## Config
+
+`~/.config/tfm/config.toml`, see [config.example.toml](config.example.toml).
+Override the path with `TFM_CONFIG`; XDG homes are honored. `--debug` writes a log.
+
+## Plugins
+
+TypeScript plugins in `~/.config/tfm/plugins/<name>/<name>.ts` with full trust,
+hot reload, commands/keybinds, context menus, previews, events, pre-op veto
+hooks, and **UI slots** (render OpenTUI widgets into the statusbar / sidebar
+footer). Install from a git URL in `esc` → Plugins, or:
+
+```bash
+tfm plugins search
+tfm plugins add <url|id>
+tfm plugins new my-plugin
+```
+
+See [docs/plugins.md](docs/plugins.md).
+
+## Limitations
+
+- Linux only.
+- Thumbnails need the kitty graphics protocol; tmux hides them unless
+  `allow-passthrough` is on.
+- Cross-app drag & drop is kitty-only.
+- Custom kitty themes can misbehave.
+
+## License
+
+[MIT](LICENSE)

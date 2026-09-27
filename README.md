@@ -13,13 +13,149 @@
 
 ## Stars by date
 
-Total Stars: <!-- doc-gen STAR_COUNT -->1,567<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->1,593<!-- end-doc-gen -->
 
 <!-- doc-gen ALL_STARS_TABLE -->
 <table>
   <tr>
   <th align="left">Repo</th>
   <th align="center">Starred On</th>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/AdithyanI/agents">AdithyanI/agents</a><sup><sub> - Python - Feb 10, 2026</sub></sup></td>
+  <td><a href="./stars/AdithyanI/agents.md">Sep 26, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/deviffyy/OpenQuota">deviffyy/OpenQuota</a><sup><sub> - Rust - Jul 10, 2026</sub></sup><br/><sup><sub>Tags: #ai-tools #claude-code #cross-platform #desktop-app #openai-codex #rust #system-tray #tauri #usage-tracker</sub></sup><br/>Open-source, cross-platform tracker for AI coding usage, limits, reset<br/>times, and spend. </td>
+  <td><a href="./stars/deviffyy/OpenQuota.md">Sep 26, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/tlc-pack/tenset">tlc-pack/tenset</a><sup><sub> - Python - Mar 20, 2021</sub></sup></td>
+  <td><a href="./stars/tlc-pack/tenset.md">Sep 23, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/karakeep-app/karakeep">karakeep-app/karakeep</a><sup><sub> - TypeScript - Feb 06, 2024</sub></sup><br/><sup><sub>Tags: #bookmark-manager #bookmarks #bookmarks-manager #nextjs #react-native #read-it-later #self-hosted</sub></sup><br/>A self-hostable bookmark-everything app (links, notes and images) with<br/>AI-based automatic tagging and full text search. </td>
+  <td><a href="./stars/karakeep-app/karakeep.md">Sep 23, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/Vladimir-csp/uwsm">Vladimir-csp/uwsm</a><sup><sub> - Python - Sep 18, 2022</sub></sup><br/>Universal Wayland Session Manager. </td>
+  <td><a href="./stars/Vladimir-csp/uwsm.md">Sep 23, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/tt-a1i/archify">tt-a1i/archify</a><sup><sub> - JavaScript - Apr 15, 2026</sub></sup><br/><sup><sub>Tags: #agent-skills #architecture-as-code #architecture-diagram #claude-skill #code-visualization #codex #coding-agents<br/>#data-flow-diagram #deepseek-harness #developer-tools #diagram-as-code #diagrams #diagrams-as-code #dsh-plugin #mermaid-alternative<br/>#opencode #sequence-diagram #software-architecture #system-design #text-to-diagram</sub></sup><br/>Agent skill for beautiful, verifiable architecture, workflow, sequence,<br/>data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp<br/>export. </td>
+  <td><a href="./stars/tt-a1i/archify.md">Sep 23, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/mversic/disjoint_impls">mversic/disjoint_impls</a><sup><sub> - Rust - Sep 23, 2023</sub></sup><br/>Support for variety of disjoint impls distinguished by associated types. </td>
+  <td><a href="./stars/mversic/disjoint_impls.md">Sep 23, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/valen-lang/Valen">valen-lang/Valen</a><sup><sub> - Rust - Aug 15, 2026</sub></sup><br/>Compiler for the Valen programming language. </td>
+  <td><a href="./stars/valen-lang/Valen.md">Sep 23, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/ctuning/artifact-evaluation">ctuning/artifact-evaluation</a><sup><sub> - JavaScript - Sep 17, 2015</sub></sup><br/><sup><sub>Tags: #artifact-appendix #artifact-evaluation #artifact-evaluation-committee #artifact-sharing #collaborative-research<br/>#conferences #journals #public-reviewing #reproducibility-checklist #reproducible-research</sub></sup><br/>Collective Knowledge repository to support artifact evaluation and<br/>reproducibility initiatives:. </td>
+  <td><a href="./stars/ctuning/artifact-evaluation.md">Sep 23, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/ghuntley/underclass">ghuntley/underclass</a><sup><sub> - Rust - Sep 20, 2026</sub></sup><br/><sup><sub>Tags: #openai #openai-proxy-load-balancer</sub></sup><br/>underclass: an OpenAI-compatible pooling proxy that pins sessions to one<br/>account (prompt cache stays warm), cools quota-exhausted subscriptions<br/>until their window resets, and fails fast with the earliest Retry-After<br/>when the whole pool is dry. </td>
+  <td><a href="./stars/ghuntley/underclass.md">Sep 23, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/google/ax">google/ax</a><sup><sub> - Go - Mar 30, 2026</sub></sup><br/>Google&#039;s open agentic orchestration runtime. </td>
+  <td><a href="./stars/google/ax.md">Sep 23, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/johnae/world">johnae/world</a><sup><sub> - Nix - Jul 04, 2020</sub></sup><br/>NixOS configuration. </td>
+  <td><a href="./stars/johnae/world.md">Sep 23, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/adewale/agentic-mermaid">adewale/agentic-mermaid</a><sup><sub> - TypeScript - Mar 14, 2026</sub></sup><br/><sup><sub>Tags: #mcp #mermaid #mermaid-alternative #mermaid-diagrams</sub></sup><br/>Beautiful diagrams, made with your agent. </td>
+  <td><a href="./stars/adewale/agentic-mermaid.md">Sep 23, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/emilien-jegou/oyui">emilien-jegou/oyui</a><sup><sub> - Rust - May 19, 2026</sub></sup><br/><sup><sub>Tags: #diff #diff-tool #git #jj #jujutsu #merge-editor #tui</sub></sup><br/>Modern TUI merge tool and interactive diff editor for Jujutsu (jj) and Git. </td>
+  <td><a href="./stars/emilien-jegou/oyui.md">Sep 23, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/NVlabs/kda">NVlabs/kda</a><sup><sub> - May 12, 2026</sub></sup><br/>Kernel Design Agents (KDA) is a agent-centric workflow to write<br/>high-performance CUDA Kernels. </td>
+  <td><a href="./stars/NVlabs/kda.md">Sep 23, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/mlc-ai/pith-train">mlc-ai/pith-train</a><sup><sub> - Python - Mar 21, 2026</sub></sup><br/>Compact and Agent-Native MoE Training System. </td>
+  <td><a href="./stars/mlc-ai/pith-train.md">Sep 23, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/mlc-ai/kcoral-docs">mlc-ai/kcoral-docs</a><sup><sub> - HTML - Sep 22, 2026</sub></sup><br/>Generated public documentation for KCoral. </td>
+  <td><a href="./stars/mlc-ai/kcoral-docs.md">Sep 23, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/NVIDIA/TensorRT-LLM">NVIDIA/TensorRT-LLM</a><sup><sub> - Python - Aug 16, 2023</sub></sup><br/><sup><sub>Tags: #blackwell #cuda #llm-serving #moe #pytorch</sub></sup><br/>TensorRT LLM provides users with an easy-to-use Python API to define Large<br/>Language Models (LLMs) and supports state-of-the-art optimizations to<br/>perform inference efficiently on NVIDIA GPUs. TensorRT LLM also contains<br/>components to create Python and C++ runtimes that orchestrate the inference<br/>execution in a performant way. </td>
+  <td><a href="./stars/NVIDIA/TensorRT-LLM.md">Sep 23, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/Lulzx/zs3">Lulzx/zs3</a><sup><sub> - Zig - Dec 29, 2025</sub></sup><br/><sup><sub>Tags: #aws #object-storage #s3 #s3-compatible #zero-dependency #zig</sub></sup><br/>S3-compatible storage in Zig. Zero dependencies. </td>
+  <td><a href="./stars/Lulzx/zs3.md">Sep 23, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/Gerg-L/spicetify-nix">Gerg-L/spicetify-nix</a><sup><sub> - Nix - Nov 30, 2023</sub></sup><br/>A nix library for modifying spotify with https://github.com/spicetify. </td>
+  <td><a href="./stars/Gerg-L/spicetify-nix.md">Sep 23, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/NandhaKishorM/laya">NandhaKishorM/laya</a><sup><sub> - Python - Sep 18, 2026</sub></sup><br/><sup><sub>Tags: #calibration #classification #decision-model #huggingface #jev #modernbert #multilingual #nlp #python #pytorch #routing<br/>#typed-decisions #zero-shot</sub></sup><br/>Non-autoregressive System 1 decision engine. Typed choice, score and yes/no<br/>decisions over any text in a single forward pass, in 100+ languages, with<br/>a router that picks the right checkpoint per request. </td>
+  <td><a href="./stars/NandhaKishorM/laya.md">Sep 23, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/spiraldb/ziggy-pydust">spiraldb/ziggy-pydust</a><sup><sub> - Zig - Aug 31, 2023</sub></sup><br/><sup><sub>Tags: #python #zig</sub></sup><br/>A toolkit for building Python extensions in Zig. </td>
+  <td><a href="./stars/spiraldb/ziggy-pydust.md">Sep 22, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/vortex-data/vortex">vortex-data/vortex</a><sup><sub> - Rust - Feb 27, 2024</sub></sup><br/><sup><sub>Tags: #array #arrow #compression #file #multimodal #python #rust</sub></sup><br/>An extensible, state-of-the-art framework for columnar compression, and the<br/>fastest FOSS columnar file format. Formerly at @spiraldb, now an<br/>Incubation Stage project at LFAI&amp;Data, part of the Linux Foundation. </td>
+  <td><a href="./stars/vortex-data/vortex.md">Sep 22, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/jburgy/pyvot">jburgy/pyvot</a><sup><sub> - CSS - Aug 20, 2017</sub></sup><br/>Easy to use pivot table widget for jupyter notebook. </td>
+  <td><a href="./stars/jburgy/pyvot.md">Sep 22, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/jburgy/data-grid">jburgy/data-grid</a><sup><sub> - JavaScript - Aug 15, 2019</sub></sup><br/>PivotTable.js clean room re-implementation. </td>
+  <td><a href="./stars/jburgy/data-grid.md">Sep 22, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/jdoiro3/dagit">jdoiro3/dagit</a><sup><sub> - Go - Apr 25, 2022</sub></sup><br/><sup><sub>Tags: #dag #educational #git #learning #visualization</sub></sup><br/>DaGit to learn Git Internals. </td>
+  <td><a href="./stars/jdoiro3/dagit.md">Sep 20, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/NirmalScaria/le-git-graph">NirmalScaria/le-git-graph</a><sup><sub> - JavaScript - Jul 27, 2022</sub></sup><br/><sup><sub>Tags: #chrome-extension #collaborate #git-graph #github #hacktoberfest</sub></sup><br/>Browser extension to add git graph to GitHub website. </td>
+  <td><a href="./stars/NirmalScaria/le-git-graph.md">Sep 20, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/PrimeIntellect-ai/prime-agent">PrimeIntellect-ai/prime-agent</a><sup><sub> - TypeScript - May 08, 2026</sub></sup><br/>A self-improving RLM agent for coding workflows and long-running autonomous<br/>tasks. </td>
+  <td><a href="./stars/PrimeIntellect-ai/prime-agent.md">Sep 19, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/modular/modular">modular/modular</a><sup><sub> - Mojo - Apr 28, 2023</sub></sup><br/><sup><sub>Tags: #ai #language #machine-learning #max #modular #mojo #programming-language</sub></sup><br/>The Modular Platform (includes MAX &amp; Mojo). </td>
+  <td><a href="./stars/modular/modular.md">Sep 17, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/xiaotonng/pikiloom">xiaotonng/pikiloom</a><sup><sub> - TypeScript - Mar 06, 2026</sub></sup><br/><sup><sub>Tags: #ai #claude #cli #codex #coding #nodejs #npx #telegram</sub></sup><br/>Put the world&#039;s smartest AI agents &amp; plugins in your pocket. </td>
+  <td><a href="./stars/xiaotonng/pikiloom.md">Sep 15, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/mosquito/argclass">mosquito/argclass</a><sup><sub> - Python - Jan 29, 2022</sub></sup><br/><sup><sub>Tags: #argparse #arguments-parser #cli #command-line #config #configuration #declarative #environment-variables #ini #python<br/>#type-hints #typing</sub></sup><br/>Declarative CLI parser with type hints, config files, and environment<br/>variables. </td>
+  <td><a href="./stars/mosquito/argclass.md">Sep 14, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/vimpostor/blobdrop">vimpostor/blobdrop</a><sup><sub> - C++ - Nov 06, 2021</sub></sup><br/><sup><sub>Tags: #cli #drag-and-drop #qml #qt #workflow</sub></sup><br/>Drag and drop files directly out of the terminal. </td>
+  <td><a href="./stars/vimpostor/blobdrop.md">Sep 14, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/hkdb/aerion">hkdb/aerion</a><sup><sub> - Go - Jan 15, 2026</sub></sup><br/><sup><sub>Tags: #calendar #contacts #cross-platform #desktop-app #desktop-application #desktop-apps #e-mail #gui #imap-client<br/>#imaps-inbox #keyboard-warriors #linux-desktop #mail #mail-client #opinionated #smtp-client #wails-app</sub></sup><br/>An Open Source Lightweight E-Mail Client. </td>
+  <td><a href="./stars/hkdb/aerion.md">Sep 14, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/isotjs/todosian-app">isotjs/todosian-app</a><sup><sub> - Kotlin - Feb 22, 2026</sub></sup><br/><sup><sub>Tags: #android #jetpack-compose #kotlin #local-first #markdown #material3 #obsidian #obsidian-tasks #offline-first<br/>#open-source #productivity #syncthing #task-manager #todo-list</sub></sup><br/>A minimalist, local-first Android Todo app seamlessly integrated with<br/>Obsidian (Tasks). Built with Jetpack Compose and Material 3 for a<br/>privacy-focused Second Brain experience. </td>
+  <td><a href="./stars/isotjs/todosian-app.md">Sep 13, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
   <tr>
   <td><a href="https://github.com/mindspore-ai/mindspore">mindspore-ai/mindspore</a><sup><sub> - C++ - Feb 11, 2020</sub></sup><br/>MindSpore is a new open source deep learning training/inference framework<br/>that could be used for mobile, edge and cloud scenarios. </td>
@@ -3884,142 +4020,6 @@ Total Stars: <!-- doc-gen STAR_COUNT -->1,567<!-- end-doc-gen -->
   <tr>
   <td><a href="https://github.com/initialcommit-com/git-sim">initialcommit-com/git-sim</a><sup><sub> - Python - Oct 18, 2022</sub></sup><br/><sup><sub>Tags: #git #gitpython #manim #opencv #python #python3 #visualization</sub></sup><br/>Visually simulate Git operations in your own repos with a single terminal<br/>command. </td>
   <td><a href="./stars/initialcommit-com/git-sim.md">Jan 26, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/frappe/frappe">frappe/frappe</a><sup><sub> - Python - Jun 08, 2011</sub></sup><br/><sup><sub>Tags: #cms #email #erpnext #frappe #full-stack #javascript #low-code #mariadb #multitenant #postgres #python #rest-api<br/>#security #socket-io #web-framework #webhooks</sub></sup><br/>Low code web framework for real world applications, in Python and<br/>Javascript. </td>
-  <td><a href="./stars/frappe/frappe.md">Jan 26, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/astral-sh/ruff">astral-sh/ruff</a><sup><sub> - Rust - Aug 09, 2022</sub></sup><br/><sup><sub>Tags: #linter #pep8 #python #python3 #ruff #rust #rustpython #static-analysis #static-code-analysis #style-guide<br/>#styleguide</sub></sup><br/>An extremely fast Python linter and code formatter, written in Rust. </td>
-  <td><a href="./stars/astral-sh/ruff.md">Jan 26, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/xingyizhou/CenterNet">xingyizhou/CenterNet</a><sup><sub> - Python - Apr 16, 2019</sub></sup><br/>Object detection, 3D detection, and pose estimation using center point<br/>detection:. </td>
-  <td><a href="./stars/xingyizhou/CenterNet.md">Jan 25, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Project-Evidence/project-evidence.github.io">Project-Evidence/project-evidence.github.io</a><sup><sub> - HTML - Apr 16, 2020</sub></sup><br/><sup><sub>Tags: #archive #pathology #sars-cov-2 #scribble</sub></sup><br/>Evidence SARS-CoV-2 Emerged From a Biological Laboratory in Wuhan, China. </td>
-  <td><a href="./stars/Project-Evidence/project-evidence.github.io.md">Jan 25, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/dronefreak/human-action-classification">dronefreak/human-action-classification</a><sup><sub> - Python - Jun 22, 2019</sub></sup><br/><sup><sub>Tags: #computer-vision #convolutional-neural-networks #deep-learning #hmdb51 #human-action-recognition #mediapipe<br/>#mobilenetv3 #pose-classification #pose-estimation #pytorch #r2plus1d #r3d-18 #real-time-inference #timm #transfer-learning #ucf-101<br/>#video-analysis #video-classification #video-classification-models #video-recognition</sub></sup><br/>Human action classification system with pose-based (MediaPipe) and<br/>video-based (3D CNN) models. Features 100+ architectures for real-time pose<br/>classification and temporal models pretrained on UCF-101/HMDB51.<br/>Applications include autonomous vehicles, video surveillance, and action<br/>recognition research. </td>
-  <td><a href="./stars/dronefreak/human-action-classification.md">Jan 25, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/KMKfw/kmk_firmware">KMKfw/kmk_firmware</a><sup><sub> - Python - Aug 30, 2018</sub></sup><br/><sup><sub>Tags: #arm-microcontrollers #atmel #circuitpython #firmware #hacktoberfest #keyboard #keyboard-firmware #keyboards<br/>#mechanical-keyboards #micropython #nrf52840 #python #rp2040 #samd51 #stm32</sub></sup><br/>Clackety Keyboards Powered by Python. </td>
-  <td><a href="./stars/KMKfw/kmk_firmware.md">Jan 24, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/tuangauss/DataScienceProjects">tuangauss/DataScienceProjects</a><sup><sub> - Jupyter Notebook - Jan 14, 2018</sub></sup><br/><sup><sub>Tags: #data-science #data-visualization #statistics</sub></sup><br/>The code repository for projects and tutorials in R and Python that covers<br/>a variety of topics in data visualization, statistics sports analytics and<br/>general application of probability theory. </td>
-  <td><a href="./stars/tuangauss/DataScienceProjects.md">Jan 19, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/thomasbrueggemann/paperless-desktop">thomasbrueggemann/paperless-desktop</a><sup><sub> - JavaScript - Jan 06, 2017</sub></sup><br/><sup><sub>Tags: #archive #desktop-app #documents #electron #mac #macos #office #paperless</sub></sup><br/>🍃 macOS app that uses the paperless API to manage your document scans. </td>
-  <td><a href="./stars/thomasbrueggemann/paperless-desktop.md">Jan 18, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Fivefold/linkding-injector">Fivefold/linkding-injector</a><sup><sub> - CSS - Jan 10, 2022</sub></sup><br/><sup><sub>Tags: #bookmarks #browser-extension #chrome-extension #firefox-addon #firefox-extension #linkding #search<br/>#webextension</sub></sup><br/>Injects search results from the linkding bookmark service into search pages<br/>like google and duckduckgo. </td>
-  <td><a href="./stars/Fivefold/linkding-injector.md">Jan 17, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sissbruecker/linkding">sissbruecker/linkding</a><sup><sub> - Python - Jun 28, 2019</sub></sup><br/><sup><sub>Tags: #bookmark-manager #bookmark-service #bookmarks #self-hosted</sub></sup><br/>Self-hosted bookmark manager that is designed be to be minimal, fast, and<br/>easy to set up using Docker. </td>
-  <td><a href="./stars/sissbruecker/linkding.md">Jan 16, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/awesome-selfhosted/awesome-selfhosted">awesome-selfhosted/awesome-selfhosted</a><sup><sub> - Jun 01, 2015</sub></sup><br/><sup><sub>Tags: #awesome #awesome-list #cloud #free-software #hosting #privacy #self-hosted #selfhosted</sub></sup><br/>A list of Free Software network services and web applications which can be<br/>hosted on your own servers. </td>
-  <td><a href="./stars/awesome-selfhosted/awesome-selfhosted.md">Jan 16, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/weaviate/weaviate">weaviate/weaviate</a><sup><sub> - Go - Mar 30, 2016</sub></sup><br/><sup><sub>Tags: #approximate-nearest-neighbor-search #generative-search #grpc #hnsw #hybrid-search #image-search #information-retrieval<br/>#mlops #nearest-neighbor-search #neural-search #recommender-system #search-engine #semantic-search #semantic-search-engine<br/>#similarity-search #vector-database #vector-search #vector-search-engine #vectors #weaviate</sub></sup><br/>Weaviate is an open-source vector database that stores both objects and<br/>vectors, allowing for the combination of vector search with structured<br/>filtering with the fault tolerance and scalability of a cloud-native<br/>database​. </td>
-  <td><a href="./stars/weaviate/weaviate.md">Jan 16, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/DIVERSIFY-project/amiunique">DIVERSIFY-project/amiunique</a><sup><sub> - JavaScript - Dec 02, 2014</sub></sup><br/><sup><sub>Tags: #amiunique #fingerprinting #fp7 #inria #insa #javascript #kth #privacy</sub></sup><br/>Learn how identifiable you are on the Internet. </td>
-  <td><a href="./stars/DIVERSIFY-project/amiunique.md">Jan 16, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/healthchecks/healthchecks">healthchecks/healthchecks</a><sup><sub> - Python - Jun 25, 2015</sub></sup><br/><sup><sub>Tags: #cron #cron-jobs #devops #django #monitoring #ops</sub></sup><br/>Open-source cron job and background task monitoring service, written in<br/>Python &amp; Django. </td>
-  <td><a href="./stars/healthchecks/healthchecks.md">Jan 16, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Binnette/homebank-converter">Binnette/homebank-converter</a><sup><sub> - JavaScript - Jul 19, 2014</sub></sup><br/><sup><sub>Tags: #homebank</sub></sup><br/>A web app to convert an export bank file to compatible Homebank csv file. </td>
-  <td><a href="./stars/Binnette/homebank-converter.md">Jan 16, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/krayin/laravel-crm">krayin/laravel-crm</a><sup><sub> - PHP - Jun 05, 2021</sub></sup><br/><sup><sub>Tags: #crm #crm-multi-tenant-saas #crm-platform #hacktoberfest #laravel #laravel-application #laravel-crm #laravel-framework<br/>#laravel-package #opensource #opensource-crm #opensource-crm-framework #php #vue #vuejs</sub></sup><br/>Free &amp; Opensource Laravel CRM solution for SMEs and Enterprises for<br/>complete customer lifecycle management. </td>
-  <td><a href="./stars/krayin/laravel-crm.md">Jan 16, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/leon-ai/leon">leon-ai/leon</a><sup><sub> - TypeScript - Feb 10, 2019</sub></sup><br/><sup><sub>Tags: #ai #ai-assistant #artificial-intelligence #assistant #automation #bot #chatbot #flite #leon #nodejs #offline<br/>#personal-assistant #privacy #python #speech-recognition #speech-synthesis #speech-to-text #text-to-speech #virtual-assistant<br/>#voice-assistant</sub></sup><br/>🧠 Leon is your open-source personal assistant. </td>
-  <td><a href="./stars/leon-ai/leon.md">Jan 16, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/nocodb/nocodb">nocodb/nocodb</a><sup><sub> - TypeScript - Oct 29, 2017</sub></sup><br/><sup><sub>Tags: #airtable #airtable-alternative #automatic-api #hacktoberfest #low-code #no-code #no-code-database #no-code-platform<br/>#postgresql #rest-api #restful-api #spreadsheet #sqlite #swagger</sub></sup><br/>🔥 🔥 🔥 Open Source Airtable Alternative. </td>
-  <td><a href="./stars/nocodb/nocodb.md">Jan 16, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/benfred/py-spy">benfred/py-spy</a><sup><sub> - Rust - Aug 01, 2018</sub></sup><br/><sup><sub>Tags: #performance-analysis #profiler #profiling #python</sub></sup><br/>Sampling profiler for Python programs. </td>
-  <td><a href="./stars/benfred/py-spy.md">Jan 12, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/tschm/pyhrp">tschm/pyhrp</a><sup><sub> - Python - Apr 22, 2020</sub></sup><br/><sup><sub>Tags: #asset-management #hierarchy</sub></sup><br/>Run hierarchical risk parity algorithms. </td>
-  <td><a href="./stars/tschm/pyhrp.md">Jan 12, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/esphome/esphome">esphome/esphome</a><sup><sub> - C++ - Apr 06, 2018</sub></sup><br/><sup><sub>Tags: #esp32 #esp8266 #hacktoberfest #home-assistant #home-automation #iot #mqtt #platformio #python #yaml</sub></sup><br/>ESPHome is a system to control your ESP8266/ESP32 by simple yet powerful<br/>configuration files and control them remotely through Home Automation<br/>systems. </td>
-  <td><a href="./stars/esphome/esphome.md">Jan 09, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/TriliumNext/Trilium">TriliumNext/Trilium</a><sup><sub> - TypeScript - May 23, 2017</sub></sup><br/><sup><sub>Tags: #electron #electron-app #knowledge-base #knowledge-graph #knowledge-management #knowledge-management-graph #local-first<br/>#note-managment #note-taker #note-taking #notebook #notes #notes-app #personal-knowledge-base #personal-wiki #scriptable #self-hosted<br/>#self-hosting #wiki</sub></sup><br/>Build your personal knowledge base with Trilium Notes. </td>
-  <td><a href="./stars/TriliumNext/Trilium.md">Jan 07, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/jsonpickle/jsonpickle">jsonpickle/jsonpickle</a><sup><sub> - Python - Dec 10, 2009</sub></sup><br/><sup><sub>Tags: #bsd-3-clause #deserialization #json #objectstorage #pickle #python #serialization</sub></sup><br/>Python library for serializing any arbitrary object graph into JSON. It can<br/>take almost any Python object and turn the object into JSON. Additionally,<br/>it can reconstitute the object back into Python. </td>
-  <td><a href="./stars/jsonpickle/jsonpickle.md">Jan 05, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/jeygith/github-watch">jeygith/github-watch</a><sup><sub> - Python - Jan 28, 2020</sub></sup><br/>python script to watch github repos via cli. </td>
-  <td><a href="./stars/jeygith/github-watch.md">Jan 04, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/aniketmaithani/py-must-read">aniketmaithani/py-must-read</a><sup><sub> - Apr 06, 2015</sub></sup><br/>Must-read articles and books about Python. Inspired by https://github.<br/>com/s16h/py-must-watch. </td>
-  <td><a href="./stars/aniketmaithani/py-must-read.md">Jan 04, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/f0xeri/playlist-viewer">f0xeri/playlist-viewer</a><sup><sub> - Python - Jul 18, 2020</sub></sup><br/>Simple python script that creates page that shows all videos from requested<br/>YouTube playlist. </td>
-  <td><a href="./stars/f0xeri/playlist-viewer.md">Jan 04, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mike-mww/python-youtube-playlist-to-csv">mike-mww/python-youtube-playlist-to-csv</a><sup><sub> - Python - Sep 21, 2021</sub></sup><br/>Python script for exporting a YouTube playlist to a CSV file or providing a<br/>summary within the terminal. </td>
-  <td><a href="./stars/mike-mww/python-youtube-playlist-to-csv.md">Jan 04, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/vaibkumr/yTermPlayer">vaibkumr/yTermPlayer</a><sup><sub> - Python - Aug 04, 2018</sub></sup><br/><sup><sub>Tags: #music #pafy #player #python #terminal #urwid #youtube</sub></sup><br/>Stream youtube playlists as audio on linux terminal. </td>
-  <td><a href="./stars/vaibkumr/yTermPlayer.md">Jan 04, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/git-bruh/invidious-viewer">git-bruh/invidious-viewer</a><sup><sub> - Python - Jul 19, 2020</sub></sup><br/><sup><sub>Tags: #invidious #python</sub></sup><br/>Python application to watch YouTube videos through the Invidious API, in<br/>the terminal!. </td>
-  <td><a href="./stars/git-bruh/invidious-viewer.md">Jan 04, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/HaseebKhalid1507/AudioLine">HaseebKhalid1507/AudioLine</a><sup><sub> - Python - Jun 10, 2021</sub></sup><br/><sup><sub>Tags: #audio #command-line #hacktoberfest #multimedia #music #music-player #python #script #youtube-player</sub></sup><br/>A Youtube audio player for your terminal. </td>
-  <td><a href="./stars/HaseebKhalid1507/AudioLine.md">Jan 04, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/joeyajames/Python">joeyajames/Python</a><sup><sub> - Jupyter Notebook - Jun 15, 2015</sub></sup><br/>Python code for YouTube videos. </td>
-  <td><a href="./stars/joeyajames/Python.md">Jan 04, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/dece1ver/CoreyMSchafer_code_snippets">dece1ver/CoreyMSchafer_code_snippets</a><sup><sub> - Python - Sep 02, 2018</sub></sup></td>
-  <td><a href="./stars/dece1ver/CoreyMSchafer_code_snippets.md">Jan 04, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/dsrkafuu/hugo-theme-fuji">dsrkafuu/hugo-theme-fuji</a><sup><sub> - SCSS - Apr 13, 2020</sub></sup><br/><sup><sub>Tags: #dark-mode #hugo #hugo-theme #i18n #minimal #responsive #theme</sub></sup><br/>A minimal Hugo theme with nice theme color. | 一个主题色极简 Hugo 主题。. </td>
-  <td><a href="./stars/dsrkafuu/hugo-theme-fuji.md">Jan 03, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/vaga/hugo-theme-m10c">vaga/hugo-theme-m10c</a><sup><sub> - HTML - Jan 19, 2019</sub></sup><br/><sup><sub>Tags: #dark #hugo #minimalistic #responsive #theme</sub></sup><br/>A minimalistic (m10c) blog theme for Hugo. </td>
-  <td><a href="./stars/vaga/hugo-theme-m10c.md">Jan 03, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
 </table><!-- end-doc-gen -->
 

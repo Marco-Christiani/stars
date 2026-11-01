@@ -13,13 +13,125 @@
 
 ## Stars by date
 
-Total Stars: <!-- doc-gen STAR_COUNT -->1,607<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->1,618<!-- end-doc-gen -->
 
 <!-- doc-gen ALL_STARS_TABLE -->
 <table>
   <tr>
   <th align="left">Repo</th>
   <th align="center">Starred On</th>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/humanfia/humanize">humanfia/humanize</a><sup><sub> - Python - Jul 24, 2026</sub></sup><br/><sup><sub>Tags: #agent #ai-agents #claude-code #codex #coding-agents #flow #harness #infra #llm #python #system #workflow</sub></sup><br/>The agent flow system for token maxxing. </td>
+  <td><a href="./stars/humanfia/humanize.md">Oct 30, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/mblode/agent-skills">mblode/agent-skills</a><sup><sub> - Shell - Jan 12, 2026</sub></sup><br/><sup><sub>Tags: #agent-skills #ai-agents #anthropic #claude-code #claude-skills #developer-tools #llm</sub></sup><br/>Nobody ships AI slop on purpose. These skills make sure you don’t. </td>
+  <td><a href="./stars/mblode/agent-skills.md">Oct 30, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/gwenzek/llvm_inline_annotations">gwenzek/llvm_inline_annotations</a><sup><sub> - Zig - Oct 26, 2026</sub></sup><br/>annotate your zig code based on LLVM (missed) optimization. </td>
+  <td><a href="./stars/gwenzek/llvm_inline_annotations.md">Oct 30, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/Infini-AI-Lab/hermit">Infini-AI-Lab/hermit</a><sup><sub> - Python - Sep 18, 2026</sub></sup><br/>A framework for continual learning and recursive self-improvement through<br/>harness adapter evolution. </td>
+  <td><a href="./stars/Infini-AI-Lab/hermit.md">Oct 30, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/hypothesis/h">hypothesis/h</a><sup><sub> - Python - Apr 02, 2012</sub></sup><br/><sup><sub>Tags: #annotation #hypothesis #python</sub></sup><br/>Annotate with anyone, anywhere. </td>
+  <td><a href="./stars/hypothesis/h.md">Oct 30, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/hyper-light/cocoa">hyper-light/cocoa</a><sup><sub> - Python - Mar 12, 2025</sub></sup><br/>A Python terminal graphics and CLI library. </td>
+  <td><a href="./stars/hyper-light/cocoa.md">Oct 30, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/hyper-light/quiver">hyper-light/quiver</a><sup><sub> - Rust - Sep 10, 2026</sub></sup><br/>A simple queuing service designed for agentic scale. </td>
+  <td><a href="./stars/hyper-light/quiver.md">Oct 30, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/hyper-light/reliquary">hyper-light/reliquary</a><sup><sub> - Python - Sep 10, 2026</sub></sup><br/>Artifact registry for agents, skills, and more. </td>
+  <td><a href="./stars/hyper-light/reliquary.md">Oct 30, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/githubnext/chopin">githubnext/chopin</a><sup><sub> - TypeScript - Jul 27, 2026</sub></sup><br/>Let&#039;s compose rich plans together. </td>
+  <td><a href="./stars/githubnext/chopin.md">Oct 29, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/nobane/claude-resume">nobane/claude-resume</a><sup><sub> - Rust - Mar 17, 2026</sub></sup></td>
+  <td><a href="./stars/nobane/claude-resume.md">Oct 27, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/inferstep/ATLAS">inferstep/ATLAS</a><sup><sub> - Python - Feb 01, 2026</sub></sup><br/><sup><sub>Tags: #ai-agent #ai-harness #coding-agent #developer-tools #llm #local-first #local-llm #self-hosted</sub></sup><br/>Adaptive Test-time Learning and Autonomous Specialization. </td>
+  <td><a href="./stars/inferstep/ATLAS.md">Oct 27, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/evo-hq/evo">evo-hq/evo</a><sup><sub> - Python - Apr 05, 2026</sub></sup><br/><sup><sub>Tags: #agent-skills #autonomous-agents #autoresearch #claude-code #code-optimization #codex #evolutionary-algorithms<br/>#llm-agents</sub></sup><br/>turns your codebase into an autoresearch loop — discovers what to measure,<br/>instruments the benchmark, then runs tree search with parallel subagents. </td>
+  <td><a href="./stars/evo-hq/evo.md">Oct 27, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/scip-code/scip">scip-code/scip</a><sup><sub> - Go - May 10, 2022</sub></sup><br/>SCIP Code Intelligence Protocol. </td>
+  <td><a href="./stars/scip-code/scip.md">Oct 24, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/facebookincubator/Glean">facebookincubator/Glean</a><sup><sub> - Hack - Aug 24, 2020</sub></sup><br/>System for collecting, deriving and working with facts about source code. </td>
+  <td><a href="./stars/facebookincubator/Glean.md">Oct 24, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/NVlabs/instant-ngp">NVlabs/instant-ngp</a><sup><sub> - Cuda - Jan 05, 2022</sub></sup><br/><sup><sub>Tags: #3d-reconstruction #computer-graphics #computer-vision #cuda #function-approximation #machine-learning #nerf<br/>#neural-network #real-time #real-time-rendering #realtime #signed-distance-functions</sub></sup><br/>Instant neural graphics primitives: lightning fast NeRF and more. </td>
+  <td><a href="./stars/NVlabs/instant-ngp.md">Oct 24, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/google/gvisor">google/gvisor</a><sup><sub> - Go - Apr 26, 2018</sub></sup><br/><sup><sub>Tags: #containers #docker #kernel #kubernetes #linux #oci #sandbox</sub></sup><br/>Application Kernel for Containers. </td>
+  <td><a href="./stars/google/gvisor.md">Oct 19, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/sergeylappo/boox-rapid-draw">sergeylappo/boox-rapid-draw</a><sup><sub> - Kotlin - Oct 06, 2024</sub></sup><br/>An application to provide zero-lag stylus drawing experience outside of<br/>standard Boox applications. </td>
+  <td><a href="./stars/sergeylappo/boox-rapid-draw.md">Oct 16, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/peeriot/myrmic">peeriot/myrmic</a><sup><sub> - Rust - Nov 03, 2025</sub></sup><br/><sup><sub>Tags: #distributed-database #distributed-systems #edge-computing #embedded #esp32 #iot #no-std #orchestration #p2p<br/>#p2p-network #peer-to-peer #riscv #runtime #rust #wamr #wasm #wasmtime #webassembly</sub></sup><br/>Open-source runtime for distributed edge applications. Write message-driven<br/>WebAssembly cells in Rust; Myrmic handles execution, messaging, state and<br/>placement across microcontrollers, gateways and servers. </td>
+  <td><a href="./stars/peeriot/myrmic.md">Oct 12, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/hhornbacher/boox-note-parser">hhornbacher/boox-note-parser</a><sup><sub> - Rust - Jul 30, 2025</sub></sup><br/>A Rust library for parsing `.note` files from Onyx Boox e-ink devices. </td>
+  <td><a href="./stars/hhornbacher/boox-note-parser.md">Oct 12, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/ahrm/sioyek">ahrm/sioyek</a><sup><sub> - C - Jul 11, 2021</sub></sup><br/><sup><sub>Tags: #pdf #pdf-viewer #research-paper</sub></sup><br/>Sioyek is a PDF viewer with a focus on textbooks and research papers. </td>
+  <td><a href="./stars/ahrm/sioyek.md">Oct 11, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/Hensell/hen-screenshots">Hensell/hen-screenshots</a><sup><sub> - TypeScript - Sep 06, 2026</sub></sup><br/><sup><sub>Tags: #gemini-cli-extension</sub></sup></td>
+  <td><a href="./stars/Hensell/hen-screenshots.md">Oct 11, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/fzakaria/omnibin">fzakaria/omnibin</a><sup><sub> - Python - Sep 25, 2026</sub></sup><br/><sup><sub>Tags: #docker #fuse #nix #nixos #nixpkgs</sub></sup><br/>Every binary nixpkgs ever shipped, on your PATH. </td>
+  <td><a href="./stars/fzakaria/omnibin.md">Oct 03, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/BBuf/tvm_mlir_learn">BBuf/tvm_mlir_learn</a><sup><sub> - Python - Mar 16, 2021</sub></sup><br/>compiler learning resources collect. </td>
+  <td><a href="./stars/BBuf/tvm_mlir_learn.md">Oct 03, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/mlc-ai/agentic-gpu-programming-for-mlsys">mlc-ai/agentic-gpu-programming-for-mlsys</a><sup><sub> - HTML - Sep 29, 2026</sub></sup></td>
+  <td><a href="./stars/mlc-ai/agentic-gpu-programming-for-mlsys.md">Oct 03, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/dropbox/gemlite">dropbox/gemlite</a><sup><sub> - Python - Jul 03, 2024</sub></sup><br/>Fast low-bit matmul kernels in Triton. </td>
+  <td><a href="./stars/dropbox/gemlite.md">Oct 03, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/fabioz/PyDev.Debugger">fabioz/PyDev.Debugger</a><sup><sub> - Python - Jul 15, 2014</sub></sup><br/>Sources for the debugger used in PyDev, PyCharm and VSCode Python. </td>
+  <td><a href="./stars/fabioz/PyDev.Debugger.md">Sep 29, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/python-cmd2/cmd2">python-cmd2/cmd2</a><sup><sub> - Python - Feb 10, 2016</sub></sup><br/><sup><sub>Tags: #auto-completion #cli #command-line #developer-tools #python #scripting #shell #subcommands #tab-completion #terminal<br/>#unicode</sub></sup><br/>cmd2 - quickly build feature-rich and user-friendly interactive command<br/>line applications in Python. </td>
+  <td><a href="./stars/python-cmd2/cmd2.md">Sep 29, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/pdalloz/pobshell">pdalloz/pobshell</a><sup><sub> - Python - Jun 06, 2025</sub></sup><br/><sup><sub>Tags: #cli #debugging #developer-tools #introspection #open-source #python #repl #shell</sub></sup><br/>A Bash-like shell for live Python objects. </td>
+  <td><a href="./stars/pdalloz/pobshell.md">Sep 29, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
   <tr>
   <td><a href="https://github.com/AdithyanI/agents">AdithyanI/agents</a><sup><sub> - Python - Feb 10, 2026</sub></sup></td>
@@ -3908,118 +4020,6 @@ Total Stars: <!-- doc-gen STAR_COUNT -->1,607<!-- end-doc-gen -->
   <tr>
   <td><a href="https://github.com/eervin123/tradingview-to-vectorbt">eervin123/tradingview-to-vectorbt</a><sup><sub> - Jupyter Notebook - Feb 07, 2022</sub></sup></td>
   <td><a href="./stars/eervin123/tradingview-to-vectorbt.md">Mar 31, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sumilk/algo_trading">sumilk/algo_trading</a><sup><sub> - Jupyter Notebook - Nov 02, 2022</sub></sup></td>
-  <td><a href="./stars/sumilk/algo_trading.md">Mar 31, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/benob/recasepunc">benob/recasepunc</a><sup><sub> - Python - Sep 20, 2021</sub></sup><br/>Model for recasing and repunctuating ASR transcripts. </td>
-  <td><a href="./stars/benob/recasepunc.md">Mar 30, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ideasman42/nerd-dictation">ideasman42/nerd-dictation</a><sup><sub> - Python - May 25, 2021</sub></sup><br/>Simple, hackable offline speech to text - using the VOSK-API. </td>
-  <td><a href="./stars/ideasman42/nerd-dictation.md">Mar 30, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Kozea/WeasyPrint">Kozea/WeasyPrint</a><sup><sub> - Python - Aug 09, 2011</sub></sup><br/><sup><sub>Tags: #converter #css #html #pdf #python #weasyprint</sub></sup><br/>The awesome document factory. </td>
-  <td><a href="./stars/Kozea/WeasyPrint.md">Mar 29, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mayooear/ai-pdf-chatbot-langchain">mayooear/ai-pdf-chatbot-langchain</a><sup><sub> - TypeScript - Mar 17, 2023</sub></sup><br/><sup><sub>Tags: #agents #ai #chatbot #langchain #langgraph #nextjs #openai #pdf #typescript</sub></sup><br/>AI PDF chatbot agent built with LangChain &amp; LangGraph. </td>
-  <td><a href="./stars/mayooear/ai-pdf-chatbot-langchain.md">Mar 29, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/BananaHamm/Equity_StatArb">BananaHamm/Equity_StatArb</a><sup><sub> - Python - Dec 10, 2018</sub></sup><br/>Implementation for &quot;Statistical arbitrage in the US equities<br/>market&quot; by Marco Avellaneda and Jeong-hyun Lee. </td>
-  <td><a href="./stars/BananaHamm/Equity_StatArb.md">Mar 28, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/brendan-w/python-OBD">brendan-w/python-OBD</a><sup><sub> - Python - Oct 14, 2014</sub></sup><br/>OBD-II serial module for reading engine data. </td>
-  <td><a href="./stars/brendan-w/python-OBD.md">Mar 21, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ivy-llc/ivy">ivy-llc/ivy</a><sup><sub> - Python - Jan 19, 2021</sub></sup><br/><sup><sub>Tags: #jax #numpy #python #pytorch #tensorflow</sub></sup><br/>Convert Machine Learning Code Between Frameworks. </td>
-  <td><a href="./stars/ivy-llc/ivy.md">Mar 07, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/OliverCardiff/EUR_GBP_BigATR_Triggers">OliverCardiff/EUR_GBP_BigATR_Triggers</a><sup><sub> - Python - Feb 12, 2019</sub></sup><br/>Development of trading strategy for GBP/USD using partial EUR/USD<br/>correlations as predictors. </td>
-  <td><a href="./stars/OliverCardiff/EUR_GBP_BigATR_Triggers.md">Mar 05, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/jarun/nnn">jarun/nnn</a><sup><sub> - C - Aug 20, 2016</sub></sup><br/><sup><sub>Tags: #android #batch-rename #c #cli #command-line #developer-tools #disk-usage #file-manager #file-preview #file-search<br/>#filesystem #launcher #multi-platform #ncurses #productivity #raspberry-pi #terminal #tui #vim #wsl</sub></sup><br/>n³ The unorthodox terminal file manager. </td>
-  <td><a href="./stars/jarun/nnn.md">Feb 28, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/olive-editor/olive">olive-editor/olive</a><sup><sub> - C++ - Dec 25, 2017</sub></sup><br/><sup><sub>Tags: #cpp #cross-platform #glsl #hardware-acceleration #linux #macos #opengl #qt #video-editor #vst #windows</sub></sup><br/>Free open-source non-linear video editor. </td>
-  <td><a href="./stars/olive-editor/olive.md">Feb 28, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/tridactyl/tridactyl">tridactyl/tridactyl</a><sup><sub> - TypeScript - Feb 24, 2017</sub></sup><br/><sup><sub>Tags: #firefox #hacktoberfest #vim #webextension</sub></sup><br/>A Vim-like interface for Firefox, inspired by Vimperator/Pentadactyl. </td>
-  <td><a href="./stars/tridactyl/tridactyl.md">Feb 27, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/yejianfengblue/dactyl-generator-demo">yejianfengblue/dactyl-generator-demo</a><sup><sub> - OpenSCAD - Jul 12, 2021</sub></sup><br/>This shows how dactyl generator (https://dactyl.mbugert.de/) parameters<br/>work. </td>
-  <td><a href="./stars/yejianfengblue/dactyl-generator-demo.md">Feb 18, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Joelzeller/DigitalRaceDashSlim">Joelzeller/DigitalRaceDashSlim</a><sup><sub> - Python - May 24, 2020</sub></sup><br/>Digital Race Dash designed for use on Raspberry Pi in a Honda S2000. </td>
-  <td><a href="./stars/Joelzeller/DigitalRaceDashSlim.md">Feb 16, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/WarrierRajeev/UFC-Predictions">WarrierRajeev/UFC-Predictions</a><sup><sub> - Jupyter Notebook - Jun 11, 2019</sub></sup><br/><sup><sub>Tags: #machine-learning #ufc</sub></sup><br/>A web app to predict UFC fights. </td>
-  <td><a href="./stars/WarrierRajeev/UFC-Predictions.md">Feb 06, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mbbill/undotree">mbbill/undotree</a><sup><sub> - Vim Script - Aug 18, 2012</sub></sup><br/>The undo history visualizer for VIM. </td>
-  <td><a href="./stars/mbbill/undotree.md">Feb 01, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/themoken/canto-next">themoken/canto-next</a><sup><sub> - Python - Aug 30, 2011</sub></sup><br/>The next generation Canto RSS daemon. </td>
-  <td><a href="./stars/themoken/canto-next.md">Jan 31, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/tom-doerr/vim_codex">tom-doerr/vim_codex</a><sup><sub> - Python - Aug 27, 2021</sub></sup><br/><sup><sub>Tags: #ai #codex #vim</sub></sup><br/>Supercharge your Vim editor with AI-powered code completion using OpenAI<br/>Codex. Boost productivity and save time with intelligent suggestions. </td>
-  <td><a href="./stars/tom-doerr/vim_codex.md">Jan 29, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/aduros/ai.vim">aduros/ai.vim</a><sup><sub> - Lua - Dec 08, 2022</sub></sup><br/><sup><sub>Tags: #ai #neovim #neovim-plugin #nvim #nvim-plugin #openai #vim #vim-plugin</sub></sup><br/>Generate and edit text in Neovim using OpenAI and GPT. </td>
-  <td><a href="./stars/aduros/ai.vim.md">Jan 29, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/YU000jp/logseq-page-tags-and-hierarchy">YU000jp/logseq-page-tags-and-hierarchy</a><sup><sub> - TypeScript - Oct 10, 2022</sub></sup><br/><sup><sub>Tags: #logseq #logseq-plugin</sub></sup><br/>Enhancements to Logseq page tags and hierarchy. </td>
-  <td><a href="./stars/YU000jp/logseq-page-tags-and-hierarchy.md">Jan 28, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/enhuiz/vall-e">enhuiz/vall-e</a><sup><sub> - Python - Jan 11, 2023</sub></sup><br/><sup><sub>Tags: #audio-lm #pytorch #text-to-speech #tts #vall-e #valle</sub></sup><br/>An unofficial PyTorch implementation of the audio LM VALL-E. </td>
-  <td><a href="./stars/enhuiz/vall-e.md">Jan 26, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/facebookresearch/encodec">facebookresearch/encodec</a><sup><sub> - Python - Oct 20, 2022</sub></sup><br/>State-of-the-art deep learning based audio codec supporting both mono 24<br/>kHz audio and stereo 48 kHz audio. </td>
-  <td><a href="./stars/facebookresearch/encodec.md">Jan 26, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/josephmisiti/awesome-machine-learning">josephmisiti/awesome-machine-learning</a><sup><sub> - Python - Jul 15, 2014</sub></sup><br/>A curated list of awesome Machine Learning frameworks, libraries and<br/>software. </td>
-  <td><a href="./stars/josephmisiti/awesome-machine-learning.md">Jan 26, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mage-ai/mage-ai">mage-ai/mage-ai</a><sup><sub> - Python - May 16, 2022</sub></sup><br/><sup><sub>Tags: #artificial-intelligence #data #data-engineering #data-integration #data-pipelines #data-science #dbt #elt #etl<br/>#machine-learning #orchestration #pipeline #pipelines #python #reverse-etl #spark #sql #transformation</sub></sup><br/>🧙 Build, run, and manage data pipelines for integrating and transforming<br/>data. </td>
-  <td><a href="./stars/mage-ai/mage-ai.md">Jan 26, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/TomSchimansky/CustomTkinter">TomSchimansky/CustomTkinter</a><sup><sub> - Python - Mar 04, 2021</sub></sup><br/><sup><sub>Tags: #custom #dark-mode #dark-theme #dpi-scaling #frontend-app #gui #highdpi #macos #modern #modern-ui #python #python-ui<br/>#python3 #tkinter #tkinter-gui #ui #ui-design #user-interface #windows #windows-11</sub></sup><br/>A modern and customizable python UI-library based on Tkinter. </td>
-  <td><a href="./stars/TomSchimansky/CustomTkinter.md">Jan 26, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/reflex-dev/reflex">reflex-dev/reflex</a><sup><sub> - Python - Oct 25, 2022</sub></sup><br/><sup><sub>Tags: #framework #gui #open-source #python #web</sub></sup><br/>🕸️ Web apps in pure Python 🐍. </td>
-  <td><a href="./stars/reflex-dev/reflex.md">Jan 26, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/oppia/oppia">oppia/oppia</a><sup><sub> - Python - Aug 14, 2015</sub></sup><br/><sup><sub>Tags: #angular #angularjs #appengine #appengine-python #education #hacktoberfest #interactive #javascript #learning<br/>#nonprofit #python #sdg #sdg-4 #sdg4 #sdgs #teaching #tutor #tutorials #typescript #web</sub></sup><br/>A free, online learning platform to make quality education accessible for<br/>all. </td>
-  <td><a href="./stars/oppia/oppia.md">Jan 26, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/initialcommit-com/git-sim">initialcommit-com/git-sim</a><sup><sub> - Python - Oct 18, 2022</sub></sup><br/><sup><sub>Tags: #git #gitpython #manim #opencv #python #python3 #visualization</sub></sup><br/>Visually simulate Git operations in your own repos with a single terminal<br/>command. </td>
-  <td><a href="./stars/initialcommit-com/git-sim.md">Jan 26, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
 </table><!-- end-doc-gen -->
 

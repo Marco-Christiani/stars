@@ -1,0 +1,526 @@
+---
+repo: luke321/vault-graph
+url: 'https://github.com/luke321/vault-graph'
+homepage: 'https://community.obsidian.md/plugins/vault-graph'
+starredAt: '2026-11-08T07:52:55Z'
+createdAt: '2026-08-22T08:14:59Z'
+updatedAt: '2026-11-18T00:39:17Z'
+language: JavaScript
+license: MIT
+branch: main
+stars: 280
+isPublic: true
+isTemplate: false
+isArchived: false
+isFork: false
+hasReadMe: true
+refreshedAt: '2026-11-22T02:19:13.432Z'
+description: Interactive graph of an Obsidian vault as Obsidian community plugin.
+tags: []
+---
+
+# Vault Graph
+
+[![Latest release](https://img.shields.io/github/v/release/luke321/vault-graph?label=release)](https://github.com/luke321/vault-graph/releases/latest) [![License: MIT](https://img.shields.io/github/license/luke321/vault-graph)](LICENSE) [![GitHub stars](https://img.shields.io/github/stars/luke321/vault-graph)](https://github.com/luke321/vault-graph/stargazers) [![Obsidian downloads](https://img.shields.io/badge/dynamic/json?logo=obsidian&color=%23483699&label=downloads&query=%24%5B%27vault-graph%27%5D.downloads&url=https%3A%2F%2Fraw.githubusercontent.com%2Fobsidianmd%2Fobsidian-releases%2Fmaster%2Fcommunity-plugin-stats.json)](https://community.obsidian.md/plugins/vault-graph) [![Ko-fi](https://img.shields.io/badge/Ko--fi-support-3987e5?logo=ko-fi&logoColor=white)](https://ko-fi.com/luke321)
+
+**Your whole vault as one disc.** Every note is a dot; every top-level folder owns a wedge
+of the circle whose angle is its share of the vault. Notes fill concentric rings from the
+middle outwards, best-connected first, so the best-connected notes sit near the centre and
+leaves land on the rim.
+
+The layout is **deterministic, not force-directed**. There is no simulation to settle and
+no seed to get lucky with: the same vault always draws the same picture, so the shape
+becomes something you can learn and recognise rather than a fresh tangle each time.
+
+<img src="assets/demo.webp" width="100%" alt="The disc growing from the vault's first note, cut by tag instead of by folder and back, a nested tag's twisty opened to reach its sub-tag then folded away, a note hovered, the heatmap and sidebar folded away and restored as a preview, its card opened and four of its linked notes walked in turn then stepped back along the trail, a note dragged into the hub to pin it and two more pinned by right-click and from their own detail card, the timeline scrubbed, three heatmap days hovered, a folder hidden, the biggest folder right-clicked and hidden by default from its own menu then put back, one folder soloed, a subfolder pushed out, the camera panned and reset, two folders right-clicked for their own colour, the (unlinked) row right-clicked to keep its notes separate, coloured by their own folder anyway, and both put back, and finally the calendar and the folder list folded away so the disc has the window to itself">
+
+Ships as an **Obsidian plugin** and as a **standalone HTML exporter** — one page, two
+mounts, from the same source. The exporter writes a single self-contained offline file with
+no server and no network, which is how the graph reaches a phone.
+
+---
+
+## What it does
+
+One wedge per top-level folder, sized by how much of the vault it holds, filled with notes
+ringed by how well-connected they are. Click a folder to hide it and the rest re-pack; hover
+a note to see its links; search narrows to matching notes; scrub a date ribbon to watch the
+vault grow. Follows Obsidian's theme, including a live switch.
+
+**[Try it Live](https://luke321.github.io/vault-graph/demo/)** — a real export of an invented
+1,400-note vault, click and hover it exactly like your own.
+**[The full feature list](https://luke321.github.io/vault-graph/features.html)**, one short
+clip per feature — the disc itself, filtering, the heatmap and timeline, reading a note, the
+camera, and folder colours — is a click away too. Both live on the
+[docs site](https://luke321.github.io/vault-graph/).
+
+---
+
+## Install the plugin
+
+**From Obsidian** — Settings → Community plugins → Browse → "Vault Graph" → Install, then
+Enable. Open it from the ribbon icon or the command palette (*Vault graph: Open the graph*).
+
+**Manually** — download `main.js`, `manifest.json` and `styles.css` from the
+[latest release](https://github.com/luke321/vault-graph/releases/latest) into
+`<vault>/.obsidian/plugins/vault-graph/`, then reload plugins and enable it.
+
+**From source** — `npm install && npm run build`, then `./scripts/install-plugin.ps1`.
+
+<sub>**Check what you downloaded, if you like.** `main.js` is a ~390 KB bundle — the page, the
+plugin host and the engine, a Sigma.js port — and nothing about downloading a file tells you
+where it came from. Every release asset now carries a
+[GitHub build provenance attestation](https://docs.github.com/en/actions/security-for-github-actions/using-artifact-attestations/using-artifact-attestations-to-establish-provenance-for-builds),
+signed by the workflow that built it — so you can verify it came from this repository at
+the tagged commit rather than being assembled by hand: `gh attestation verify main.js
+--repo luke321/vault-graph`. Releases published before this landed (1.9.0 and earlier)
+have none, because an attestation can only be produced by a workflow and those were
+published from a laptop.</sub>
+
+It reads your vault through Obsidian's own metadata cache, so it sees the same links
+Obsidian does, aliases and frontmatter links included. It builds in about a tenth of a
+second on a 450-note vault. **Nothing leaves your machine** — it makes no network requests,
+collects nothing, and needs no account.
+
+**What it touches, plainly.** A graph of a whole vault has to know what is in the whole
+vault, so the plugin enumerates every markdown file (`vault.getMarkdownFiles`) and reads
+their frontmatter and link data from Obsidian’s own metadata cache. It reads note bodies only
+to count words (`vault.cachedRead`), and it writes nothing in your vault — the one file it
+writes is its own `data.json` in its plugin folder, holding the settings below. Obsidian’s
+own automated review flags the enumeration, correctly — it is what the plugin is for, and
+worth stating rather than leaving to be discovered.
+
+### Settings
+
+Settings → Community plugins → Vault Graph.
+
+| | |
+|---|---|
+| **Folder colours** | One row per top-level folder, with the twelve palette slots under it. The slot the folder is **currently using** is ringed — brightly if you chose it, dimly if it is just the one its position gives it. Click a slot to hold the folder to that colour; **Auto** hands it back. Setting one folder never changes another, and two folders may share a colour — useful for saying they belong together. A folder's automatic slot is decided by where its notes are **filed**, not by how many of them are on screen, so a folder never takes another's colour because a filter or a setting emptied the one in front of it. A folder whose wedge is drawing nothing keeps its row, greyed with its count in brackets, rather than dropping out of the legend. |
+| **Folder visibility** | The eye at the start of each row sets whether that folder is shown **by default**. The legend's own eye inside the graph is the live filter for this session; this one is what the graph comes back to. Right-click a folder in the graph's own legend for the same setting, one row down from its colour picker — no need to open this tab just to flip it. |
+| **Unlinked notes join their folder** | On by default: a note with no links takes its own folder's wedge and colour, the same as any other note in it. Turn this off to keep unlinked notes together instead, as one separate population with a flat grey swatch and a parenthesised count. The `(unlinked)` row in the graph's own legend carries the same toggle either way — it's the very last row in the list (after `(vault root)`, matching where a loose note sits in Obsidian's own file explorer), greyed out while it holds nothing. |
+| **Colour unlinked notes by folder** | Only has anything to do while the toggle above is off: a note kept in the `(unlinked)` population can still take its own folder's colour instead of the flat swatch, and the row's own swatch turns into a mix of whatever colours are actually in play. Right-click the `(unlinked)` row for the same toggle, one row below the one that moves notes out of the group entirely — it only appears there once that one is off, since there's nothing left to recolour once every unlinked note has joined its folder. |
+
+The graph view has a gear in its top-left corner that opens this tab directly, so the
+colours are reachable from the thing they colour.
+| **Include notes that do not exist yet** | Wikilinks pointing at a note nobody has written. |
+| **Include templates** | Notes under your template folders. |
+| **Flatten month folders** | Treat `2026-08` and its siblings as one folder rather than a subfolder each. |
+| **Count words** | Sizes each note by its length. The one setting that costs real I/O. |
+| **Created date properties** | Note properties read as a note's created date, first match wins, ignoring case. Default `created, date`; `created at`, `date created` and the like are always tried after them. An `updated` or `modified` property dates the last touch. |
+
+Colours and visibility repaint the open graph immediately. The other four rebuild it,
+because they change what is *in* it.
+
+Folders are coloured from twelve slots — ten hues and two greys — handed out in folder
+order and round again, so a thirteenth folder comes back to the first slot rather than
+falling into a grey pile. A saved choice is a *slot*, not a colour value, so it follows
+your Obsidian theme between light and dark.
+
+Folders whose name starts with `_` are treated as archives — `_ Archives`, `_old`, scratch.
+They stay in the graph, but they take no slot in the colour rotation, wear the palette's
+darker grey, and start hidden. All three are defaults: pick a colour or click the eye and
+your choice wins. It is a rule about folders, not files — `_scratch.md` is a note like any
+other.
+
+<sub>**Zero network calls, and greppable.** Nothing shipped makes a request. The graph store
+and the WebGL renderer are the plugin's own code (`src/engine/`, TypeScript), so there is no
+third-party bundle to explain away — though not no third-party code: the renderer is a port of
+[Sigma.js](https://www.sigmajs.org) 3.0.2 under MIT, whose notice ships in every build and is
+recorded in [`src/engine/NOTICE.md`](src/engine/NOTICE.md) — and `node scripts/check-network.mjs`
+is the gate that keeps `main.js` and the exporter at zero. See
+[`0008-zero-network-calls`](.ai-context/decisions/0008-zero-network-calls.md) and
+[`0012-own-graph-store-and-renderer`](.ai-context/decisions/0012-own-graph-store-and-renderer.md).</sub>
+
+---
+
+## Or export a standalone page
+
+The other half of the same source: one HTML file, openable offline on anything with a
+browser.
+
+![The standalone page](assets/screenshots/standalone-light.png)
+
+### Getting the exporter
+
+**Requirements: Node 18 or newer, and one `npm ci --omit=dev` after cloning.** That
+installs a single package, esbuild, which bundles the graph engine into the page; nothing
+else is downloaded, and the generator itself never touches the network. (Until the engine
+replaced the vendored libraries there was no install step at all; the trade is recorded in
+[`0012`](.ai-context/decisions/0012-own-graph-store-and-renderer.md).)
+
+**This is not an app you run — it is a generator.** The script reads your vault once and
+writes **one HTML file**. Nothing is listening afterwards; you open that file yourself, in
+any browser, like any other file on your disk. Two steps, and the second one is yours.
+
+### 1. Get it
+
+Clone the repo. (Releases carry only the Obsidian plugin's three files; the exporter is not
+packaged separately.)
+
+```bash
+git clone https://github.com/luke321/vault-graph.git
+cd vault-graph
+```
+
+Either way, once:
+
+```bash
+npm ci --omit=dev        # esbuild only; the dev tooling is not needed to generate
+```
+
+### 2. Generate the file
+
+```bash
+node src/build-graph.mjs --vault "/path/to/your/vault"
+```
+
+It reads the vault, writes the HTML, prints where it went, and exits:
+
+```
+vault-graph: 449 notes, 1489 links, 0 orphans, 120 unresolved link(s)
+wrote /path/to/your/vault/vault-graph.html (732 KB)
+```
+
+### 3. Open that file
+
+That path in the last line **is the graph**. Open it however you open any local file —
+double-click it, or:
+
+```bash
+start "path/to/vault-graph.html"      # Windows (cmd)
+open "path/to/vault-graph.html"       # macOS
+xdg-open "path/to/vault-graph.html"   # Linux
+```
+
+No server, no `localhost`, no watch mode, and nothing left running when the script exits.
+The page is a **snapshot** of the vault as it was when you generated it: to see notes you
+have added since, run step 2 again and reload the tab. (The Refresh button *inside* the
+page returns to your default view and replays the intro — it cannot re-read your vault, because a
+`file://` page is not allowed to.)
+
+### The gear
+
+Top right of the sidebar. It opens the same folder-colour picker the plugin has: one row
+per top-level folder, twelve slots each — ten hues and two greys — handed out in folder
+order and round again, so a thirteenth folder comes back to the first slot. The slot each
+folder is currently using is ringed — brightly if you chose it, dimly if it is just the one
+its position gives it, which is also what the **Auto** button beside it is reporting.
+**Auto** hands a folder back to that positional slot. Setting one folder never changes
+another, and two folders may share a colour — useful for saying they belong together.
+
+Hovering a folder in the legend haloes its notes on the disc, so you can find one without
+clicking anything. Clicking still pins the highlight and pushes the wedge out.
+
+Each row also starts with an eye that sets whether that folder is shown **by default** —
+the same mark the legend uses, because it is the same question about a different moment.
+The legend's eye is the live filter for this session; this one is what the graph comes back
+to. Folders whose name starts with `_` are archives — no slot in the colour rotation, the
+palette's darker grey, and hidden until you say otherwise.
+
+Your choices are remembered in the browser's `localStorage`, under a key scoped to the
+vault name, so regenerating the file keeps them and a graph of a *different* vault gets its
+own. Colours and default visibility are what is kept: highlights and the timeline still
+start fresh. **Refresh** returns to those defaults rather than to "everything visible". If
+the browser has site data blocked the picker still works — the choices just do not outlive
+the tab.
+
+## Read this before sharing the output
+
+The generated HTML **contains the structure of your vault in plain text**: every note's
+title, its path, its folder, its tags, its `created`/`date` frontmatter, its word count,
+and the link graph between notes.
+
+It does **not** contain note bodies. Nothing you wrote inside a note is in the file.
+
+That distinction matters the moment you think about sharing. A screenshot is usually fine.
+Handing someone the HTML hands them **a complete listing of your note titles**, which for
+most vaults is more revealing than it sounds. The file is designed to live inside your own
+vault and sync to your own devices; treat it as private by default.
+
+**If you want to show the graph rather than your vault**, there are two vaults that are not
+yours to show it with.
+
+```bash
+node scripts/make-demo-vault.mjs --out ./demo-vault        # invented, fixed, two dense years
+node scripts/make-mirror-vault.mjs --vault "/path/to/your/vault" --out ./mirror-vault
+```
+
+The **demo vault** is invented from end to end: eighteen top-level folders, nesting five deep,
+and two years of dates dense in every month. It is the same on every machine, which is what
+makes a screenshot comparable and a recording reproducible. Every screenshot and the demo clip
+in this README were made from it.
+
+The **mirror** is for bug reports. It reproduces one real vault's shape and none of its
+content — same folder tree under invented folder names (only a leading number, underscore or
+date survives), same note count per folder, same `created` dates, same word counts, and the
+whole link graph rewritten between renamed notes, so it builds to the same numbers yours does. If the layout misbehaves on your vault, the shape *is* the report, and a
+generic fixture cannot reproduce a shape it does not have.
+
+The mirror includes folders hidden in the graph, including `_` folders, and carries the
+saved folder/tag visibility, colour slots, pinned notes and view preferences. Tags get
+neutral names while retaining their hierarchy. Markdown links, aliases, repeated links,
+note types, resolved creation dates, modification dates and body word counts survive the
+rewrite; a type that came from a folder's name takes that folder's invented name instead. `.vault-graph-mirror.json` seeds these settings in an exported HTML page too;
+settings previously saved in that browser take precedence. This preserves the source
+graph's behaviour without changing its animation or dot-sizing rules.
+
+Regenerate an existing mirror to pick up these settings. The output must be separate from
+the source vault: generation replaces the output directory. Verify the generator with
+`node scripts/make-mirror-vault-selftest.mjs`, which uses only invented notes.
+
+## Which vault
+
+You can skip `--vault` entirely. Resolution order, first match wins:
+
+| | source |
+|---|---|
+| 1 | `--vault <path>` — explicit, always wins |
+| 2 | `VAULT_GRAPH_VAULT` — per-machine override without editing anything |
+| 3 | `OBSIDIAN_VAULT` — the machine-wide answer other tooling can share |
+| 4 | `--vault-name <name>` — pick from Obsidian's registry by folder name |
+| 5 | **Obsidian's own registry** — the only entry, or the one currently open |
+| 6 | walk up for `.obsidian` — so dropping this folder inside a vault works |
+
+With one registered vault, `node src/build-graph.mjs` on its own works. With several and
+none unambiguously open, it lists them and stops rather than guessing. Errors name which
+source supplied a bad path.
+
+Registry: `%APPDATA%\obsidian\obsidian.json` (Windows),
+`~/Library/Application Support/obsidian/obsidian.json` (macOS),
+`~/.config/obsidian/obsidian.json` (Linux).
+
+## Where the output goes
+
+```
+<this repo>/                              source: the page, the exporter, the engine (src/engine)
+  └─ .ai-context/                         architecture + decision records
+<vault>/vault-graph.html                  build output, opened directly in a browser
+                                          ...or anywhere: --out FILE
+```
+
+The default is the vault's root, because that is the one folder every vault has — nothing
+about your folder names or numbering is assumed. `--out` puts the file wherever you like:
+
+```bash
+node src/build-graph.mjs --out ~/Desktop/my-vault.html
+```
+
+Writing it *into* the vault is the default for one reason: the vault already syncs to your
+phone and your other machines, and one self-contained file rides along for free.
+
+## Flags
+
+| Flag | Effect |
+|---|---|
+| `--vault PATH` | which vault to read |
+| `--vault-name NAME` | pick a registered vault by folder name |
+| `--out FILE` | write somewhere else |
+| `--ghosts` | also show `[[links]]` pointing at notes that don't exist yet |
+| `--templates` | include your template notes (off by default: their placeholder links are fake edges) |
+| `--flat-months` | fold `2026-08` month folders into their parent instead of treating them as a level |
+| `--no-nav` | ignore the daily-note prev/next nav line |
+
+## Platform notes
+
+**The builder is cross-platform** — plain Node, no shell-outs. The `scripts/*.ps1` helpers
+are Windows-only conveniences, not requirements:
+
+| script | what it does | elsewhere |
+|---|---|---|
+| `refresh-graph.ps1` | rebuild *and* open | `node src/build-graph.mjs && open <path>` |
+| `record-demo.ps1` | record the demo to mp4 | not ported — needs `avfoundation` / `x11grab` |
+| `make-hero.ps1` | encode a take as the README hero (animated WebP, 30fps, 700px) | works anywhere ffmpeg does, if you port the wrapper |
+| `make-logo.ps1` | rebuild the logo mask from source art | not ported; `assets/` is prebuilt |
+
+`scripts/smoke.mjs`, `scripts/demo.mjs` and `scripts/make-test-vault.mjs` are Node and
+should work anywhere Chrome does, though only Windows has been exercised.
+
+## How your vault is interpreted
+
+Nothing about a particular vault is hardcoded, but a few conventions are **detected** — and
+knowing them explains the output:
+
+- **Top-level folders become wedges**, angle proportional to share. Any folder scheme
+  works; PARA is just what it was built against.
+- **One level of subfolders is drawn**, as tints of the parent's colour. The three largest
+  get their own tint; the rest share a pooled one.
+- **Date-named folders** (`2026`, `2026-06`, `2026-Q3`, `2026-W34`) say *when* a note was
+  filed rather than what it is — kept at the first level, ignored deeper down.
+- **Templates and daily notes come from your `.obsidian` config** (`templates.json`,
+  `daily-notes.json`, Templater's settings), not from folder names. Rename them freely.
+- **Links resolve the way Obsidian resolves them** — basename, then alias, then full path —
+  read from **both** body and frontmatter, so `person: "[[Ada Lovelace]]"` counts. Fenced
+  code blocks are skipped so Dataview queries don't invent edges.
+- **A created-date property drives the timeline and the heatmap** (`created`, then `date`, or the keys you name under *Created date properties*; ISO datetimes and `2024/03/05` read too). A
+  note with neither is always present rather than stranded at one end of the timeline.
+- The daily-note `[[prev]] | [[next]]` nav line **does** count as links; `--no-nav` strips
+  it.
+
+A vault with no subfolders, no dates and no aliases still renders — you just get a simpler
+disc.
+
+## The page is a snapshot
+
+**It cannot regenerate itself.** The vault is baked in at build time; there is no server,
+no network, and `fetch()` is blocked on `file://`, so nothing in the browser can walk your
+vault. Re-run the build to make it current.
+
+**The in-page Refresh button is not that.** It returns to your defaults — clearing
+highlights and the timeline, and putting each folder back to the visibility set in the
+gear — and replays the intro.
+If you have just rebuilt, reload the browser tab.
+
+## Optional: the scripted demo
+
+`?demo` on the URL arms a walkthrough that drives the real controls over Chrome's DevTools
+protocol. The storyboard is `demoMode()` in `src/page.js` — append beats to it and
+nothing else needs changing.
+
+```powershell
+.\scripts\record-demo.ps1        # needs ffmpeg: winget install Gyan.FFmpeg
+```
+
+The visible cursor in a recording (`--cursor`, which the recorder passes) is drawn inside
+the page and moved by eval, in step with the same input dispatched over CDP — not the
+real OS pointer. It does not touch your mouse; see
+[`.ai-context/decisions/0007`](.ai-context/decisions/0007-the-demo-drives-real-input.md)
+for why an earlier version did and had to be replaced.
+
+## Optional: the invariant suite
+
+```bash
+node scripts/smoke.mjs
+```
+
+Builds to a temp file, drives a real Chrome, and checks over a hundred measured properties of
+the layout — plan parity, the resting lattice, the heatmap's tiling, the hover and highlight
+ramps — printing the number it measured for each.
+
+With no arguments it checks **four generated fixtures**, two Chromes at a time: a ~1,400-note
+mirror of a real vault, a 10,000-note synthetic, a dominant-folder vault and a tag-organised
+one. That is not belt-and-braces — a small vault and a large one take different branches
+through the ring balancer and the gap scaling, and a change that passes at 1,400 notes can
+still break the band split at 10,000. Each check runs on the fixtures its assertion is about:
+one whose subject is the disc's shape runs on all four, one whose subject is a button runs on
+the mirror alone, and one that measures an animation frame by frame runs on the page's own
+clock while the rest run it at a tenth speed (same resting layout, measured).
+
+`--vault PATH` is repeatable, overrides the fixtures and runs every check on what you gave it;
+`--url FILE` checks an already-built page.
+
+```bash
+node scripts/smoke.mjs --vault ./test-vault --vault ./demo-vault
+```
+
+Exits non-zero, so it can gate a push:
+
+```bash
+git config core.hooksPath .githooks
+```
+
+`SKIP_SMOKE=1 git push` skips it.
+
+## Optional: a test vault
+
+Your vault is one shape. To develop against others:
+
+```bash
+node scripts/make-test-vault.mjs --notes 5000
+node src/build-graph.mjs --vault ./test-vault --out ./test-vault/graph.html
+```
+
+Generates a deterministic synthetic vault — more top-level folders than there are colour
+slots, sliver folders beside a dominant one, five levels of nesting, date-named folders,
+notes with no frontmatter and no links. `test-vault/` is gitignored.
+
+## Troubleshooting
+
+**"several vaults registered"** — pass `--vault` or `--vault-name`.
+
+**Blank page, or stuck on "Laying out graph…"** — open the browser console; the whole app
+is one inlined script, so a thrown error there is the cause. Serving over http rather than
+`file://` makes some browser tooling behave: `python -m http.server 8765`.
+
+**The graph looks nothing like my folder structure** — that is the point rather than a bug.
+On the vault this was built for, only ~9% of links stay inside a single top-level folder.
+The wedges are the filing system; the edges are the actual structure.
+
+**"N links point at notes that do not exist"** — wikilinks whose target is missing.
+`--ghosts` renders them, so you can see what your vault reaches for.
+
+## Files
+
+**The page, in four parts.** One source, two mounts: the exporter wraps them in a document,
+the plugin puts them in an Obsidian view.
+
+| | |
+|---|---|
+| `src/page.html` | the markup |
+| `src/page.css` | every rule scoped under `.vault-graph`, so it can be dropped into another document |
+| `src/page.js` | `mountVaultGraph(root, data, deps)` — layout, render, interaction |
+| `src/shell.html` | the standalone document that wraps the three, and its bootstrap |
+
+**The two things built from it.**
+
+| | |
+|---|---|
+| `src/build-graph.mjs` | crawls the vault, resolves links, emits one HTML file |
+| `plugin/main.js` | the Obsidian plugin: reads the metadata cache, mounts the page in a view |
+| `manifest.json` | the plugin manifest, at the repo root because Obsidian requires it there |
+| `src/engine/` | the graph store and the WebGL renderer, TypeScript, ours |
+
+**Tooling.**
+
+| | |
+|---|---|
+| `scripts/build-plugin.mjs` | bundles the plugin into `main.js` + `styles.css` (`npm run build`) |
+| `scripts/install-plugin.ps1` | copies exactly the three files Obsidian installs, and nothing else |
+| `scripts/smoke.mjs` | the invariant suite, over four generated fixtures |
+| `scripts/check-scope.mjs` | asserts the page cannot style or be styled by its host |
+| `scripts/code-map.mjs` | generates `.ai-context/code-map.md` and `code-index.md` from the source; `--check` gates them |
+| `scripts/check-pii.mjs` | refuses to publish other people's names; no skip flag |
+| `scripts/check-network.mjs` | asserts nothing shipped can make a request; no skip flag |
+| `scripts/refresh-check.mjs` | drives a real Obsidian: write a note, click Refresh, is it there? |
+| `scripts/make-demo-vault.mjs` | the demo vault: invented, fixed, two dense years |
+| `scripts/make-mirror-vault.mjs` | a structural mirror of a real vault, with none of its content |
+| `scripts/make-test-vault.mjs` | a synthetic vault, deliberately awkward |
+| `scripts/shoot.mjs` | screenshots the page at rest, for comparing two commits |
+| `scripts/record-demo.ps1`, `make-hero.ps1` | the demo recording and its encode |
+| `.github/workflows/branch-policy.yml` | main only accepts commits that already carry develop, PR or direct push alike |
+| `.ai-context/` | architecture, invariants, and one record per decision |
+| `CHANGELOG.md` | what shipped, per release |
+
+## Credits
+
+**[@bartolli](https://github.com/bartolli)** — the hop trail on the note card
+([#40](https://github.com/luke321/vault-graph/issues/40)). Reported with a working patch on
+their own fork, tested inside Obsidian, and carrying a limitation they measured and wrote up
+rather than papered over. The semantics shipped are theirs; the commit names them as
+co-author, and [`design/0012`](.ai-context/design/0012-hop-trail.md) records what changed on
+the way in and why.
+
+## Licence
+
+MIT — see [LICENSE](LICENSE). The renderer's camera math and shaders under `src/engine/`
+are ported from Sigma.js 3.0.2 (MIT); the attribution is in
+[`src/engine/NOTICE.md`](src/engine/NOTICE.md).
+
+## Design notes
+
+Rationale lives in [`.ai-context/`](.ai-context/) — architecture, the measured invariants
+with the command that checks each one, and one record per decision that cost something to
+learn. **Read the relevant one before changing that part of the disc**: several constants
+look arbitrary and are not.
+
+| | |
+|---|---|
+| [`architecture.md`](.ai-context/architecture.md) | the four stages, and where each decision is enforced |
+| [`invariants.md`](.ai-context/invariants.md) | what must not regress, and the command that checks it |
+| [`decisions/`](.ai-context/decisions/) | choices with alternatives weighed — why *not* the other thing |
+| [`design/`](.ai-context/design/) | how each part actually works, and the measurements behind it |
+| [`changelog-detail.md`](.ai-context/changelog-detail.md) | every change with its before/after numbers |
+
+The recurring failure mode here is reasoning about the code instead of measuring it. Serve
+the built page and use `__vg.checkPlanParity()`, `__vg.probe()` — or just run
+`scripts/smoke.mjs`.
